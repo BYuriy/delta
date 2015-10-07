@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://caption"
+        class="com.bernatskyi.delta.gui.main.OperationsTable"
+        messagesPack="com.bernatskyi.delta.gui.main">
+    <layout>
+        <buttonsPanel id="groupButtonsPanel"
+                      alwaysVisible="true">
+            <button id="viewBtn"
+                    caption="msg://viewBtnCaption"/>
+            <button id="buyBtn"
+                    caption="msg://buyBtnCaption"/>
+            <button id="sellBtn"
+                    caption="msg://sellBtnCaption"/>
+            <button id="moveBtn"
+                    caption="msg://moveBtnCaption"/>
+            <button id="surplusBtn"
+                    caption="msg://surplusBtnCaption"/>
+            <button id="shortfallBtn"
+                    caption="msg://shortfallBtnCaption"/>
+            <button id="refundBtn"
+                    caption="msg://refundBtnCaption"/>
+            <button id="removeBtn"
+                    caption="msg://removeBtnCaption"/>
+        </buttonsPanel>
+    </layout>
+</window>

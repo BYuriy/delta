@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.bernatskyi.delta.gui.subgroup.SubGroupBrowse"
+        focusComponent="subGroupsTable"
+        lookupComponent="subGroupsTable"
+        messagesPack="com.bernatskyi.delta.gui.subgroup">
+    <dsContext>
+        <collectionDatasource id="subGroupsDs"
+                              class="com.bernatskyi.delta.entity.materials.SubGroup"
+                              view="_local">
+            <query>
+                <![CDATA[select e from delta$SubGroup e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <layout expand="subGroupsTable"
+            spacing="true">
+        <filter id="filter"
+                datasource="subGroupsDs">
+            <properties include=".*"/>
+        </filter>
+        <table id="subGroupsTable"
+               width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id="name"/>
+            </columns>
+            <rows datasource="subGroupsDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="subGroupsTable.create"/>
+                <button id="editBtn"
+                        action="subGroupsTable.edit"/>
+                <button id="removeBtn"
+                        action="subGroupsTable.remove"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

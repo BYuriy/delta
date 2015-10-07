@@ -1,0 +1,1333 @@
+2015-09-21 19:29:03,008 INFO  [com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext] [app] [server] Refreshing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@4f2616ee: startup date [Mon Sep 21 19:29:03 MSK 2015]; root of context hierarchy
+2015-09-21 19:29:03,098 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [app] [server] Loading XML bean definitions from class path resource [cuba-web-spring.xml]
+2015-09-21 19:29:04,457 INFO  [com.haulmont.cuba.core.sys.CubaDefaultListableBeanFactory] [app] [server] Overriding bean definition for bean 'cuba_PasswordEncryption': replacing [Generic bean: class [com.haulmont.cuba.core.sys.PasswordEncryptionImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/C:/Users/Yuriy/studio-projects/delta/build/tomcat/webapps/app/WEB-INF/lib/cuba-global-5.6.4.jar!/com/haulmont/cuba/core/sys/PasswordEncryptionImpl.class]] with [Generic bean: class [com.haulmont.cuba.core.sys.PasswordEncryptionImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [cuba-web-spring.xml]]
+2015-09-21 19:29:04,482 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [app] [server] Loading XML bean definitions from class path resource [web-spring.xml]
+2015-09-21 19:29:04,847 INFO  [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configuring proxy beans for local service invocations
+2015-09-21 19:29:04,851 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_LoginService of type com.haulmont.cuba.security.app.LoginService
+2015-09-21 19:29:04,851 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_ServerInfoService of type com.haulmont.cuba.core.app.ServerInfoService
+2015-09-21 19:29:04,851 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_UserSettingService of type com.haulmont.cuba.security.app.UserSettingService
+2015-09-21 19:29:04,851 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_UserManagementService of type com.haulmont.cuba.security.app.UserManagementService
+2015-09-21 19:29:04,851 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_DataService of type com.haulmont.cuba.core.app.DataService
+2015-09-21 19:29:04,851 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_ConfigStorageService of type com.haulmont.cuba.core.app.ConfigStorageService
+2015-09-21 19:29:04,851 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_PersistenceManagerService of type com.haulmont.cuba.core.app.PersistenceManagerService
+2015-09-21 19:29:04,851 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_LockService of type com.haulmont.cuba.core.app.LockService
+2015-09-21 19:29:04,851 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_UserSessionService of type com.haulmont.cuba.security.app.UserSessionService
+2015-09-21 19:29:04,851 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_FoldersService of type com.haulmont.cuba.core.app.FoldersService
+2015-09-21 19:29:04,851 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_EmailService of type com.haulmont.cuba.core.app.EmailService
+2015-09-21 19:29:04,851 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_FileStorageService of type com.haulmont.cuba.core.app.FileStorageService
+2015-09-21 19:29:04,851 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_EntitySnapshotService of type com.haulmont.cuba.core.app.EntitySnapshotService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_UniqueNumbersService of type com.haulmont.cuba.core.app.UniqueNumbersService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_LocalizedMessageService of type com.haulmont.cuba.core.app.LocalizedMessageService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_ResourceService of type com.haulmont.cuba.core.app.ResourceService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_ScheduledTasksService of type com.haulmont.cuba.core.app.SchedulingService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_EntityLogService of type com.haulmont.cuba.core.app.EntityLogService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_TestingService of type com.haulmont.cuba.core.app.TestingService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_ObjectsCacheManagerService of type com.haulmont.cuba.core.app.cache.ObjectsCacheManagerService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_DomainDescriptionService of type com.haulmont.cuba.core.app.DomainDescriptionService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_RelatedEntitiesService of type com.haulmont.cuba.core.app.RelatedEntitiesService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_EntitySqlGenerationService of type com.haulmont.cuba.core.app.EntitySqlGenerationService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_NumberIdService of type com.haulmont.cuba.core.app.NumberIdService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_QueryResultsService of type com.haulmont.cuba.core.app.QueryResultsService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_DynamicAttributesCacheService of type com.haulmont.cuba.core.app.dynamicattributes.DynamicAttributesCacheService
+2015-09-21 19:29:04,852 DEBUG [com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator] [app] [server] Configured proxy bean cuba_EntityRestoreService of type com.haulmont.cuba.core.app.EntityRestoreService
+2015-09-21 19:29:04,861 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] [app] [server] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-09-21 19:29:04,889 INFO  [com.haulmont.cuba.core.sys.CubaDefaultListableBeanFactory] [app] [server] Pre-instantiating singletons in com.haulmont.cuba.core.sys.CubaDefaultListableBeanFactory@790dd173: defining beans [com.haulmont.cuba.core.sys.CubaPropertyPlaceholderConfigurer#0,cuba_NumberIdSource,cuba_Scripting,cuba_Messages,cuba_Configuration,cuba_ViewRepository,cuba_PersistenceManagerClient,cuba_UuidSource,cuba_DataManager,cuba_ConfigEntityFactory,cuba_DynamicAttributesCacheStrategy,cuba_ClientCacheManager,cuba_DynamicAttributesService,cuba_ExtendedEntities,cuba_EntityLoadInfoBuilder,cuba_MessageTools,cuba_DatatypeFormatter,cuba_MetadataTools,cuba_UserFormatTools,cuba_TimeZones,cuba_MetadataBuildSupport,cuba_NumberIdCache,cuba_Metadata,cuba_TimeSource,cuba_PersistentEntitiesMetadataLoader,cuba_PasswordEncryption,cuba_Security,cuba_TriggerFilesProcessor,cuba_Resources,cuba_NodeIdentifier,cuba_LogControl,cuba_JmxNodeIdentifierMBean,cuba_JmxLogControlMBean,cuba_Md5EncryptionModule,cuba_Sha1EncryptionModule,cuba_ClassLoaderManager,cuba_JavaClassLoader,cuba_ScreensHelper,cuba_FilterDelegate,cuba_WindowConfig,cuba_MenuConfig,cuba_PermissionConfig,cuba_FileUploading,cuba_ThemeConstantsRepository,cuba_UniqueConstraintViolationHandler,cuba_FileStorageExceptionHandler,cuba_NumericOverflowExceptionHandler,cuba_OptimisticExceptionHandler,cuba_EntityAccessExceptionHandler,cuba_AccessDeniedHandler,cuba_NoSuchScreenHandler,cuba_DeletePolicyHandler,cuba_SilentExceptionHandler,cuba_MssqlDateOutOfRangeExceptionHandler,cuba_DynamicAttributesGuiTools,cuba_WindowManagerProvider,cuba_ComponentsFactory,cuba_FilterHelper,cuba_BackgroundWorker_WatchDog,cuba_BackgroundWorker,cuba_JmxControl,cuba_ConfigStorageMBean,cuba_JmxRemoteLogging,cuba_CachingFacadeMBean,cuba_StatisticsCounterMBean,staticContentController,logDownloadController,fileDownloadController,cuba_WebStatisticsAccumulator,cuba_ThemeManager,cuba_UserSettingsTools,cuba_Folders,cuba_ExportDisplay,cuba_BootstrapListener,cuba_UserSessionSource,cuba_LinkHandler,cuba_SettingsClient,cuba_AuthProviderFactory,cuba_DomainResolver,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,cuba_UserSession,cuba_AuthProvider,cuba_web_MBeanExporter,cuba_clusterInvocationSupport,cuba_proxyCreator,cuba_exceptionHandlersConf,scheduler,org.springframework.scheduling.support.ScheduledMethodRunnable#0,org.springframework.scheduling.config.IntervalTask#0,org.springframework.scheduling.support.ScheduledMethodRunnable#1,org.springframework.scheduling.config.IntervalTask#1,org.springframework.scheduling.config.ContextLifecycleScheduledTaskRegistrar#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,cuba_LoginService,cuba_ServerInfoService,cuba_UserSettingService,cuba_UserManagementService,cuba_DataService,cuba_ConfigStorageService,cuba_PersistenceManagerService,cuba_LockService,cuba_UserSessionService,cuba_FoldersService,cuba_EmailService,cuba_FileStorageService,cuba_EntitySnapshotService,cuba_UniqueNumbersService,cuba_LocalizedMessageService,cuba_ResourceService,cuba_ScheduledTasksService,cuba_EntityLogService,cuba_TestingService,cuba_ObjectsCacheManagerService,cuba_DomainDescriptionService,cuba_RelatedEntitiesService,cuba_EntitySqlGenerationService,cuba_NumberIdService,cuba_QueryResultsService,cuba_DynamicAttributesCacheService,cuba_EntityRestoreService]; root of factory hierarchy
+2015-09-21 19:29:05,730 INFO  [com.haulmont.chile.core.datatypes.Datatypes] [app] [server] Can't find /datatypes.xml, using default datatypes settings
+2015-09-21 19:29:06,569 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app] [server] Registering beans for JMX exposure on startup
+2015-09-21 19:29:06,571 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app] [server] Located managed bean 'app.cuba:type=ConfigStorage': registering with JMX server as MBean [app.cuba:type=ConfigStorage]
+2015-09-21 19:29:06,629 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app] [server] Located managed bean 'app.cuba:type=CachingFacade': registering with JMX server as MBean [app.cuba:type=CachingFacade]
+2015-09-21 19:29:06,634 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app] [server] Located managed bean 'app.cuba:type=FileUploading': registering with JMX server as MBean [app.cuba:type=FileUploading]
+2015-09-21 19:29:06,637 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app] [server] Located managed bean 'app.cuba:type=JmxNodeIdentifier': registering with JMX server as MBean [app.cuba:type=JmxNodeIdentifier]
+2015-09-21 19:29:06,640 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app] [server] Located managed bean 'app.cuba:type=JmxLogControl': registering with JMX server as MBean [app.cuba:type=JmxLogControl]
+2015-09-21 19:29:06,647 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app] [server] Located managed bean 'app.cuba:type=ClassLoaderManager': registering with JMX server as MBean [app.cuba:type=ClassLoaderManager]
+2015-09-21 19:29:06,648 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app] [server] Located managed bean 'app.cuba:type=StatisticsCounter': registering with JMX server as MBean [app.cuba:type=StatisticsCounter]
+2015-09-21 19:29:06,698 INFO  [com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler] [app] [server] Initializing ExecutorService  'scheduler'
+2015-09-21 19:29:06,741 INFO  [com.haulmont.cuba.web.sys.WebAppContextLoader] [app] AppContext initialized
+2015-09-21 19:29:06,780 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Initializing servlet 'dispatcher'
+2015-09-21 19:29:06,792 INFO  [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] FrameworkServlet 'dispatcher': initialization started
+2015-09-21 19:29:06,793 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Servlet with name 'dispatcher' will try to create custom WebApplicationContext context of class 'com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext', using parent context [com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@4f2616ee: startup date [Mon Sep 21 19:29:03 MSK 2015]; root of context hierarchy]
+2015-09-21 19:29:06,804 INFO  [com.haulmont.cuba.core.sys.CubaXmlWebApplicationContext] [app] Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Sep 21 19:29:06 MSK 2015]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@4f2616ee
+2015-09-21 19:29:06,805 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [app] Loading XML bean definitions from class path resource [cuba-dispatcher-spring.xml]
+2015-09-21 19:29:07,016 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] [app] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-09-21 19:29:07,036 INFO  [com.haulmont.cuba.core.sys.CubaDefaultListableBeanFactory] [app] Pre-instantiating singletons in com.haulmont.cuba.core.sys.CubaDefaultListableBeanFactory@3e0263ba: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,staticContentController,logDownloadController,fileDownloadController,com.haulmont.cuba.web.controllers.CachedAnnotationMethodHandlerAdapter#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: com.haulmont.cuba.core.sys.CubaDefaultListableBeanFactory@790dd173
+2015-09-21 19:29:08,922 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+2015-09-21 19:29:08,942 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@5fead987]
+2015-09-21 19:29:08,953 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@701dcee9]
+2015-09-21 19:29:09,166 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/static/**] onto handler 'staticContentController'
+2015-09-21 19:29:09,177 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/static/**.*] onto handler 'staticContentController'
+2015-09-21 19:29:09,178 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/static/**/] onto handler 'staticContentController'
+2015-09-21 19:29:09,179 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/log/{file:[a-zA-Z0-9\.\-_]+}] onto handler 'logDownloadController'
+2015-09-21 19:29:09,180 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/download] onto handler 'fileDownloadController'
+2015-09-21 19:29:09,184 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/download.*] onto handler 'fileDownloadController'
+2015-09-21 19:29:09,188 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/download/] onto handler 'fileDownloadController'
+2015-09-21 19:29:09,195 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] No HandlerMappings found in servlet 'dispatcher': using default
+2015-09-21 19:29:09,324 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] No HandlerExceptionResolvers found in servlet 'dispatcher': using default
+2015-09-21 19:29:09,340 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@288fec06]
+2015-09-21 19:29:09,392 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] No ViewResolvers found in servlet 'dispatcher': using default
+2015-09-21 19:29:09,415 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@5692301]
+2015-09-21 19:29:09,417 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+2015-09-21 19:29:09,417 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@5013107e]
+2015-09-21 19:29:09,418 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@1d19d748]
+2015-09-21 19:29:09,420 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/static/**] onto handler 'staticContentController'
+2015-09-21 19:29:09,422 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/static/**.*] onto handler 'staticContentController'
+2015-09-21 19:29:09,424 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/static/**/] onto handler 'staticContentController'
+2015-09-21 19:29:09,425 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/log/{file:[a-zA-Z0-9\.\-_]+}] onto handler 'logDownloadController'
+2015-09-21 19:29:09,426 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/download] onto handler 'fileDownloadController'
+2015-09-21 19:29:09,428 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/download.*] onto handler 'fileDownloadController'
+2015-09-21 19:29:09,428 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app] Mapped URL path [/download/] onto handler 'fileDownloadController'
+2015-09-21 19:29:09,430 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] No HandlerMappings found in servlet 'dispatcher': using default
+2015-09-21 19:29:09,434 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] No HandlerExceptionResolvers found in servlet 'dispatcher': using default
+2015-09-21 19:29:09,434 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7bcaa540]
+2015-09-21 19:29:09,435 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] No ViewResolvers found in servlet 'dispatcher': using default
+2015-09-21 19:29:09,435 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@15440bb9]
+2015-09-21 19:29:09,435 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Published WebApplicationContext of servlet 'dispatcher' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcher]
+2015-09-21 19:29:09,435 INFO  [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] FrameworkServlet 'dispatcher': initialization completed in 2643 ms
+2015-09-21 19:29:09,437 DEBUG [com.haulmont.cuba.web.sys.CubaDispatcherServlet] [app] Servlet 'dispatcher' configured successfully
+2015-09-21 19:29:09,908 INFO  [com.haulmont.cuba.core.sys.AppContextLoader] [app-core] [server] DbmsType is set to hsql
+2015-09-21 19:29:10,239 INFO  [com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor] [app-core] [server] Creating file C:\Users\Yuriy\studio-projects\delta\build\tomcat\work\app-core\persistence.xml
+2015-09-21 19:29:10,295 INFO  [com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext] [app-core] [server] Refreshing com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@76b3d912: startup date [Mon Sep 21 19:29:10 MSK 2015]; root of context hierarchy
+2015-09-21 19:29:10,297 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [app-core] [server] Loading XML bean definitions from class path resource [cuba-spring.xml]
+2015-09-21 19:29:11,044 INFO  [com.haulmont.cuba.core.sys.CubaDefaultListableBeanFactory] [app-core] [server] Overriding bean definition for bean 'cuba_Security': replacing [Generic bean: class [com.haulmont.cuba.core.sys.SecurityImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/C:/Users/Yuriy/studio-projects/delta/build/tomcat/webapps/app-core/WEB-INF/lib/cuba-global-5.6.4.jar!/com/haulmont/cuba/core/sys/SecurityImpl.class]] with [Generic bean: class [com.haulmont.cuba.core.sys.PersistenceSecurityImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [cuba-spring.xml]]
+2015-09-21 19:29:11,072 INFO  [com.haulmont.cuba.core.sys.CubaDefaultListableBeanFactory] [app-core] [server] Overriding bean definition for bean 'cuba_PasswordEncryption': replacing [Generic bean: class [com.haulmont.cuba.core.sys.PasswordEncryptionImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/C:/Users/Yuriy/studio-projects/delta/build/tomcat/webapps/app-core/WEB-INF/lib/cuba-global-5.6.4.jar!/com/haulmont/cuba/core/sys/PasswordEncryptionImpl.class]] with [Generic bean: class [com.haulmont.cuba.core.sys.PasswordEncryptionImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [cuba-spring.xml]]
+2015-09-21 19:29:11,179 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [app-core] [server] Loading XML bean definitions from class path resource [spring.xml]
+2015-09-21 19:29:11,566 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] [app-core] [server] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-09-21 19:29:13,756 INFO  [org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader] [app-core] [server] persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for URL [file:C:/Users/Yuriy/studio-projects/delta/build/tomcat/work/app-core/persistence.xml]
+2015-09-21 19:29:13,769 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [app-core] [server] Building JPA container EntityManagerFactory for persistence unit 'delta'
+2015-09-21 19:29:15,038 WARN  [openjpa.Runtime] An error occurred while registering a ClassTransformer with PersistenceUnitInfo: name 'delta', root URL [file:/C:/Users/Yuriy/studio-projects/delta/build/tomcat/lib/]. The error has been consumed. To see it, set your openjpa.Runtime log level to TRACE. Load-time class transformation will not be available.
+2015-09-21 19:29:15,185 INFO  [com.haulmont.cuba.core.sys.CubaDefaultListableBeanFactory] [app-core] [server] Pre-instantiating singletons in com.haulmont.cuba.core.sys.CubaDefaultListableBeanFactory@1052ea6a: defining beans [com.haulmont.cuba.core.sys.CubaPropertyPlaceholderConfigurer#0,dataSource,entityManagerFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,cuba_UserEntityListener,cuba_GroupEntityListener,cuba_EntityLogItemDetachListener,cuba_EntityLogMBean,cuba_UserSessionsMBean,cuba_EntityLog,cuba_LoginWorker,cuba_UserManagementService,cuba_LoginService,cuba_UserSessionService,cuba_UserSettingService,cuba_Authentication,cuba_TrustedLoginHandler,cuba_UserSessionManager,cuba_PersistenceTools,cuba_UniqueNumbersMBean,cuba_ObjectsCacheManagerMBean,cuba_PersistenceManagerMBean,cuba_ConfigStorageMBean,cuba_ClusterManagerMBean,cuba_EmailerMBean,cuba_SchedulingMBean,cuba_ScriptingManagerMBean,cuba_CachingFacadeMBean,cuba_ServerInfoMBean,cuba_FileStorageMBean,cuba_LockManagerMBean,cuba_StatisticsCounterMBean,cuba_PasswordEncryptionSupportMBean,cuba_DataCacheMBean,cuba_ServerInfoService,cuba_EntitySnapshotService,cuba_UniqueNumbersService,cuba_DataManager,cuba_QueryResultsService,cuba_EntityRestoreService,cuba_RelatedEntitiesService,cuba_DataService,cuba_UniqueNumbers,cuba_PersistenceManager,cuba_ConfigStorage,cuba_EntitySnapshotManager,cuba_FoldersService,cuba_ClusterManager,cuba_TestingService,cuba_DataWorker,cuba_Emailer,cuba_ServerInfo,cuba_DataServiceQueryBuilder,cuba_FileStorage,cuba_EntityDiffManager,cuba_LockManager,cuba_LocalizedMessageService,cuba_NumberIdService,cuba_ConfigStorageService,cuba_ScreenHistory,cuba_NumberIdWorker,cuba_FileStorageService,cuba_LockService,cuba_EmailService,cuba_EntityLogService,cuba_PersistenceManagerService,cuba_EmailSender,cuba_ResourceService,cuba_DataCache,cuba_MiddlewareStatisticsAccumulator,cuba_QueryResultsManager,cuba_CubaPrettyTimeParser,cuba_EntitySqlGenerator,cuba_EntitySqlGenerationService,cuba_SchedulingCoordinator,cuba_ScheduledTasksService,cuba_Scheduling,cuba_SchedulingRunner,cuba_DomainDescriptionService,cuba_DynamicAttributesManager,cuba_DynamicAttributesService,report_CategoryAttributeListener,cuba_DynamicAttributesCacheService,cuba_ObjectsCacheManagerService,cuba_ObjectsCacheManager,cuba_ViewRepository,cuba_FetchPlanManager,cuba_UserSessionSource,cuba_NumberIdSource,cuba_DbUpdater,cuba_Scripting,cuba_Messages,cuba_MailSender,cuba_Persistence,cuba_UuidSource,cuba_EntityListenerManager,cuba_Configuration,cuba_ConfigEntityFactory,cuba_TimeBetweenQueryMacroHandler,cuba_EnumQueryMacroHandler,cuba_DateEqualsQueryMacroHandler,cuba_DateBeforeQueryMacroHandler,cuba_DateAfterQueryMacroHandler,cuba_TimeTodayQueryMacroHandler,cuba_DeletePolicyProcessor,cuba_EntityLifecycleListener,cuba_EntityTransactionListener,cuba_UserSessions,cuba_ExtendedEntities,cuba_EntityLoadInfoBuilder,cuba_MessageTools,cuba_DatatypeFormatter,cuba_MetadataTools,cuba_UserFormatTools,cuba_TimeZones,cuba_MetadataBuildSupport,cuba_NumberIdCache,cuba_Metadata,cuba_TimeSource,cuba_PersistentEntitiesMetadataLoader,cuba_PasswordEncryption,cuba_Security,cuba_TriggerFilesProcessor,cuba_Resources,cuba_NodeIdentifier,cuba_LogControl,cuba_JmxNodeIdentifierMBean,cuba_JmxLogControlMBean,cuba_Md5EncryptionModule,cuba_Sha1EncryptionModule,cuba_ClassLoaderManager,cuba_JavaClassLoader,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,serviceInterceptor,authenticationInterceptor,mbeanInterceptor,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,cuba_MBeanExporter,scheduler,org.springframework.scheduling.support.ScheduledMethodRunnable#0,org.springframework.scheduling.config.IntervalTask#0,org.springframework.scheduling.support.ScheduledMethodRunnable#1,org.springframework.scheduling.config.IntervalTask#1,org.springframework.scheduling.support.ScheduledMethodRunnable#2,org.springframework.scheduling.config.IntervalTask#2,org.springframework.scheduling.support.ScheduledMethodRunnable#3,org.springframework.scheduling.config.IntervalTask#3,org.springframework.scheduling.support.ScheduledMethodRunnable#4,org.springframework.scheduling.config.IntervalTask#4,org.springframework.scheduling.config.ContextLifecycleScheduledTaskRegistrar#0,mailSendTaskExecutor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2015-09-21 19:29:15,916 INFO  [com.haulmont.chile.core.datatypes.Datatypes] [app-core] [server] Can't find /datatypes.xml, using default datatypes settings
+2015-09-21 19:29:16,391 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [app-core] [server] Initializing ExecutorService  'mailSendTaskExecutor'
+2015-09-21 19:29:17,761 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Registering beans for JMX exposure on startup
+2015-09-21 19:29:17,769 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=PersistenceManager': registering with JMX server as MBean [app-core.cuba:type=PersistenceManager]
+2015-09-21 19:29:17,799 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=ConfigStorage': registering with JMX server as MBean [app-core.cuba:type=ConfigStorage]
+2015-09-21 19:29:17,818 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=DataCache': registering with JMX server as MBean [app-core.cuba:type=DataCache]
+2015-09-21 19:29:17,827 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=UserSessions': registering with JMX server as MBean [app-core.cuba:type=UserSessions]
+2015-09-21 19:29:17,847 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=UniqueNumbers': registering with JMX server as MBean [app-core.cuba:type=UniqueNumbers]
+2015-09-21 19:29:17,859 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=Emailer': registering with JMX server as MBean [app-core.cuba:type=Emailer]
+2015-09-21 19:29:17,876 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=EntityLog': registering with JMX server as MBean [app-core.cuba:type=EntityLog]
+2015-09-21 19:29:17,887 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=FileStorage': registering with JMX server as MBean [app-core.cuba:type=FileStorage]
+2015-09-21 19:29:17,896 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=LockManager': registering with JMX server as MBean [app-core.cuba:type=LockManager]
+2015-09-21 19:29:17,903 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=CachingFacade': registering with JMX server as MBean [app-core.cuba:type=CachingFacade]
+2015-09-21 19:29:17,918 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=ClusterManager': registering with JMX server as MBean [app-core.cuba:type=ClusterManager]
+2015-09-21 19:29:17,932 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=ScriptingManager': registering with JMX server as MBean [app-core.cuba:type=ScriptingManager]
+2015-09-21 19:29:17,947 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=ServerInfo': registering with JMX server as MBean [app-core.cuba:type=ServerInfo]
+2015-09-21 19:29:17,957 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=Scheduling': registering with JMX server as MBean [app-core.cuba:type=Scheduling]
+2015-09-21 19:29:17,975 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=ObjectsCacheManager': registering with JMX server as MBean [app-core.cuba:type=ObjectsCacheManager]
+2015-09-21 19:29:17,983 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=PasswordEncryptionSupport': registering with JMX server as MBean [app-core.cuba:type=PasswordEncryptionSupport]
+2015-09-21 19:29:18,017 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=JmxNodeIdentifier': registering with JMX server as MBean [app-core.cuba:type=JmxNodeIdentifier]
+2015-09-21 19:29:18,027 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=JmxLogControl': registering with JMX server as MBean [app-core.cuba:type=JmxLogControl]
+2015-09-21 19:29:18,036 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=ClassLoaderManager': registering with JMX server as MBean [app-core.cuba:type=ClassLoaderManager]
+2015-09-21 19:29:18,045 INFO  [com.haulmont.cuba.core.sys.jmx.MBeanExporter] [app-core] [server] Located managed bean 'app-core.cuba:type=StatisticsCounter': registering with JMX server as MBean [app-core.cuba:type=StatisticsCounter]
+2015-09-21 19:29:18,104 INFO  [com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler] [app-core] [server] Initializing ExecutorService  'scheduler'
+2015-09-21 19:29:18,492 WARN  [com.haulmont.cuba.security.app.UserSessions] [app-core] 
+======================================================
+CUBA platform license
+Type: Commercial
+License ID: 1503121
+Licensed to: Not restricted
+Application: Not restricted
+Valid for CUBA platform releases up to: Not restricted
+Maximum number of sessions: 5
+Maximum number of entities: Not restricted
+======================================================
+2015-09-21 19:29:18,540 INFO  [com.haulmont.cuba.core.sys.AppContextLoader] [app-core] AppContext initialized
+2015-09-21 19:29:18,543 INFO  [com.haulmont.cuba.core.sys.remoting.RemotingServlet] [app-core] FrameworkServlet 'remoting': initialization started
+2015-09-21 19:29:18,548 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] [app-core] Refreshing WebApplicationContext for namespace 'remoting-servlet': startup date [Mon Sep 21 19:29:18 MSK 2015]; parent: com.haulmont.cuba.core.sys.CubaClassPathXmlApplicationContext@76b3d912
+2015-09-21 19:29:18,551 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] [app-core] Loading XML bean definitions from class path resource [cuba-remoting-spring.xml]
+2015-09-21 19:29:18,669 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:29:18,968 INFO  [com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator] [app-core] Configuring remote services
+2015-09-21 19:29:18,995 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] [app-core] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-09-21 19:29:19,005 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] [app-core] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3ec94c95: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,logDownloadController,fileUploadController,fileDownloadController,servicesExporter,/cuba_LoginService,/cuba_ServerInfoService,/cuba_LocalizedMessageService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,/cuba_UserManagementService,/cuba_UserSessionService,/cuba_UserSettingService,/cuba_EntitySnapshotService,/cuba_UniqueNumbersService,/cuba_QueryResultsService,/cuba_EntityRestoreService,/cuba_RelatedEntitiesService,/cuba_DataService,/cuba_FoldersService,/cuba_TestingService,/cuba_NumberIdService,/cuba_ConfigStorageService,/cuba_FileStorageService,/cuba_LockService,/cuba_EmailService,/cuba_EntityLogService,/cuba_PersistenceManagerService,/cuba_ResourceService,/cuba_EntitySqlGenerationService,/cuba_ScheduledTasksService,/cuba_DomainDescriptionService,/cuba_DynamicAttributesCacheService,/cuba_ObjectsCacheManagerService]; parent: com.haulmont.cuba.core.sys.CubaDefaultListableBeanFactory@1052ea6a
+2015-09-21 19:29:19,105 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_LoginService] onto handler '/cuba_LoginService'
+2015-09-21 19:29:19,107 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_ServerInfoService] onto handler '/cuba_ServerInfoService'
+2015-09-21 19:29:19,107 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_LocalizedMessageService] onto handler '/cuba_LocalizedMessageService'
+2015-09-21 19:29:19,108 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_UserManagementService] onto handler '/cuba_UserManagementService'
+2015-09-21 19:29:19,108 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_UserSessionService] onto handler '/cuba_UserSessionService'
+2015-09-21 19:29:19,110 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_UserSettingService] onto handler '/cuba_UserSettingService'
+2015-09-21 19:29:19,111 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_EntitySnapshotService] onto handler '/cuba_EntitySnapshotService'
+2015-09-21 19:29:19,111 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_UniqueNumbersService] onto handler '/cuba_UniqueNumbersService'
+2015-09-21 19:29:19,112 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_QueryResultsService] onto handler '/cuba_QueryResultsService'
+2015-09-21 19:29:19,113 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_EntityRestoreService] onto handler '/cuba_EntityRestoreService'
+2015-09-21 19:29:19,114 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_RelatedEntitiesService] onto handler '/cuba_RelatedEntitiesService'
+2015-09-21 19:29:19,114 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_DataService] onto handler '/cuba_DataService'
+2015-09-21 19:29:19,114 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_FoldersService] onto handler '/cuba_FoldersService'
+2015-09-21 19:29:19,114 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_TestingService] onto handler '/cuba_TestingService'
+2015-09-21 19:29:19,115 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_NumberIdService] onto handler '/cuba_NumberIdService'
+2015-09-21 19:29:19,115 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_ConfigStorageService] onto handler '/cuba_ConfigStorageService'
+2015-09-21 19:29:19,115 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_FileStorageService] onto handler '/cuba_FileStorageService'
+2015-09-21 19:29:19,115 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_LockService] onto handler '/cuba_LockService'
+2015-09-21 19:29:19,115 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_EmailService] onto handler '/cuba_EmailService'
+2015-09-21 19:29:19,116 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_EntityLogService] onto handler '/cuba_EntityLogService'
+2015-09-21 19:29:19,116 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_PersistenceManagerService] onto handler '/cuba_PersistenceManagerService'
+2015-09-21 19:29:19,116 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_ResourceService] onto handler '/cuba_ResourceService'
+2015-09-21 19:29:19,116 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_EntitySqlGenerationService] onto handler '/cuba_EntitySqlGenerationService'
+2015-09-21 19:29:19,116 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_ScheduledTasksService] onto handler '/cuba_ScheduledTasksService'
+2015-09-21 19:29:19,116 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_DomainDescriptionService] onto handler '/cuba_DomainDescriptionService'
+2015-09-21 19:29:19,117 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_DynamicAttributesCacheService] onto handler '/cuba_DynamicAttributesCacheService'
+2015-09-21 19:29:19,117 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_ObjectsCacheManagerService] onto handler '/cuba_ObjectsCacheManagerService'
+2015-09-21 19:29:19,122 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/log/{file:[a-zA-Z0-9\.\-_]+}] onto handler 'logDownloadController'
+2015-09-21 19:29:19,124 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/upload] onto handler 'fileUploadController'
+2015-09-21 19:29:19,125 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/upload.*] onto handler 'fileUploadController'
+2015-09-21 19:29:19,125 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/upload/] onto handler 'fileUploadController'
+2015-09-21 19:29:19,125 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/download] onto handler 'fileDownloadController'
+2015-09-21 19:29:19,125 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/download.*] onto handler 'fileDownloadController'
+2015-09-21 19:29:19,126 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/download/] onto handler 'fileDownloadController'
+2015-09-21 19:29:19,196 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_LoginService] onto handler '/cuba_LoginService'
+2015-09-21 19:29:19,199 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_ServerInfoService] onto handler '/cuba_ServerInfoService'
+2015-09-21 19:29:19,200 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_LocalizedMessageService] onto handler '/cuba_LocalizedMessageService'
+2015-09-21 19:29:19,201 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_UserManagementService] onto handler '/cuba_UserManagementService'
+2015-09-21 19:29:19,201 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_UserSessionService] onto handler '/cuba_UserSessionService'
+2015-09-21 19:29:19,202 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_UserSettingService] onto handler '/cuba_UserSettingService'
+2015-09-21 19:29:19,202 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_EntitySnapshotService] onto handler '/cuba_EntitySnapshotService'
+2015-09-21 19:29:19,203 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_UniqueNumbersService] onto handler '/cuba_UniqueNumbersService'
+2015-09-21 19:29:19,203 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_QueryResultsService] onto handler '/cuba_QueryResultsService'
+2015-09-21 19:29:19,203 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_EntityRestoreService] onto handler '/cuba_EntityRestoreService'
+2015-09-21 19:29:19,203 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_RelatedEntitiesService] onto handler '/cuba_RelatedEntitiesService'
+2015-09-21 19:29:19,204 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_DataService] onto handler '/cuba_DataService'
+2015-09-21 19:29:19,204 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_FoldersService] onto handler '/cuba_FoldersService'
+2015-09-21 19:29:19,205 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_TestingService] onto handler '/cuba_TestingService'
+2015-09-21 19:29:19,205 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_NumberIdService] onto handler '/cuba_NumberIdService'
+2015-09-21 19:29:19,205 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_ConfigStorageService] onto handler '/cuba_ConfigStorageService'
+2015-09-21 19:29:19,205 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_FileStorageService] onto handler '/cuba_FileStorageService'
+2015-09-21 19:29:19,206 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_LockService] onto handler '/cuba_LockService'
+2015-09-21 19:29:19,206 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_EmailService] onto handler '/cuba_EmailService'
+2015-09-21 19:29:19,206 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_EntityLogService] onto handler '/cuba_EntityLogService'
+2015-09-21 19:29:19,206 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_PersistenceManagerService] onto handler '/cuba_PersistenceManagerService'
+2015-09-21 19:29:19,208 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_ResourceService] onto handler '/cuba_ResourceService'
+2015-09-21 19:29:19,213 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_EntitySqlGenerationService] onto handler '/cuba_EntitySqlGenerationService'
+2015-09-21 19:29:19,214 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_ScheduledTasksService] onto handler '/cuba_ScheduledTasksService'
+2015-09-21 19:29:19,214 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_DomainDescriptionService] onto handler '/cuba_DomainDescriptionService'
+2015-09-21 19:29:19,214 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_DynamicAttributesCacheService] onto handler '/cuba_DynamicAttributesCacheService'
+2015-09-21 19:29:19,214 INFO  [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping] [app-core] Mapped URL path [/cuba_ObjectsCacheManagerService] onto handler '/cuba_ObjectsCacheManagerService'
+2015-09-21 19:29:19,215 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/log/{file:[a-zA-Z0-9\.\-_]+}] onto handler 'logDownloadController'
+2015-09-21 19:29:19,257 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/upload] onto handler 'fileUploadController'
+2015-09-21 19:29:19,257 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/upload.*] onto handler 'fileUploadController'
+2015-09-21 19:29:19,258 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/upload/] onto handler 'fileUploadController'
+2015-09-21 19:29:19,259 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/download] onto handler 'fileDownloadController'
+2015-09-21 19:29:19,259 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/download.*] onto handler 'fileDownloadController'
+2015-09-21 19:29:19,259 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] [app-core] Mapped URL path [/download/] onto handler 'fileDownloadController'
+2015-09-21 19:29:19,267 INFO  [com.haulmont.cuba.core.sys.remoting.RemotingServlet] [app-core] FrameworkServlet 'remoting': initialization completed in 723 ms
+2015-09-21 19:29:43,476 DEBUG [com.haulmont.cuba.web.sys.CubaVaadinServletService] [app] HTTP session com.vaadin.server.VaadinSession@3b78ca19 initialized, timeout=1800sec
+2015-09-21 19:29:46,732 DEBUG [com.haulmont.cuba.gui.theme.ThemeConstantsRepository] [app] Loading theme constants
+2015-09-21 19:29:46,839 DEBUG [com.haulmont.cuba.web.AppUI] [app] Initializing AppUI
+2015-09-21 19:29:46,839 DEBUG [com.haulmont.cuba.web.App] [app] Initializing application
+2015-09-21 19:29:47,575 INFO  [openjpa.Runtime] Starting OpenJPA 2.3.0
+2015-09-21 19:29:48,299 INFO  [openjpa.jdbc.JDBC] Using dictionary class "com.haulmont.cuba.core.sys.persistence.CubaHSQLDictionary".
+2015-09-21 19:29:48,630 INFO  [openjpa.jdbc.JDBC] Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.2.9. 
+2015-09-21 19:29:48,923 INFO  [com.haulmont.cuba.core.sys.MetadataImpl] [app-core] Initializing metadata
+2015-09-21 19:29:49,142 INFO  [com.haulmont.cuba.core.sys.MetadataImpl] [app-core] Metadata initialized in 188ms
+2015-09-21 19:29:50,132 DEBUG [com.haulmont.cuba.core.app.PersistenceManager] [app-core] Searching for link tables
+2015-09-21 19:29:50,133 DEBUG [com.haulmont.cuba.core.app.PersistenceManager] [app-core] Searching for secondary tables
+2015-09-21 19:29:50,133 DEBUG [com.haulmont.cuba.core.app.PersistenceManager] [app-core] Searching for soft delete tables
+2015-09-21 19:29:53,127 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged in: 789db5d1-51a1-b51f-e47e-26dae2b356a5 [admin]
+2015-09-21 19:29:53,522 DEBUG [com.haulmont.cuba.web.DefaultApp] [app] [admin] Creating AppWindow
+2015-09-21 19:29:53,567 INFO  [com.haulmont.cuba.core.sys.MetadataImpl] [app] [admin] Initializing metadata
+2015-09-21 19:29:53,926 INFO  [com.haulmont.cuba.core.sys.MetadataImpl] [app] [admin] Metadata initialized in 358ms
+2015-09-21 19:29:54,813 INFO  [com.haulmont.cuba.client.sys.ViewRepositoryClientImpl] [app] [admin] Initializing views
+2015-09-21 19:29:54,816 DEBUG [com.haulmont.cuba.client.sys.ViewRepositoryClientImpl] [app] [admin] Deploying views config: cuba-views.xml
+2015-09-21 19:29:54,821 DEBUG [com.haulmont.cuba.client.sys.ViewRepositoryClientImpl] [app] [admin] Deploying views config: views.xml
+2015-09-21 19:29:54,841 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 19:29:55,098 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 19:29:55,209 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 19:29:55,357 DEBUG [com.haulmont.cuba.web.DefaultConnection] [app] [admin] Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/app) Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+2015-09-21 19:29:58,081 INFO  [com.haulmont.cuba.core.app.PersistenceManager] [app-core] [admin] Loading statistics cache
+2015-09-21 19:29:58,493 INFO  [com.haulmont.cuba.core.sys.ViewRepositoryImpl] [app-core] [admin] Initializing views
+2015-09-21 19:29:58,715 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 19:29:58,941 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$StorageMaterialState, view=com.bernatskyi.delta.entity.StorageMaterialState/storageMaterialState-view, query=select e from delta$StorageMaterialState e, max=10000
+2015-09-21 19:30:06,572 ERROR [com.haulmont.cuba.web.log.AppLog] [app] [admin] Exception in com.haulmont.cuba.web.toolkit.ui.CubaButton: 
+java.util.NoSuchElementException
+	at java.util.Collections$EmptyIterator.next(Collections.java:4189)
+	at com.bernatskyi.delta.gui.storagematerialstate.StorageMaterialStateBrowse$1.actionPerform(StorageMaterialStateBrowse.java:32)
+	at com.haulmont.cuba.web.gui.components.WebButton.performAction(WebButton.java:43)
+	at com.haulmont.cuba.web.gui.components.WebButton$1.buttonClick(WebButton.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.event.ListenerMethod.receiveEvent(ListenerMethod.java:508)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:198)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:161)
+	at com.vaadin.server.AbstractClientConnector.fireEvent(AbstractClientConnector.java:986)
+	at com.vaadin.ui.Button.fireClick(Button.java:393)
+	at com.haulmont.cuba.web.toolkit.ui.CubaButton.fireClick(CubaButton.java:42)
+	at com.vaadin.ui.Button$1.click(Button.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:168)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:118)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:291)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:184)
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:92)
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:41)
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1408)
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:355)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:164)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:119)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.handleNotFiltered(CubaHttpFilter.java:99)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-09-21 19:30:12,186 ERROR [com.haulmont.cuba.web.log.AppLog] [app] [admin] Exception in com.haulmont.cuba.web.toolkit.ui.CubaButton: 
+java.util.NoSuchElementException
+	at java.util.Collections$EmptyIterator.next(Collections.java:4189)
+	at com.bernatskyi.delta.gui.storagematerialstate.StorageMaterialStateBrowse$1.actionPerform(StorageMaterialStateBrowse.java:32)
+	at com.haulmont.cuba.web.gui.components.WebButton.performAction(WebButton.java:43)
+	at com.haulmont.cuba.web.gui.components.WebButton$1.buttonClick(WebButton.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.event.ListenerMethod.receiveEvent(ListenerMethod.java:508)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:198)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:161)
+	at com.vaadin.server.AbstractClientConnector.fireEvent(AbstractClientConnector.java:986)
+	at com.vaadin.ui.Button.fireClick(Button.java:393)
+	at com.haulmont.cuba.web.toolkit.ui.CubaButton.fireClick(CubaButton.java:42)
+	at com.vaadin.ui.Button$1.click(Button.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:168)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:118)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:291)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:184)
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:92)
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:41)
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1408)
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:355)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:164)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:119)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.handleNotFiltered(CubaHttpFilter.java:99)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-09-21 19:30:18,164 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:32:00,175 WARN  [com.haulmont.cuba.web.sys.CubaApplicationServlet] [app] Too long request processing [67528 ms]: ip=0:0:0:0:0:0:0:1, url=/app/UIDL/
+2015-09-21 19:32:00,223 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:32:18,164 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:32:52,731 WARN  [com.haulmont.cuba.web.sys.CubaApplicationServlet] [app] Too long request processing [15850 ms]: ip=0:0:0:0:0:0:0:1, url=/app/UIDL/
+2015-09-21 19:32:58,525 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 19:32:58,572 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$StorageMaterialState, view=com.bernatskyi.delta.entity.StorageMaterialState/storageMaterialState-view, query=select e from delta$StorageMaterialState e, max=10000
+2015-09-21 19:33:06,801 ERROR [com.haulmont.cuba.web.log.AppLog] [app] [admin] Exception in com.haulmont.cuba.web.toolkit.ui.CubaButton: 
+java.util.NoSuchElementException
+	at java.util.Collections$EmptyIterator.next(Collections.java:4189)
+	at com.bernatskyi.delta.gui.storagematerialstate.StorageMaterialStateBrowse$1.actionPerform(StorageMaterialStateBrowse.java:32)
+	at com.haulmont.cuba.web.gui.components.WebButton.performAction(WebButton.java:43)
+	at com.haulmont.cuba.web.gui.components.WebButton$1.buttonClick(WebButton.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.event.ListenerMethod.receiveEvent(ListenerMethod.java:508)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:198)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:161)
+	at com.vaadin.server.AbstractClientConnector.fireEvent(AbstractClientConnector.java:986)
+	at com.vaadin.ui.Button.fireClick(Button.java:393)
+	at com.haulmont.cuba.web.toolkit.ui.CubaButton.fireClick(CubaButton.java:42)
+	at com.vaadin.ui.Button$1.click(Button.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:168)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:118)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:291)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:184)
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:92)
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:41)
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1408)
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:355)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:164)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:119)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.handleNotFiltered(CubaHttpFilter.java:99)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-09-21 19:33:18,166 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:34:18,165 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:35:18,166 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:36:18,166 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:36:22,405 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 19:36:29,714 DEBUG [com.haulmont.cuba.security.app.EntityLog] [app-core] [admin] Loading entities
+2015-09-21 19:36:29,897 DEBUG [com.haulmont.cuba.security.app.EntityLog] [app-core] [admin] Loaded: entitiesAuto=0, entitiesManual=0
+2015-09-21 19:36:29,954 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Closing all windows
+2015-09-21 19:36:29,962 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged out: 789db5d1-51a1-b51f-e47e-26dae2b356a5 [admin]
+2015-09-21 19:36:29,965 DEBUG [com.haulmont.cuba.web.App] [app] Closing all windows
+2015-09-21 19:36:32,001 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged in: c2974312-90ef-928b-c508-9247319c0bd5 [admin]
+2015-09-21 19:36:32,028 DEBUG [com.haulmont.cuba.web.DefaultApp] [app] [admin] Creating AppWindow
+2015-09-21 19:36:32,064 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 19:36:32,105 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 19:36:32,114 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 19:36:32,163 DEBUG [com.haulmont.cuba.web.DefaultConnection] [app] [admin] Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/app) Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+2015-09-21 19:36:38,191 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$StorageMaterialState, view=com.bernatskyi.delta.entity.StorageMaterialState/storageMaterialState-view, query=select e from delta$StorageMaterialState e, max=10000
+2015-09-21 19:36:38,237 ERROR [com.haulmont.cuba.web.log.AppLog] [app] [admin] Exception in com.haulmont.cuba.web.toolkit.ui.CubaMenuBar: 
+java.lang.ClassCastException: java.lang.String cannot be cast to com.haulmont.chile.core.model.MetaPropertyPath
+	at com.haulmont.cuba.gui.data.impl.GroupDelegate.processItemGroupping(GroupDelegate.java:123)
+	at com.haulmont.cuba.gui.data.impl.GroupDelegate.doGroup(GroupDelegate.java:98)
+	at com.haulmont.cuba.gui.data.impl.GroupDelegate.groupBy(GroupDelegate.java:63)
+	at com.haulmont.cuba.gui.data.impl.GroupDatasourceImpl.groupBy(GroupDatasourceImpl.java:32)
+	at com.haulmont.cuba.web.gui.components.WebGroupTable$GroupTableDsWrapper.doGroup(WebGroupTable.java:324)
+	at com.haulmont.cuba.web.gui.components.WebGroupTable$GroupTableDsWrapper.groupBy(WebGroupTable.java:318)
+	at com.haulmont.cuba.web.toolkit.data.util.GroupTableContainerWrapper.groupBy(GroupTableContainerWrapper.java:39)
+	at com.haulmont.cuba.web.toolkit.ui.CubaGroupTable.groupBy(CubaGroupTable.java:352)
+	at com.haulmont.cuba.web.gui.components.WebGroupTable$1.groupBy(WebGroupTable.java:60)
+	at com.haulmont.cuba.web.gui.components.WebGroupTable.groupBy(WebGroupTable.java:165)
+	at com.bernatskyi.delta.gui.storagematerialstate.StorageMaterialStateBrowse.init(StorageMaterialStateBrowse.java:26)
+	at com.haulmont.cuba.gui.WindowManager.init(WindowManager.java:712)
+	at com.haulmont.cuba.gui.WindowManager.wrapByCustomClass(WindowManager.java:698)
+	at com.haulmont.cuba.gui.WindowManager.createWindow(WindowManager.java:170)
+	at com.haulmont.cuba.gui.WindowManager.openWindow(WindowManager.java:334)
+	at com.haulmont.cuba.gui.config.MenuCommand.execute(MenuCommand.java:87)
+	at com.haulmont.cuba.web.sys.MenuBuilder$1.menuSelected(MenuBuilder.java:153)
+	at com.vaadin.ui.MenuBar.changeVariables(MenuBar.java:199)
+	at com.vaadin.server.communication.ServerRpcHandler.changeVariables(ServerRpcHandler.java:486)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:305)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:184)
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:92)
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:41)
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1408)
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:355)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:164)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:119)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.handleNotFiltered(CubaHttpFilter.java:99)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-09-21 19:37:18,167 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:38:18,168 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:39:18,168 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:39:51,120 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 19:40:18,169 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:40:37,525 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 19:41:18,169 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:41:23,755 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Closing all windows
+2015-09-21 19:41:23,755 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged out: c2974312-90ef-928b-c508-9247319c0bd5 [admin]
+2015-09-21 19:41:23,756 DEBUG [com.haulmont.cuba.web.App] [app] Closing all windows
+2015-09-21 19:41:24,930 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged in: 6c203b43-fbe5-b108-49af-083afaf160ce [admin]
+2015-09-21 19:41:24,944 DEBUG [com.haulmont.cuba.web.DefaultApp] [app] [admin] Creating AppWindow
+2015-09-21 19:41:24,988 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 19:41:25,067 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 19:41:25,074 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 19:41:25,109 DEBUG [com.haulmont.cuba.web.DefaultConnection] [app] [admin] Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/app) Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+2015-09-21 19:41:37,179 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 19:41:37,201 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$StorageMaterialState, view=com.bernatskyi.delta.entity.StorageMaterialState/storageMaterialState-view, query=select e from delta$StorageMaterialState e, max=10000
+2015-09-21 19:42:30,108 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:44:22,234 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:44:22,234 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:44:22,265 ERROR [com.haulmont.cuba.web.log.AppLog] [app] [admin] Exception in com.haulmont.cuba.web.toolkit.ui.CubaButton: 
+java.util.NoSuchElementException
+	at java.util.Collections$EmptyIterator.next(Collections.java:4189)
+	at com.bernatskyi.delta.gui.storagematerialstate.StorageMaterialStateBrowse$1.actionPerform(StorageMaterialStateBrowse.java:31)
+	at com.haulmont.cuba.web.gui.components.WebButton.performAction(WebButton.java:43)
+	at com.haulmont.cuba.web.gui.components.WebButton$1.buttonClick(WebButton.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.event.ListenerMethod.receiveEvent(ListenerMethod.java:508)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:198)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:161)
+	at com.vaadin.server.AbstractClientConnector.fireEvent(AbstractClientConnector.java:986)
+	at com.vaadin.ui.Button.fireClick(Button.java:393)
+	at com.haulmont.cuba.web.toolkit.ui.CubaButton.fireClick(CubaButton.java:42)
+	at com.vaadin.ui.Button$1.click(Button.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:168)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:118)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:291)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:184)
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:92)
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:41)
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1408)
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:355)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:164)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:119)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.handleNotFiltered(CubaHttpFilter.java:99)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-09-21 19:44:22,273 WARN  [com.haulmont.cuba.web.sys.CubaApplicationServlet] [app] Too long request processing [145054 ms]: ip=0:0:0:0:0:0:0:1, url=/app/UIDL/
+2015-09-21 19:45:51,506 ERROR [com.haulmont.cuba.web.log.AppLog] [app] [admin] Exception in com.haulmont.cuba.web.toolkit.ui.CubaButton: 
+java.util.NoSuchElementException
+	at java.util.Collections$EmptyIterator.next(Collections.java:4189)
+	at com.bernatskyi.delta.gui.storagematerialstate.StorageMaterialStateBrowse$1.actionPerform(StorageMaterialStateBrowse.java:31)
+	at com.haulmont.cuba.web.gui.components.WebButton.performAction(WebButton.java:43)
+	at com.haulmont.cuba.web.gui.components.WebButton$1.buttonClick(WebButton.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.event.ListenerMethod.receiveEvent(ListenerMethod.java:508)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:198)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:161)
+	at com.vaadin.server.AbstractClientConnector.fireEvent(AbstractClientConnector.java:986)
+	at com.vaadin.ui.Button.fireClick(Button.java:393)
+	at com.haulmont.cuba.web.toolkit.ui.CubaButton.fireClick(CubaButton.java:42)
+	at com.vaadin.ui.Button$1.click(Button.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:168)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:118)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:291)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:184)
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:92)
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:41)
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1408)
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:355)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:164)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:119)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.handleNotFiltered(CubaHttpFilter.java:99)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-09-21 19:45:51,512 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:45:51,549 WARN  [com.haulmont.cuba.web.sys.CubaApplicationServlet] [app] Too long request processing [76238 ms]: ip=0:0:0:0:0:0:0:1, url=/app/UIDL/
+2015-09-21 19:46:18,233 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:46:18,254 ERROR [com.haulmont.cuba.web.log.AppLog] [app] [admin] Exception in com.haulmont.cuba.web.toolkit.ui.CubaButton: 
+java.util.NoSuchElementException
+	at java.util.Collections$EmptyIterator.next(Collections.java:4189)
+	at com.bernatskyi.delta.gui.storagematerialstate.StorageMaterialStateBrowse$1.actionPerform(StorageMaterialStateBrowse.java:31)
+	at com.haulmont.cuba.web.gui.components.WebButton.performAction(WebButton.java:43)
+	at com.haulmont.cuba.web.gui.components.WebButton$1.buttonClick(WebButton.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.event.ListenerMethod.receiveEvent(ListenerMethod.java:508)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:198)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:161)
+	at com.vaadin.server.AbstractClientConnector.fireEvent(AbstractClientConnector.java:986)
+	at com.vaadin.ui.Button.fireClick(Button.java:393)
+	at com.haulmont.cuba.web.toolkit.ui.CubaButton.fireClick(CubaButton.java:42)
+	at com.vaadin.ui.Button$1.click(Button.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:168)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:118)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:291)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:184)
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:92)
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:41)
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1408)
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:355)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:164)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:119)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.handleNotFiltered(CubaHttpFilter.java:99)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-09-21 19:46:18,270 WARN  [com.haulmont.cuba.web.sys.CubaApplicationServlet] [app] Too long request processing [14896 ms]: ip=0:0:0:0:0:0:0:1, url=/app/UIDL/
+2015-09-21 19:47:18,173 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:48:18,174 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:49:18,175 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:49:51,498 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 19:50:18,175 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:51:18,176 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:52:18,176 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:53:18,177 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:54:18,178 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:54:33,410 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 19:54:38,421 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 19:55:18,178 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:56:18,179 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:57:18,179 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:58:18,180 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:59:18,181 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 19:59:52,498 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 20:00:18,181 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:01:18,182 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:02:18,182 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:03:18,183 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:04:18,183 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:05:18,185 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:06:18,185 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:07:18,185 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:08:18,186 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:09:18,186 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:09:53,497 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 20:10:18,187 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:11:18,188 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:12:18,189 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:12:53,836 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 20:12:53,837 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_WindowConfig.reset
+2015-09-21 20:13:18,189 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:14:18,189 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:15:18,190 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:16:18,190 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:17:18,192 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:17:33,989 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 20:18:18,192 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:18:29,241 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 20:19:18,193 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:19:19,280 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_MenuConfig.reset
+2015-09-21 20:19:54,290 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_MenuConfig.reset
+2015-09-21 20:19:54,498 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 20:20:09,294 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 20:20:18,193 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:20:19,319 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_MenuConfig.reset
+2015-09-21 20:21:18,193 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:21:49,355 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_MenuConfig.reset
+2015-09-21 20:21:49,356 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_WindowConfig.reset
+2015-09-21 20:22:18,194 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:23:18,195 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:24:18,196 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:24:29,430 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 20:24:37,156 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Closing all windows
+2015-09-21 20:24:37,157 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged out: 6c203b43-fbe5-b108-49af-083afaf160ce [admin]
+2015-09-21 20:24:37,159 DEBUG [com.haulmont.cuba.web.App] [app] Closing all windows
+2015-09-21 20:24:38,495 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged in: d82dfbf3-2b3d-7137-125b-ba0f986f16e0 [admin]
+2015-09-21 20:24:38,509 DEBUG [com.haulmont.cuba.web.DefaultApp] [app] [admin] Creating AppWindow
+2015-09-21 20:24:38,675 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 20:24:38,713 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 20:24:38,718 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 20:24:38,907 DEBUG [com.haulmont.cuba.web.DefaultConnection] [app] [admin] Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/app) Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+2015-09-21 20:24:43,768 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 20:24:43,808 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50
+2015-09-21 20:24:54,961 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 20:24:54,978 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50
+2015-09-21 20:25:18,196 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:26:04,458 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 20:33:53,570 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:33:53,570 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:33:53,571 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:33:53,571 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:33:53,572 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:33:53,572 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:33:53,573 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:33:53,573 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:33:53,657 ERROR [com.haulmont.cuba.web.log.AppLog] [app] [admin] Exception in com.haulmont.cuba.web.toolkit.ui.CubaButton: 
+java.util.NoSuchElementException
+	at java.util.Collections$EmptyIterator.next(Collections.java:4189)
+	at com.bernatskyi.delta.gui.main.MainScreen$1.actionPerform(MainScreen.java:30)
+	at com.haulmont.cuba.web.gui.components.WebButton.performAction(WebButton.java:43)
+	at com.haulmont.cuba.web.gui.components.WebButton$1.buttonClick(WebButton.java:34)
+	at sun.reflect.GeneratedMethodAccessor125.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.event.ListenerMethod.receiveEvent(ListenerMethod.java:508)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:198)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:161)
+	at com.vaadin.server.AbstractClientConnector.fireEvent(AbstractClientConnector.java:986)
+	at com.vaadin.ui.Button.fireClick(Button.java:393)
+	at com.haulmont.cuba.web.toolkit.ui.CubaButton.fireClick(CubaButton.java:42)
+	at com.vaadin.ui.Button$1.click(Button.java:61)
+	at sun.reflect.GeneratedMethodAccessor124.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:168)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:118)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:291)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:184)
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:92)
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:41)
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1408)
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:355)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:164)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:119)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.handleNotFiltered(CubaHttpFilter.java:99)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-09-21 20:33:53,666 WARN  [com.haulmont.cuba.web.sys.CubaApplicationServlet] [app] Too long request processing [466522 ms]: ip=0:0:0:0:0:0:0:1, url=/app/UIDL/
+2015-09-21 20:34:18,202 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:34:28,628 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 20:34:35,600 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Closing all windows
+2015-09-21 20:34:35,601 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged out: d82dfbf3-2b3d-7137-125b-ba0f986f16e0 [admin]
+2015-09-21 20:34:35,618 DEBUG [com.haulmont.cuba.web.App] [app] Closing all windows
+2015-09-21 20:34:37,214 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged in: 9356d193-6272-70e0-c964-d1f795888184 [admin]
+2015-09-21 20:34:37,231 DEBUG [com.haulmont.cuba.web.DefaultApp] [app] [admin] Creating AppWindow
+2015-09-21 20:34:37,265 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 20:34:37,330 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 20:34:37,343 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 20:34:37,394 DEBUG [com.haulmont.cuba.web.DefaultConnection] [app] [admin] Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/app) Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+2015-09-21 20:34:39,790 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 20:34:39,918 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50
+2015-09-21 20:35:08,116 ERROR [com.haulmont.cuba.web.log.AppLog] [app] [admin] Exception in com.haulmont.cuba.web.toolkit.ui.CubaButton: 
+java.util.NoSuchElementException
+	at java.util.Collections$EmptyIterator.next(Collections.java:4189)
+	at com.bernatskyi.delta.gui.main.MainScreen$1.actionPerform(MainScreen.java:30)
+	at com.haulmont.cuba.web.gui.components.WebButton.performAction(WebButton.java:43)
+	at com.haulmont.cuba.web.gui.components.WebButton$1.buttonClick(WebButton.java:34)
+	at sun.reflect.GeneratedMethodAccessor125.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.event.ListenerMethod.receiveEvent(ListenerMethod.java:508)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:198)
+	at com.vaadin.event.EventRouter.fireEvent(EventRouter.java:161)
+	at com.vaadin.server.AbstractClientConnector.fireEvent(AbstractClientConnector.java:986)
+	at com.vaadin.ui.Button.fireClick(Button.java:393)
+	at com.haulmont.cuba.web.toolkit.ui.CubaButton.fireClick(CubaButton.java:42)
+	at com.vaadin.ui.Button$1.click(Button.java:61)
+	at sun.reflect.GeneratedMethodAccessor124.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:168)
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:118)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:291)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:184)
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:92)
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:41)
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1408)
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:355)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:164)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:119)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.handleNotFiltered(CubaHttpFilter.java:99)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-09-21 20:35:08,125 WARN  [com.haulmont.cuba.web.sys.CubaApplicationServlet] [app] Too long request processing [23390 ms]: ip=0:0:0:0:0:0:0:1, url=/app/UIDL/
+2015-09-21 20:35:18,203 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:36:18,203 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:36:58,182 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 20:37:00,511 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Closing all windows
+2015-09-21 20:37:00,511 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged out: 9356d193-6272-70e0-c964-d1f795888184 [admin]
+2015-09-21 20:37:00,512 DEBUG [com.haulmont.cuba.web.App] [app] Closing all windows
+2015-09-21 20:37:02,052 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged in: fe1a0373-0568-00b0-2871-3e7bbb7a5bb0 [admin]
+2015-09-21 20:37:02,057 DEBUG [com.haulmont.cuba.web.DefaultApp] [app] [admin] Creating AppWindow
+2015-09-21 20:37:02,169 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 20:37:02,237 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 20:37:02,243 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 20:37:02,464 DEBUG [com.haulmont.cuba.web.DefaultConnection] [app] [admin] Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/app) Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+2015-09-21 20:37:05,769 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 20:37:05,823 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50
+2015-09-21 20:37:15,650 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 20:37:15,679 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50
+2015-09-21 20:37:18,203 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:38:18,203 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:39:18,205 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:39:56,513 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 20:40:18,205 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:41:18,204 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:42:18,206 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:43:18,206 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:44:18,206 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:45:18,208 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:46:18,208 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:47:18,210 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:48:18,209 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:49:18,210 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:49:20,052 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 20:49:20,212 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50
+2015-09-21 20:50:49,385 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:51:12,801 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] load: metaClass=delta$Storage, id=6a4c856f-07a8-afb1-0427-48fc66cbd1f1, view=com.bernatskyi.delta.entity.Storage/_local
+2015-09-21 20:51:13,820 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Operation, view=com.bernatskyi.delta.entity.Operation/operation-storage-material, query=select e from delta$Operation e where e.storage.id = :ds_storageDs order by e.dateTime, max=10000
+2015-09-21 20:51:14,093 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$StorageMaterialState, view=com.bernatskyi.delta.entity.StorageMaterialState/storageMaterialState-view, query=select e from delta$StorageMaterialState e where e.storage.id = :ds_storageDs order by e.material.name, max=10000
+2015-09-21 20:51:14,276 WARN  [com.haulmont.cuba.web.sys.CubaApplicationServlet] [app] Too long request processing [82630 ms]: ip=0:0:0:0:0:0:0:1, url=/app/UIDL/
+2015-09-21 20:51:14,284 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 20:51:14,285 WARN  [com.haulmont.cuba.web.sys.CubaApplicationServlet] [app] Too long request processing [71547 ms]: ip=0:0:0:0:0:0:0:1, url=/app/HEARTBEAT/
+2015-09-21 20:51:18,210 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:52:18,210 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:52:31,973 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 20:53:00,688 DEBUG [com.haulmont.cuba.web.AppUI] [app] [admin] Initializing AppUI
+2015-09-21 20:53:01,162 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 20:53:01,210 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 20:53:01,230 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 20:53:05,823 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 20:53:05,842 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50
+2015-09-21 20:53:16,911 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Closing all windows
+2015-09-21 20:53:16,912 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged out: fe1a0373-0568-00b0-2871-3e7bbb7a5bb0 [admin]
+2015-09-21 20:53:16,913 DEBUG [com.haulmont.cuba.web.App] [app] Closing all windows
+2015-09-21 20:53:18,087 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged in: 9b7c2e45-165e-814b-11e9-576ffa544d54 [admin]
+2015-09-21 20:53:18,093 DEBUG [com.haulmont.cuba.web.DefaultApp] [app] [admin] Creating AppWindow
+2015-09-21 20:53:18,130 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 20:53:18,147 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 20:53:18,152 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 20:53:18,194 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 20:53:18,211 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:53:18,217 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 20:53:18,241 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 20:53:18,269 DEBUG [com.haulmont.cuba.web.DefaultConnection] [app] [admin] Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/app) Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+2015-09-21 20:53:22,057 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 20:53:22,130 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50
+2015-09-21 20:54:18,212 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:54:31,792 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Closing all windows
+2015-09-21 20:54:31,792 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged out: 9b7c2e45-165e-814b-11e9-576ffa544d54 [admin]
+2015-09-21 20:54:31,793 DEBUG [com.haulmont.cuba.web.App] [app] Closing all windows
+2015-09-21 20:54:32,100 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 20:54:32,943 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged in: d9954728-eb31-33c2-688f-fb4e8937eb0d [admin]
+2015-09-21 20:54:32,947 DEBUG [com.haulmont.cuba.web.DefaultApp] [app] [admin] Creating AppWindow
+2015-09-21 20:54:33,012 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 20:54:33,028 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 20:54:33,032 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 20:54:33,070 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 20:54:33,087 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 20:54:33,090 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 20:54:33,113 DEBUG [com.haulmont.cuba.web.DefaultConnection] [app] [admin] Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/app) Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+2015-09-21 20:54:41,012 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 20:54:41,053 ERROR [com.haulmont.cuba.web.log.AppLog] [app] [admin] Exception in com.haulmont.cuba.web.toolkit.ui.CubaMenuBar: 
+com.haulmont.cuba.gui.GuiDevelopmentException: Can't find action 'view' in 'storagesTable', params={Holder ID=storagesTable}, frameId=delta$MainScreen
+	at com.haulmont.cuba.gui.xml.layout.loaders.AssignActionPostInitTask.execute(AssignActionPostInitTask.java:45)
+	at com.haulmont.cuba.gui.xml.layout.loaders.ComponentLoaderContext$TaskExecutor.run(ComponentLoaderContext.java:134)
+	at com.haulmont.cuba.gui.xml.layout.loaders.ComponentLoaderContext$TaskExecutor.run(ComponentLoaderContext.java:136)
+	at com.haulmont.cuba.gui.xml.layout.loaders.ComponentLoaderContext.executePostInitTasks(ComponentLoaderContext.java:109)
+	at com.haulmont.cuba.gui.WindowManager.createWindow(WindowManager.java:172)
+	at com.haulmont.cuba.gui.WindowManager.openWindow(WindowManager.java:334)
+	at com.haulmont.cuba.gui.config.MenuCommand.execute(MenuCommand.java:87)
+	at com.haulmont.cuba.web.sys.MenuBuilder$1.menuSelected(MenuBuilder.java:153)
+	at com.vaadin.ui.MenuBar.changeVariables(MenuBar.java:199)
+	at com.vaadin.server.communication.ServerRpcHandler.changeVariables(ServerRpcHandler.java:486)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:305)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:184)
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:92)
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:41)
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1408)
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:355)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:164)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:119)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.handleNotFiltered(CubaHttpFilter.java:99)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-09-21 20:54:41,064 WARN  [com.haulmont.cuba.web.sys.CubaApplicationServlet] [app] Too long request processing [5658 ms]: ip=0:0:0:0:0:0:0:1, url=/app/UIDL/
+2015-09-21 20:55:18,212 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:55:50,209 WARN  [com.haulmont.cuba.gui.ControllerDependencyInjector] [app] [admin] CDI - Unable to find an instance of type 'interface com.haulmont.cuba.gui.components.Button' named 'viewBtn' for instance of 'com.bernatskyi.delta.gui.main.MainScreen'
+2015-09-21 20:55:54,892 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 20:55:54,906 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 20:55:54,981 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50
+2015-09-21 20:55:55,016 WARN  [com.haulmont.cuba.web.sys.CubaApplicationServlet] [app] Too long request processing [5106 ms]: ip=0:0:0:0:0:0:0:1, url=/app/UIDL/
+2015-09-21 20:56:18,212 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:57:18,213 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:58:18,213 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 20:59:18,214 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:00:18,214 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:01:18,215 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:02:18,216 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:03:02,499 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 21:03:18,218 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:04:18,217 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:05:18,218 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:06:18,218 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:07:18,218 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:08:18,219 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:09:18,220 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:10:18,221 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:11:18,221 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:12:18,222 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:13:03,496 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 21:13:05,362 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 21:13:18,222 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:14:18,222 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:14:18,326 DEBUG [com.haulmont.cuba.web.AppUI] [app] [admin] Initializing AppUI
+2015-09-21 21:14:18,757 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 21:14:18,841 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 21:14:18,848 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 21:15:18,224 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:16:01,891 WARN  [com.haulmont.cuba.gui.ControllerDependencyInjector] [app] [admin] CDI - Unable to find an instance of type 'interface com.haulmont.cuba.gui.components.Button' named 'viewBtn' for instance of 'com.bernatskyi.delta.gui.main.MainScreen'
+2015-09-21 21:16:01,896 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 21:16:01,930 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50
+2015-09-21 21:16:18,224 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:16:59,524 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Closing all windows
+2015-09-21 21:16:59,524 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged out: d9954728-eb31-33c2-688f-fb4e8937eb0d [admin]
+2015-09-21 21:16:59,524 DEBUG [com.haulmont.cuba.web.App] [app] Closing all windows
+2015-09-21 21:17:10,532 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 21:17:13,668 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged in: ca9b94f9-dc50-facf-3750-af22565f80e2 [admin]
+2015-09-21 21:17:13,684 DEBUG [com.haulmont.cuba.web.DefaultApp] [app] [admin] Creating AppWindow
+2015-09-21 21:17:13,715 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 21:17:13,765 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 21:17:13,768 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 21:17:13,823 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 21:17:14,005 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 21:17:14,008 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 21:17:14,055 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 21:17:14,074 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 21:17:14,081 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 21:17:14,113 DEBUG [com.haulmont.cuba.web.DefaultConnection] [app] [admin] Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/app) Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+2015-09-21 21:17:17,401 WARN  [com.haulmont.cuba.gui.ControllerDependencyInjector] [app] [admin] CDI - Unable to find an instance of type 'interface com.haulmont.cuba.gui.components.Button' named 'viewBtn' for instance of 'com.bernatskyi.delta.gui.main.MainScreen'
+2015-09-21 21:17:17,411 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 21:17:17,440 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50
+2015-09-21 21:17:18,225 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:17:27,881 WARN  [com.haulmont.cuba.gui.ControllerDependencyInjector] [app] [admin] CDI - Unable to find an instance of type 'interface com.haulmont.cuba.gui.components.Button' named 'viewBtn' for instance of 'com.bernatskyi.delta.gui.main.MainScreen'
+2015-09-21 21:17:30,711 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 21:17:30,729 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50
+2015-09-21 21:18:18,225 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:19:18,226 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:20:18,227 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:20:22,922 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Closing all windows
+2015-09-21 21:20:22,922 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged out: ca9b94f9-dc50-facf-3750-af22565f80e2 [admin]
+2015-09-21 21:20:22,924 DEBUG [com.haulmont.cuba.web.App] [app] Closing all windows
+2015-09-21 21:20:40,781 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 21:20:43,830 INFO  [com.haulmont.cuba.security.app.LoginWorkerBean] [app-core] Logged in: c5cae32d-b629-8833-a928-26d08e9e24d7 [admin]
+2015-09-21 21:20:43,834 DEBUG [com.haulmont.cuba.web.DefaultApp] [app] [admin] Creating AppWindow
+2015-09-21 21:20:43,875 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 21:20:43,932 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 21:20:43,937 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 21:20:43,988 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 21:20:44,002 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 21:20:44,029 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 21:20:44,057 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name
+2015-09-21 21:20:44,085 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading AppFolders
+2015-09-21 21:20:44,089 DEBUG [com.haulmont.cuba.core.app.FoldersServiceBean] [app-core] [admin] Loading SearchFolders
+2015-09-21 21:20:44,099 DEBUG [com.haulmont.cuba.web.DefaultConnection] [app] [admin] Logged in: user=admin, ip=0:0:0:0:0:0:0:1, clientInfo=Web (localhost:8080/app) Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+2015-09-21 21:20:46,864 WARN  [com.haulmont.cuba.gui.ControllerDependencyInjector] [app] [admin] CDI - Unable to find an instance of type 'interface com.haulmont.cuba.gui.components.Button' named 'viewBtn' for instance of 'com.bernatskyi.delta.gui.main.MainScreen'
+2015-09-21 21:20:46,883 ERROR [com.haulmont.cuba.web.log.AppLog] [app] [admin] Exception in com.haulmont.cuba.web.toolkit.ui.CubaMenuBar: 
+java.lang.NullPointerException
+	at com.bernatskyi.delta.gui.main.MainScreen.init(MainScreen.java:36)
+	at com.haulmont.cuba.gui.WindowManager.init(WindowManager.java:712)
+	at com.haulmont.cuba.gui.WindowManager.wrapByCustomClass(WindowManager.java:698)
+	at com.haulmont.cuba.gui.WindowManager.createWindow(WindowManager.java:170)
+	at com.haulmont.cuba.gui.WindowManager.openWindow(WindowManager.java:334)
+	at com.haulmont.cuba.gui.config.MenuCommand.execute(MenuCommand.java:87)
+	at com.haulmont.cuba.web.sys.MenuBuilder$1.menuSelected(MenuBuilder.java:153)
+	at com.vaadin.ui.MenuBar.changeVariables(MenuBar.java:199)
+	at com.vaadin.server.communication.ServerRpcHandler.changeVariables(ServerRpcHandler.java:486)
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:305)
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:184)
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:92)
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:41)
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1408)
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:355)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:164)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:119)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.handleNotFiltered(CubaHttpFilter.java:99)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-09-21 21:21:11,040 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 21:21:11,049 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 21:21:11,126 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50
+2015-09-21 21:21:18,226 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:22:18,227 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:23:04,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 21:23:18,227 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:24:18,228 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:24:19,255 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 21:25:18,229 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:26:18,230 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:27:18,230 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:28:18,230 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:29:18,231 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:30:18,231 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:31:18,233 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:32:18,233 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:33:05,496 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 21:33:18,234 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:34:18,234 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:34:19,261 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 21:35:18,234 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:36:18,235 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:37:18,236 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:38:18,237 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:39:18,237 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:40:18,238 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:41:18,238 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:42:18,238 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:43:06,496 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 21:43:18,240 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:44:18,240 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:44:19,266 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 21:45:18,241 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:46:18,241 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:47:18,242 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:48:18,243 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:49:18,243 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:50:18,244 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:51:18,244 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:52:18,245 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:53:07,496 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 21:53:18,245 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:54:18,247 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:54:19,271 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 21:55:18,247 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:56:18,248 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:57:18,248 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:58:18,248 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 21:59:18,249 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:00:18,250 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:01:18,251 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:02:18,251 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:03:08,496 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 22:03:18,252 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:04:18,260 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:04:19,275 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 22:05:18,252 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:06:18,254 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:07:18,254 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:08:18,255 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:09:18,255 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:10:18,256 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:11:18,256 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:12:18,257 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:13:09,496 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 22:13:18,258 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:14:18,258 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:14:19,280 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 22:15:18,259 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:16:18,259 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:17:18,261 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:18:18,261 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:19:18,261 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:20:18,262 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:21:18,262 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:22:18,263 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:23:10,497 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 22:23:18,264 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:24:18,265 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:24:19,307 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 22:25:18,265 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:26:18,265 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:27:18,266 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:28:18,266 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:29:18,268 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:30:18,268 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:31:18,269 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:32:18,269 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:33:11,496 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 22:33:18,269 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:34:18,270 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:34:19,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 22:35:18,271 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:36:18,272 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:37:18,272 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:38:18,273 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:39:18,273 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:40:18,275 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:41:18,274 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:42:18,275 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:43:12,542 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 22:43:18,276 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:44:18,276 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:44:20,587 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 22:45:18,277 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:46:18,278 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:47:18,299 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:48:18,279 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:49:18,279 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:50:18,280 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:51:18,281 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:52:18,282 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:53:13,512 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 22:53:18,282 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:54:18,283 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:54:21,491 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 22:55:18,283 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:56:18,283 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:57:18,285 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:58:18,285 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 22:59:18,286 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:00:18,286 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:01:18,287 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:02:18,287 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:03:14,496 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 23:03:18,288 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:04:18,289 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:04:22,491 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 23:05:18,289 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:06:18,290 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:07:18,290 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:08:18,291 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:09:18,292 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:10:18,291 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:11:18,293 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:12:18,293 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:13:15,497 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 23:13:18,294 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:14:18,295 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:14:23,490 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 23:15:18,296 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:16:18,296 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:17:18,296 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:18:18,297 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:19:18,297 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:20:18,299 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:21:18,299 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:22:18,300 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:23:16,497 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 23:23:18,300 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:24:18,301 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:24:24,491 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 23:25:18,301 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:26:18,302 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:27:18,303 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:28:18,303 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:29:18,304 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:30:18,304 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:31:18,305 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:32:18,306 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:33:17,496 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 23:33:18,306 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:34:18,307 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:34:25,507 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 23:35:18,307 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:36:18,308 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:37:18,309 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:38:18,310 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:39:18,310 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:40:18,310 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:41:18,311 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:42:18,311 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:43:18,313 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:43:18,497 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 23:44:18,313 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:44:26,491 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 23:45:18,314 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:46:18,314 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:47:18,314 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:48:18,315 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:49:18,316 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:50:18,317 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:51:18,317 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:52:18,318 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:53:18,318 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:53:19,500 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 23:54:18,318 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:54:27,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-09-21 23:55:18,320 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:56:18,320 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:57:18,321 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:58:18,321 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:59:18,322 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-09-21 23:59:34,148 INFO  [com.haulmont.cuba.core.sys.TriggerFilesProcessor] [app] Calling cuba_Messages.clearCache
+2015-09-21 23:59:47,500 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=select f from sec$Filter f where f.componentId = :component and (f.user is null or f.user.id = :userId) order by f.name
+2015-09-21 23:59:47,574 DEBUG [com.haulmont.cuba.core.app.DataManagerBean] [app-core] [admin] loadList: metaClass=delta$Storage, view=com.bernatskyi.delta.entity.Storage/_local, query=select e from delta$Storage e, max=50

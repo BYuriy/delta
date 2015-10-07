@@ -1,0 +1,1637 @@
+2015-10-02 00:00:01,237 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:00:09,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:01:01,237 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:01:02,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:02:01,238 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:02:40,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:02:53,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:03:01,238 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:04:01,238 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:04:50,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:05:01,240 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:06:01,240 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:06:08,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:06:13,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:06:26,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:07:01,241 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:08:01,241 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:08:35,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:09:01,242 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:10:01,242 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:10:10,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:11:01,243 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:11:03,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:12:01,244 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:12:41,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:12:54,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:13:01,244 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:14:01,245 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:14:51,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:15:01,245 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:16:01,247 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:16:09,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:16:14,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:16:27,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:17:01,247 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:18:01,247 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:18:36,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:19:01,248 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:20:01,248 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:20:11,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:21:01,249 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:21:04,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:22:01,250 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:22:42,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:22:55,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:23:01,251 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:24:01,251 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:24:52,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:25:01,252 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:26:01,252 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:26:10,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:26:15,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:26:28,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:27:01,252 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:28:01,254 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:28:37,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:29:01,254 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:30:01,255 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:30:12,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:31:01,255 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:31:05,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:32:01,256 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:32:43,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:32:56,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:33:01,256 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:34:01,257 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:34:53,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:35:01,258 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:36:01,258 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:36:11,496 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:36:16,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:36:29,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:37:01,259 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:38:01,259 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:38:38,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:39:01,261 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:40:01,261 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:40:13,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:41:01,261 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:41:06,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:42:01,262 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:42:44,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:42:57,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:43:01,262 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:44:01,263 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:44:54,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:45:01,264 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:46:01,265 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:46:12,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:46:17,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:46:30,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:47:01,265 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:48:01,265 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:48:39,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:49:01,266 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:50:01,266 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:50:14,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:51:01,268 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:51:07,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:52:01,268 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:52:45,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:52:58,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:53:01,269 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:54:01,269 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:54:55,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:55:01,269 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:56:01,270 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:56:13,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:56:18,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:56:31,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:57:01,271 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:58:01,272 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 00:58:40,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 00:59:01,272 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:00:01,273 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:00:15,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:01:01,273 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:01:08,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:02:01,274 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:02:46,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:02:59,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:03:01,275 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:04:01,275 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:04:56,508 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:05:01,276 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:06:01,276 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:06:14,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:06:19,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:06:32,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:07:01,277 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:08:01,278 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:08:41,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:09:01,279 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:10:01,280 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:10:16,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:11:01,279 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:11:09,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:12:01,280 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:12:47,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:13:00,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:13:01,280 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:14:01,282 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:14:57,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:15:01,282 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:16:01,283 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:16:15,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:16:20,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:16:33,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:17:01,283 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:18:01,283 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:18:42,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:19:01,285 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:20:01,285 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:20:17,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:21:01,286 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:21:10,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:22:01,286 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:22:48,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:23:01,287 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:23:01,505 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:24:01,287 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:24:58,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:25:01,288 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:26:01,289 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:26:16,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:26:21,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:26:34,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:27:01,289 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:28:01,290 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:28:43,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:29:01,290 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:30:01,291 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:30:18,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:31:01,292 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:31:11,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:32:01,292 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:32:49,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:33:01,293 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:33:02,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:34:01,293 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:34:59,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:35:01,294 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:36:01,294 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:36:17,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:36:22,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:36:35,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:37:01,296 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:38:01,296 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:38:44,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:39:01,296 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:40:01,297 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:40:19,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:41:01,297 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:41:12,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:42:01,299 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:42:50,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:43:01,299 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:43:03,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:44:01,300 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:45:00,562 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:45:01,300 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:46:01,300 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:46:18,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:46:23,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:46:36,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:47:01,301 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:48:01,302 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:48:45,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:49:01,303 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:50:01,303 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:50:20,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:51:01,304 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:51:13,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:52:01,304 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:52:51,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:53:01,305 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:53:04,509 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:54:01,306 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:55:01,306 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:55:01,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:56:01,307 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:56:19,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:56:24,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:56:37,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:57:01,307 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:58:01,308 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 01:58:46,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 01:59:01,308 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:00:01,310 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:00:21,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:01:01,310 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:01:14,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:02:01,310 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:02:52,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:03:01,311 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:03:05,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:04:01,311 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:05:01,313 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:05:02,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:06:01,313 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:06:20,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:06:25,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:06:38,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:07:01,314 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:08:01,314 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:08:47,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:09:01,314 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:10:01,315 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:10:22,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:11:01,316 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:11:15,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:12:01,317 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:12:53,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:13:01,317 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:13:06,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:14:01,318 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:15:01,318 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:15:03,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:16:01,318 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:16:21,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:16:26,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:16:39,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:17:01,320 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:18:01,320 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:18:48,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:19:01,321 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:20:01,321 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:20:23,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:21:01,322 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:21:16,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:22:01,322 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:22:54,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:23:01,323 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:23:07,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:24:01,324 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:25:01,324 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:25:04,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:26:01,325 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:26:22,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:26:27,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:26:40,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:27:01,325 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:28:01,327 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:28:49,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:29:01,327 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:30:01,327 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:30:24,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:31:01,328 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:31:17,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:32:01,328 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:32:55,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:33:01,329 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:33:08,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:34:01,330 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:35:01,331 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:35:05,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:36:01,331 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:36:23,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:36:28,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:36:41,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:37:01,332 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:38:01,332 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:38:50,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:39:01,332 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:40:01,334 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:40:25,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:41:01,334 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:41:18,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:42:01,335 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:42:56,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:43:01,335 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:43:09,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:44:01,336 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:45:01,336 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:45:06,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:46:01,337 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:46:24,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:46:29,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:46:42,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:47:01,338 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:48:01,338 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:48:51,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:49:01,339 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:50:01,339 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:50:26,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:51:01,341 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:51:19,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:52:01,341 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:52:57,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:53:01,341 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:53:10,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:54:01,342 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:55:01,342 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:55:07,503 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:56:01,343 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:56:25,502 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:56:30,501 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:56:43,501 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:57:01,344 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:58:01,345 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 02:58:52,503 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 02:59:01,345 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:00:01,345 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:00:27,502 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:01:01,346 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:01:20,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:02:01,346 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:02:58,504 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:03:01,348 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:03:11,501 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:04:01,348 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:05:01,349 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:05:08,496 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:06:01,349 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:06:26,520 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:06:31,499 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:06:44,500 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:07:01,349 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:08:01,350 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:08:53,500 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:09:01,351 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:10:01,352 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:10:28,499 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:11:01,352 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:11:21,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:12:01,353 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:12:59,500 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:13:01,353 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:13:12,500 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:14:01,354 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:15:01,355 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:15:09,499 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:16:01,355 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:16:27,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:16:32,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:16:45,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:17:01,356 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:18:01,356 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:18:54,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:19:01,357 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:20:01,358 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:20:29,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:21:01,359 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:21:22,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:22:01,359 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:23:00,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:23:01,359 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:23:13,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:24:01,360 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:25:01,360 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:25:10,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:26:01,362 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:26:28,548 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:26:33,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:26:46,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:27:01,362 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:28:01,363 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:28:55,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:29:01,363 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:30:01,363 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:30:30,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:31:01,365 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:31:23,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:32:01,365 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:33:01,366 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:33:01,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:33:14,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:34:01,366 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:35:01,367 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:35:11,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:36:01,367 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:36:29,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:36:34,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:36:47,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:37:01,368 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:38:01,369 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:38:56,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:39:01,369 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:40:01,370 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:40:31,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:41:01,370 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:41:24,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:42:01,371 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:43:01,372 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:43:02,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:43:15,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:44:01,372 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:45:01,373 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:45:12,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:46:01,373 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:46:30,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:46:35,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:46:48,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:47:01,374 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:48:01,374 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:48:57,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:49:01,376 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:50:01,376 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:50:32,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:51:01,376 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:51:25,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:52:01,377 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:53:01,377 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:53:03,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:53:16,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:54:01,379 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:55:01,379 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:55:13,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:56:01,380 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:56:31,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:56:36,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:56:49,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:57:01,380 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:58:01,380 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 03:58:58,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 03:59:01,381 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:00:01,382 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:00:33,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:01:01,383 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:01:26,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:02:01,383 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:03:01,384 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:03:04,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:03:17,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:04:01,384 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:05:01,385 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:05:14,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:06:01,386 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:06:32,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:06:37,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:06:50,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:07:01,386 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:08:01,387 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:08:59,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:09:01,387 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:10:01,388 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:10:34,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:11:01,388 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:11:27,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:12:01,390 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:13:01,390 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:13:05,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:13:18,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:14:01,390 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:15:01,391 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:15:15,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:16:01,391 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:16:33,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:16:38,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:16:51,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:17:01,393 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:18:01,393 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:19:00,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:19:01,394 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:20:01,394 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:20:35,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:21:01,394 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:21:28,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:22:01,395 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:23:01,396 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:23:06,497 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:23:19,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:24:01,397 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:25:01,397 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:25:16,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:26:01,398 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:26:34,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:26:39,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:26:52,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:27:01,398 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:28:01,398 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:29:01,400 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:29:01,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:30:01,400 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:30:36,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:31:01,401 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:31:29,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:32:01,401 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:33:01,402 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:33:07,520 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:33:20,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:34:01,402 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:35:01,403 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:35:17,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:36:01,404 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:36:35,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:36:40,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:36:53,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:37:01,404 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:38:01,405 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:39:01,405 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:39:02,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:40:01,406 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:40:37,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:41:01,407 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:41:30,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:42:01,408 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:43:01,408 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:43:08,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:43:21,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:44:01,408 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:45:01,409 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:45:18,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:46:01,410 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:46:36,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:46:41,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:46:54,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:47:01,411 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:48:01,411 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:49:01,412 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:49:03,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:50:01,412 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:50:38,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:51:01,412 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:51:31,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:52:01,414 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:53:01,414 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:53:09,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:53:22,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:54:01,415 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:55:01,415 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:55:19,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:56:01,416 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:56:37,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:56:42,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:56:55,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 04:57:01,416 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:58:01,417 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:59:01,418 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 04:59:04,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:00:01,418 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:00:39,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:01:01,419 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:01:32,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:02:01,419 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:03:01,421 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:03:10,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:03:23,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:04:01,421 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:05:01,421 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:05:20,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:06:01,422 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:06:38,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:06:43,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:06:56,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:07:01,422 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:08:01,423 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:09:01,424 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:09:05,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:10:01,425 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:10:40,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:11:01,425 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:11:33,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:12:01,425 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:13:01,426 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:13:11,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:13:24,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:14:01,426 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:15:01,428 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:15:21,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:16:01,428 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:16:39,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:16:44,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:16:57,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:17:01,429 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:18:01,429 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:19:01,429 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:19:06,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:20:01,430 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:20:41,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:21:01,431 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:21:34,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:22:01,432 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:23:01,432 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:23:12,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:23:25,507 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:24:01,433 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:25:01,433 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:25:22,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:26:01,435 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:26:40,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:26:45,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:26:58,510 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:27:01,435 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:28:01,435 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:29:01,436 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:29:07,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:30:01,436 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:30:42,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:31:01,437 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:31:35,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:32:01,438 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:33:01,439 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:33:13,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:33:26,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:34:01,439 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:35:01,439 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:35:23,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:36:01,440 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:36:41,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:36:46,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:36:59,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:37:01,440 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:38:01,442 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:39:01,442 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:39:08,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:40:01,443 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:40:43,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:41:01,443 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:41:36,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:42:01,443 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:43:01,444 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:43:14,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:43:27,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:44:01,445 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:45:01,446 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:45:24,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:46:01,446 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:46:42,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:46:47,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:47:00,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:47:01,447 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:48:01,447 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:49:01,448 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:49:09,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:50:01,449 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:50:44,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:51:01,449 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:51:37,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:52:01,450 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:53:01,450 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:53:15,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:53:28,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:54:01,451 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:55:01,452 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:55:25,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:56:01,452 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:56:43,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:56:48,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:57:01,453 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:57:01,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 05:58:01,453 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:59:01,454 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 05:59:10,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:00:01,454 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:00:45,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:01:01,456 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:01:38,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:02:01,456 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:03:01,456 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:03:16,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:03:29,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:04:01,457 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:05:01,457 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:05:26,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:06:01,458 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:06:44,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:06:49,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:07:01,459 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:07:02,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:08:01,460 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:09:01,460 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:09:11,496 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:10:01,461 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:10:46,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:11:01,461 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:11:39,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:12:01,462 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:13:01,463 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:13:17,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:13:30,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:14:01,463 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:15:01,464 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:15:27,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:16:01,464 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:16:45,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:16:50,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:17:01,465 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:17:03,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:18:01,466 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:19:01,466 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:19:12,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:20:01,467 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:20:47,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:21:01,467 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:21:40,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:22:01,468 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:23:01,468 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:23:18,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:23:31,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:24:01,470 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:25:01,470 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:25:28,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:26:01,470 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:26:46,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:26:51,529 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:27:01,471 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:27:04,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:28:01,471 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:29:01,473 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:29:13,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:30:01,473 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:30:48,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:31:01,474 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:31:41,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:32:01,474 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:33:01,474 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:33:19,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:33:32,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:34:01,475 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:35:01,476 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:35:29,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:36:01,477 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:36:47,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:36:52,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:37:01,478 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:37:05,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:38:01,478 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:39:01,478 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:39:14,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:40:01,478 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:40:49,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:41:01,480 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:41:42,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:42:01,480 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:43:01,481 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:43:20,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:43:33,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:44:01,481 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:45:01,482 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:45:30,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:46:01,482 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:46:48,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:46:53,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:47:01,483 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:47:06,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:48:01,484 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:49:01,484 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:49:15,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:50:01,485 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:50:50,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:51:01,485 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:51:43,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:52:01,486 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:53:01,487 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:53:21,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:53:34,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:54:01,488 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:55:01,488 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:55:31,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:56:01,488 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:56:49,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:56:54,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:57:01,489 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:57:07,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 06:58:01,490 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:59:01,491 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 06:59:16,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:00:01,491 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:00:51,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:01:01,492 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:01:44,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:02:01,492 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:03:01,492 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:03:22,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:03:35,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:04:01,494 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:05:01,494 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:05:32,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:06:01,495 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:06:50,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:06:55,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:07:01,495 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:07:08,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:08:01,496 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:09:01,496 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:09:17,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:10:01,497 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:10:52,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:11:01,498 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:11:45,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:12:01,498 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:13:01,499 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:13:23,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:13:36,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:14:01,499 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:15:01,501 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:15:33,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:16:01,501 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:16:51,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:16:56,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:17:01,501 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:17:09,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:18:01,502 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:19:01,502 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:19:18,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:20:01,503 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:20:53,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:21:01,504 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:21:46,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:22:01,505 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:23:01,505 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:23:24,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:23:37,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:24:01,505 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:25:01,506 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:25:34,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:26:01,506 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:26:52,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:26:57,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:27:01,508 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:27:10,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:28:01,508 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:29:01,509 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:29:19,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:30:01,509 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:30:54,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:31:01,509 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:31:47,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:32:01,510 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:33:01,511 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:33:25,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:33:38,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:34:01,512 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:35:01,512 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:35:35,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:36:01,513 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:36:53,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:36:58,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:37:01,513 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:37:11,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:38:01,515 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:39:01,515 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:39:20,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:40:01,515 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:40:55,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:41:01,516 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:41:48,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:42:01,516 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:43:01,517 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:43:26,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:43:39,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:44:01,518 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:45:01,519 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:45:36,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:46:01,519 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:46:54,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:46:59,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:47:01,519 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:47:12,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:48:01,520 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:49:01,520 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:49:21,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:50:01,522 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:50:56,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:51:01,522 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:51:49,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:52:01,523 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:53:01,523 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:53:27,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:53:40,503 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:54:01,523 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:55:01,524 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:55:37,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:56:01,525 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:56:55,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:57:00,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:57:01,526 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:57:13,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 07:58:01,526 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:59:01,527 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 07:59:22,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:00:01,527 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:00:57,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:01:01,528 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:01:50,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:02:01,529 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:03:01,529 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:03:28,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:03:41,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:04:01,530 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:05:01,530 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:05:38,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:06:01,531 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:06:56,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:07:01,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:07:01,532 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:07:14,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:08:01,532 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:09:01,533 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:09:23,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:10:01,533 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:10:58,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:11:01,534 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:11:51,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:12:01,534 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:13:01,536 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:13:29,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:13:42,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:14:01,536 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:15:01,536 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:15:39,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:16:01,537 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:16:57,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:17:01,537 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:17:02,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:17:15,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:18:01,538 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:19:01,539 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:19:24,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:20:01,540 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:20:59,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:21:01,540 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:21:52,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:22:01,541 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:23:01,541 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:23:30,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:23:43,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:24:01,542 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:25:01,543 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:25:40,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:26:01,543 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:26:58,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:27:01,544 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:27:03,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:27:16,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:28:01,545 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:29:01,545 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:29:25,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:30:01,546 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:31:00,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:31:01,546 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:31:53,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:32:01,547 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:33:01,547 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:33:31,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:33:44,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:34:01,548 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:35:01,548 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:35:41,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:36:01,550 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:36:59,556 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:37:01,550 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:37:04,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:37:17,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:38:01,550 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:39:01,551 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:39:26,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:40:01,551 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:41:01,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:41:01,552 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:41:54,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:42:01,553 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:43:01,554 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:43:32,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:43:45,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:44:01,554 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:45:01,554 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:45:42,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:46:01,555 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:47:00,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:47:01,556 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:47:05,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:47:18,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:48:01,557 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:49:01,557 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:49:27,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:50:01,558 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:51:01,558 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:51:02,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:51:55,496 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:52:01,558 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:53:01,560 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:53:33,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:53:46,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:54:01,560 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:55:01,561 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:55:43,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:56:01,561 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:57:01,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:57:01,562 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:57:06,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:57:19,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 08:58:01,562 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:59:01,563 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 08:59:28,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:00:01,564 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:01:01,564 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:01:03,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:01:56,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:02:01,565 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:03:01,565 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:03:34,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:03:47,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:04:01,566 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:05:01,567 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:05:44,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:06:01,568 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:07:01,568 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:07:02,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:07:07,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:07:20,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:08:01,568 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:09:01,569 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:09:29,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:10:01,570 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:11:01,571 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:11:04,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:11:57,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:12:01,571 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:13:01,572 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:13:35,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:13:48,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:14:01,572 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:15:01,572 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:15:45,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:16:01,574 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:17:01,574 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:17:03,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:17:08,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:17:21,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:18:01,575 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:19:01,575 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:19:30,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:20:01,576 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:21:01,576 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:21:05,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:21:58,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:22:01,577 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:23:01,578 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:23:36,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:23:49,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:24:01,578 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:25:01,579 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:25:46,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:26:01,579 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:27:01,581 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:27:04,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:27:09,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:27:22,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:28:01,581 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:29:01,581 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:29:31,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:30:01,582 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:31:01,582 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:31:06,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:31:59,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:32:01,583 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:33:01,584 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:33:37,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:33:50,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:34:01,585 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:35:01,585 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:35:47,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:36:01,585 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:37:01,586 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:37:05,497 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:37:10,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:37:23,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:38:01,586 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:39:01,588 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:39:32,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:40:01,588 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:41:01,589 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:41:07,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:42:00,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:42:01,589 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:43:01,589 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:43:38,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:43:51,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:44:01,590 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:45:01,591 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:45:48,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:46:01,592 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:47:01,592 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:47:06,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:47:11,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:47:24,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:48:01,593 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:49:01,593 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:49:33,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:50:01,595 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:51:01,595 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:51:08,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:52:01,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:52:01,595 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:53:01,596 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:53:39,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:53:52,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:54:01,596 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:55:01,597 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:55:49,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:56:01,598 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:57:01,599 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:57:07,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:57:12,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:57:25,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 09:58:01,599 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:59:01,599 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 09:59:34,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:00:01,600 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:01:01,600 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:01:09,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:02:01,602 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:02:02,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:03:01,602 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:03:40,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:03:53,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:04:01,603 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:05:01,603 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:05:50,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:06:01,603 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:07:01,604 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:07:08,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:07:13,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:07:26,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:08:01,605 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:09:01,606 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:09:35,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:10:01,606 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:11:01,607 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:11:10,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:12:01,607 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:12:03,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:13:01,607 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:13:41,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:13:54,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:14:01,609 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:15:01,609 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:15:51,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:16:01,610 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:17:01,610 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:17:09,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:17:14,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:17:27,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:18:01,611 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:19:01,612 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:19:36,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:20:01,612 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:21:01,613 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:21:11,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:22:01,613 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:22:04,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:23:01,614 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:23:42,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:23:55,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:24:01,614 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:25:01,616 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:25:52,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:26:01,616 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:27:01,616 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:27:10,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:27:15,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:27:28,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:28:01,617 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:29:01,617 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:29:37,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:30:01,619 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:31:01,619 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:31:12,505 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:32:01,620 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:32:05,519 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:33:01,620 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:33:43,502 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:33:56,502 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:34:01,621 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:35:01,621 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:35:53,502 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:36:01,622 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:37:01,623 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:37:11,503 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:37:16,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:37:29,501 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:38:01,623 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:39:01,623 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:39:38,502 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:40:01,624 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:41:01,625 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:41:13,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:42:01,625 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:42:06,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:43:01,626 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:43:44,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:43:57,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:44:01,627 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:45:01,627 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:45:54,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:46:01,628 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:47:01,628 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:47:12,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:47:17,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:47:30,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:48:01,630 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:49:01,630 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:49:39,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:50:01,630 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:51:01,631 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:51:14,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:52:01,631 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:52:07,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:53:01,632 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:53:45,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:53:58,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:54:01,633 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:55:01,634 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:55:55,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:56:01,634 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:57:01,634 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:57:13,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:57:18,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:57:31,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 10:58:01,635 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:59:01,636 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 10:59:40,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:00:01,637 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:01:01,637 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:01:15,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:02:01,638 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:02:08,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:03:01,638 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:03:46,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:03:59,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:04:01,638 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:05:01,640 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:05:56,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:06:01,640 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:07:01,641 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:07:14,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:07:19,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:07:32,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:07:53,254 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:08:01,641 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:08:02,411 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:08:12,415 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:08:22,415 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:08:32,415 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:08:42,411 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:08:52,435 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:09:01,642 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:09:02,410 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:09:12,410 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:09:22,416 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:09:32,416 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:09:41,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:09:42,417 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:09:52,449 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:10:01,650 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:10:02,537 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:10:12,420 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:10:22,444 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:10:32,420 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:10:42,429 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:10:52,421 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:11:01,643 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:11:02,431 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:11:12,421 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:11:16,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:11:22,428 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:11:32,421 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:11:42,429 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:11:52,445 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:12:01,644 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:12:02,441 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:12:09,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:12:12,432 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:12:22,439 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:12:32,439 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:12:42,440 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:12:52,442 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:13:01,644 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:13:02,441 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:13:12,462 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:13:22,443 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:13:32,513 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:13:42,451 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:13:47,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:13:52,449 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:14:00,513 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:14:01,645 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:14:02,444 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:14:12,445 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:14:22,445 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:14:32,444 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:14:42,443 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:14:52,446 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:15:01,645 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:15:02,448 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:15:12,448 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:15:22,444 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:15:32,451 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:15:42,452 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:15:52,451 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:15:57,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:16:01,646 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:16:02,448 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:16:12,490 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:16:22,452 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:16:32,448 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:16:42,447 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:16:52,474 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:17:01,647 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:17:02,446 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:17:12,454 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:17:15,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:17:20,503 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:17:22,456 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:17:32,455 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:17:33,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:17:42,463 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:17:52,455 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:18:01,648 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:18:02,459 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:18:12,464 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:18:22,457 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:18:32,458 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:18:42,463 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:18:52,464 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:19:01,648 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:19:02,459 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:19:12,460 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:19:22,460 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:19:32,464 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:19:42,479 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:19:42,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:19:52,463 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:20:01,648 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:20:02,567 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:20:12,815 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:20:22,548 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:20:32,550 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:20:42,564 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:20:52,560 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:21:01,649 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:21:02,565 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:21:12,562 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:21:17,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:21:22,558 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:21:32,700 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:21:42,699 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:21:52,692 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:22:01,649 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:22:02,694 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:22:10,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:22:12,696 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:22:22,691 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:22:32,694 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:22:42,691 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:22:52,793 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:23:01,651 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:23:02,702 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:23:12,702 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:23:22,706 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:23:32,698 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:23:42,705 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:23:48,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:23:52,705 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:24:01,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:24:01,651 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:24:02,706 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:24:12,706 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:24:22,708 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:24:32,706 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:24:42,708 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:24:52,706 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:25:01,652 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:25:02,713 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:25:12,713 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:25:22,713 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:25:32,713 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:25:42,713 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:25:52,712 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:25:58,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:26:01,652 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:26:02,713 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:26:12,716 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:26:22,713 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:26:32,770 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:26:42,711 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:26:52,716 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:27:01,652 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:27:02,715 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:27:12,719 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:27:16,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:27:21,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:27:22,717 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:27:32,717 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:27:34,495 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:27:42,715 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:27:52,718 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:28:01,654 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:28:02,729 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:28:12,712 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:28:22,720 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:28:32,731 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:28:42,722 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:28:52,722 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:29:01,661 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:29:02,728 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:29:12,748 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:29:22,723 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:29:32,723 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:29:42,736 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:29:43,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:29:52,727 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:30:01,650 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:30:02,734 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:30:12,729 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:30:22,729 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:30:32,733 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:30:42,821 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:30:52,734 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:31:01,650 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:31:02,737 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:31:12,809 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:31:18,515 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:31:22,770 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:31:32,731 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:31:42,741 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:31:52,740 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:32:01,651 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:32:02,745 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:32:11,508 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:32:12,782 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:32:22,890 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:32:32,744 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:32:42,748 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:32:52,740 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:33:01,651 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:33:02,748 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:33:12,844 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:33:22,757 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:33:32,752 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:33:42,776 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:33:49,669 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:33:52,815 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:34:01,652 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:34:02,503 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:34:02,759 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:34:12,757 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:34:22,759 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:34:32,757 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:34:42,754 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:34:52,752 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:35:01,653 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:35:02,783 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:35:12,768 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:35:22,763 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:35:32,764 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:35:42,767 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:35:52,769 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:35:59,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:36:01,653 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:36:02,766 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:36:12,767 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:36:22,765 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:36:32,763 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:36:42,780 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:36:52,778 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:37:01,654 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:37:02,779 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:37:12,774 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:37:17,508 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:37:22,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:37:22,773 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:37:32,867 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:37:35,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:37:42,776 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:37:52,777 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:38:01,654 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:38:02,775 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:38:12,875 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:38:22,823 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:38:32,842 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:38:42,772 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:38:52,776 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:39:01,655 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:39:02,775 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:39:12,780 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:39:22,779 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:39:32,780 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:39:42,799 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:39:44,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:39:52,782 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:40:01,656 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:40:02,781 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:40:12,905 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:40:22,781 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:40:32,782 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:40:42,792 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:40:52,789 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:41:01,656 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:41:02,794 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:41:12,784 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:41:19,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:41:22,788 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:41:32,790 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:41:42,787 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:41:52,786 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:42:01,657 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:42:02,792 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:42:12,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:42:12,803 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:42:22,794 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:42:32,790 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:42:42,792 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:42:52,789 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:43:01,657 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:43:02,817 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:43:12,811 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:43:22,812 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:43:32,808 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:43:42,821 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:43:50,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:43:52,813 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:44:01,658 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:44:02,809 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:44:03,497 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:44:12,811 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:44:22,825 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:44:32,812 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:44:42,806 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:44:52,815 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:45:01,659 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:45:02,808 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:45:12,816 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:45:22,824 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:45:32,819 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:45:42,818 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:45:52,823 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:46:00,506 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:46:01,660 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:46:02,818 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:46:12,823 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:46:22,948 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:46:32,867 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:46:42,871 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:46:52,869 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:47:01,660 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:47:02,960 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:47:12,875 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:47:18,870 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:47:22,873 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:47:23,502 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:47:32,887 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:47:36,494 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:47:42,871 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:47:52,871 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:48:01,660 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:48:02,877 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:48:12,871 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:48:22,869 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:48:32,875 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:48:42,881 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:48:52,875 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:49:01,663 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:49:02,948 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:49:12,923 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:49:22,878 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:49:32,877 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:49:42,888 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:49:45,529 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:49:52,898 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:50:01,661 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:50:02,895 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:50:12,896 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:50:22,898 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:50:32,891 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:50:42,899 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:50:52,897 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:51:01,663 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:51:02,929 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:51:12,894 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:51:20,498 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:51:22,899 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:51:32,891 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:51:42,897 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:51:52,892 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:52:01,663 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:52:02,891 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:52:12,899 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:52:13,523 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:52:22,892 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:52:32,900 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:52:42,904 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:52:52,970 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:53:01,664 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:53:02,909 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:53:12,901 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:53:22,902 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:53:32,951 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:53:42,911 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:53:51,493 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:53:52,907 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:54:01,664 DEBUG [com.haulmont.cuba.core.app.LockManager] [app-core] Expiring locks
+2015-10-02 11:54:02,910 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+2015-10-02 11:54:04,492 DEBUG [com.haulmont.cuba.web.App] [app] [admin] Ping session
+2015-10-02 11:54:12,905 ERROR [com.haulmont.cuba.security.app.UserSessions] [app-core] Unable to update SYS_SERVER: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect

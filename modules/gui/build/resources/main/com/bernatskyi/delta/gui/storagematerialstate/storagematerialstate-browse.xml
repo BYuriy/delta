@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.bernatskyi.delta.gui.storagematerialstate.StorageMaterialStateBrowse"
+        lookupComponent="storageMaterialsGroupTable"
+        messagesPack="com.bernatskyi.delta.gui.storagematerialstate">
+    <dsContext>
+        <collectionDatasource id="storageMaterialStatesDs"
+                              class="com.bernatskyi.delta.entity.StorageMaterialState"
+                              view="storageMaterialState-view">
+            <query>
+                <![CDATA[select e from delta$StorageMaterialState e]]>
+            </query>
+        </collectionDatasource>
+        <groupDatasource id="storageMaterialsStatesGroupDs"
+                         class="com.bernatskyi.delta.entity.StorageMaterialState"
+                         view="storageMaterialState-view">
+            <query>
+                <![CDATA[select e from delta$StorageMaterialState e]]>
+            </query>
+        </groupDatasource>
+    </dsContext>
+    <layout expand="storageMaterialsGroupTable"
+            spacing="true">
+        <filter id="filter"
+                datasource="storageMaterialStatesDs">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="storageMaterialsGroupTable"
+                    height="500px"
+                    width="100%">
+            <actions>
+                <action id="view"/>
+                <action id="buy"/>
+                <action id="sell"/>
+                <action id="move"/>
+            </actions>
+            <columns>
+                <group>
+                    <column id="storage"/>
+                </group>
+                <column id="material"/>
+                <column id="volume"/>
+                <column id="summaryPrice"/>
+                <column id="averagePrice"/>
+            </columns>
+            <rows datasource="storageMaterialsStatesGroupDs"/>
+            <buttonsPanel id="groupButtonsPanel"
+                          alwaysVisible="true">
+                <button id="viewBtn"
+                        caption="msg://viewBtnCaption"/>
+                <button id="sellBtn"
+                        action="storageMaterialsGroupTable.sell"
+                        caption="msg://buyBtnCaption"/>
+                <button id="buyBtn"
+                        action="storageMaterialsGroupTable.buy"
+                        caption="msg://sellBtnCaption"/>
+                <button id="moveBtn"
+                        action="storageMaterialsGroupTable.move"
+                        caption="msg://moveBtnCaption"/>
+            </buttonsPanel>
+        </groupTable>
+    </layout>
+</window>

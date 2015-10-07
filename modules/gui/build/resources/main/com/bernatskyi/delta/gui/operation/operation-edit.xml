@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editCaption"
+        class="com.bernatskyi.delta.gui.operation.OperationEdit"
+        datasource="operationDs"
+        focusComponent="fieldGroup"
+        messagesPack="com.bernatskyi.delta.gui.operation">
+    <dsContext>
+        <datasource id="operationDs"
+                    class="com.bernatskyi.delta.entity.Operation"
+                    view="operation-storage-category"/>
+    </dsContext>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="operationDs">
+            <column width="250px">
+                <field id="volume"/>
+                <field id="summaryPrice"/>
+                <field id="type"/>
+                <field id="dateTime"/>
+                <field id="storage"/>
+                <field id="category"/>
+                <field id="description"/>
+                <field id="destination"/>
+            </column>
+        </fieldGroup>
+        <iframe id="windowActions"
+                screen="editWindowActions"/>
+    </layout>
+</window>

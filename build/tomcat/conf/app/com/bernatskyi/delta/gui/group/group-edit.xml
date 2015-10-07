@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editCaption"
+        class="com.bernatskyi.delta.gui.group.GroupEdit"
+        datasource="groupDs"
+        focusComponent="fieldGroup"
+        messagesPack="com.bernatskyi.delta.gui.group">
+    <dsContext>
+        <datasource id="groupDs"
+                    class="com.bernatskyi.delta.entity.materials.Group"
+                    view="_local"/>
+        <collectionDatasource id="subGroupsDs"
+                              class="com.bernatskyi.delta.entity.materials.SubGroup"
+                              view="_local">
+            <query>
+                <![CDATA[select e from delta$SubGroup e where e.group.id = :ds$groupDs]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="groupDs">
+            <column width="250px">
+                <field id="name"/>
+            </column>
+        </fieldGroup>
+        <filter id="filter"
+                datasource="subGroupsDs">
+            <properties include=".*"/>
+        </filter>
+
+        <label id="operationsLabel"
+               value="msg://subGroupTable"/>
+        <table id="subGroupsTable"
+               width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id="name"/>
+            </columns>
+            <rows datasource="subGroupsDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"/>
+                <button id="editBtn"
+                        action="subGroupsTable.edit"/>
+                <button id="removeBtn"
+                        action="subGroupsTable.remove"/>
+            </buttonsPanel>
+        </table>
+
+        <iframe id="windowActions"
+                screen="editWindowActions"/>
+    </layout>
+</window>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
+    <view class="com.bernatskyi.delta.entity.StorageCategoryState"
+          extends="_local"
+          name="storageCategoryState-view">
+        <property name="storage"
+                  view="_minimal">
+        </property>
+        <property name="category"
+                  view="_minimal">
+        </property>
+        <property name="averagePrice"/>
+    </view>
+    <view class="com.bernatskyi.delta.entity.Operation"
+          extends="_local"
+          name="operation-storage-category">
+        <property name="storage"
+                  view="_minimal"/>
+        <property name="category"
+                  view="_minimal"/>
+        <property name="destination"
+                  view="_minimal"/>
+    </view>
+    <view class="com.bernatskyi.delta.entity.materials.Category"
+          extends="_local"
+          name="categorySubGroup">
+        <property name="subGroup"
+                  view="_minimal"/>
+    </view>
+    <view class="com.bernatskyi.delta.entity.materials.SubGroup"
+          name="subGroupGroup">
+        <property name="name"/>
+        <property name="group"
+                  view="_minimal"/>
+    </view>
+</views>

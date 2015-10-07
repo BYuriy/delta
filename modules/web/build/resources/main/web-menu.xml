@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="menu"
+          insertBefore="administration">
+        <item id="delta$MainScreen"/>
+        <separator/>
+        <item id="delta$Storage.lookup"/>
+        <item id="delta$Group.lookup"/>
+        <item id="delta$SubGroup.lookup"/>
+        <item id="delta$Category.lookup"/>
+    </menu>
+</menu-config>

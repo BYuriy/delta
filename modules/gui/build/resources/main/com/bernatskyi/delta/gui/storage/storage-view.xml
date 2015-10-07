@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://storage.view.caption"
+        class="com.bernatskyi.delta.gui.storage.StorageView"
+        datasource="storageDs"
+        messagesPack="com.bernatskyi.delta.gui.storage">
+    <dsContext>
+        <datasource id="storageDs"
+                    class="com.bernatskyi.delta.entity.Storage"
+                    view="_local"/>
+        <collectionDatasource id="operationsDs"
+                              class="com.bernatskyi.delta.entity.Operation"
+                              view="operation-storage-category">
+            <query>
+                <![CDATA[select e from delta$Operation e where e.storage.id = :ds$storageDs or e.destination.id = :ds$storageDs order by e.dateTime]]>
+            </query>
+        </collectionDatasource>
+        <collectionDatasource id="storageCategorysStatesDs"
+                              class="com.bernatskyi.delta.entity.StorageCategoryState"
+                              view="storageCategoryState-view">
+            <query>
+                <![CDATA[select e from delta$StorageCategoryState e where e.storage.id = :ds$storageDs and e.dateTime is null order by e.category.name]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <layout expand="operationsTable"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="storageDs">
+            <column width="250px">
+                <field id="name"/>
+            </column>
+        </fieldGroup>
+        <label id="categorysLabel"
+               value="msg://categorys"/>
+        <table id="categorysTable"
+               height="150px"
+               width="100%">
+            <columns>
+                <column id="category"
+                        caption="msg://category"/>
+                <column id="volume"
+                        caption="msg://volume"/>
+                <column id="summaryPrice"
+                        caption="msg://summaryPrice"/>
+                <column id="averagePrice"
+                        caption="msg://averagePrice"/>
+            </columns>
+            <rows datasource="storageCategorysStatesDs"/>
+        </table>
+        <label id="operationsLabel"
+               value="msg://operations"/>
+        <iframe id="windowActions"
+                screen="operationsTableActions"/>
+        <table id="operationsTable"
+               width="100%">
+            <columns>
+                <column id="type"/>
+                <column id="dateTime"/>
+                <column id="category"/>
+                <column id="volume"/>
+                <column id="summaryPrice"/>
+                <column id="description"/>
+                <column id="destination"/>
+            </columns>
+            <rows datasource="operationsDs"/>
+        </table>
+    </layout>
+</window>
