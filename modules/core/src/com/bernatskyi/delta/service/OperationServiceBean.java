@@ -28,4 +28,10 @@ public class OperationServiceBean implements OperationService {
     public void removeOperation(Operation operation) {
         operationWorker.recalculateStates(operation, true);
     }
+
+    @Override
+    public void editOperation(Operation old, Operation updated) {
+        operationWorker.recalculateStates(old, true);
+        operationWorker.recalculateStates(updated, false);
+    }
 }

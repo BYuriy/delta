@@ -16,7 +16,8 @@ public enum OperationType implements EnumClass<Integer>{
     SORT(3, +1),
     SURPLUS(4, +1),
     SHORTFALL(5, -1),
-    REFUND(6, +1);
+    REFUND(6, +1),
+    EDIT(7, +1);
 
     private Integer id;
     private int multiplier;

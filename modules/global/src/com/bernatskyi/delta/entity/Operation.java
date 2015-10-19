@@ -3,20 +3,16 @@
  */
 package com.bernatskyi.delta.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 import com.bernatskyi.delta.entity.materials.Category;
+import com.haulmont.chile.core.annotations.MetaProperty;
 import com.haulmont.cuba.core.entity.StandardEntity;
+
 import java.math.BigDecimal;
-import javax.persistence.Column;
-import javax.persistence.FetchType;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+
 import com.haulmont.chile.core.annotations.NamePattern;
 import java.util.Date;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
 
 /**
  * @author Yuriy
@@ -106,7 +102,6 @@ public class Operation extends StandardEntity {
     public BigDecimal getSummaryPrice() {
         return summaryPrice;
     }
-
 
     public void setStorage(Storage storage) {
         this.storage = storage;

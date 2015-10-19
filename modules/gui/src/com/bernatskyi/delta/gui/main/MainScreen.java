@@ -5,16 +5,13 @@ package com.bernatskyi.delta.gui.main;
 
 import com.bernatskyi.delta.entity.Operation;
 import com.bernatskyi.delta.entity.OperationType;
-import com.bernatskyi.delta.gui.actions.OperationAction;
-import com.bernatskyi.delta.gui.storage.StorageEdit;
+import com.bernatskyi.delta.gui.actions.OperationCreateAction;
 import com.haulmont.cuba.gui.WindowManager;
 import com.haulmont.cuba.gui.components.*;
-import com.haulmont.cuba.gui.components.actions.BaseAction;
 import com.haulmont.cuba.gui.components.actions.ItemTrackingAction;
 import com.haulmont.cuba.gui.data.Datasource;
 
 import javax.inject.Named;
-import java.util.Collections;
 import java.util.Map;
 
 /**
@@ -45,6 +42,9 @@ public class MainScreen extends AbstractWindow {
     @Named("windowActions.removeBtn")
     private Button removeBtn;
 
+    @Named("windowActions.editBtn")
+    private Button editBtn;
+
     @Named("storagesTable")
     private Table storagesTable;
 
@@ -61,6 +61,7 @@ public class MainScreen extends AbstractWindow {
         initOperationAction(OperationType.REFUND, refundBtn);
 
         removeBtn.setVisible(false);
+        editBtn.setVisible(false);
 
         //todo bernatskyi check docs to find standart solution
         ItemTrackingAction viewAction = new ItemTrackingAction(storagesTable, "delta$Storage.view") {
@@ -79,8 +80,8 @@ public class MainScreen extends AbstractWindow {
 
     private void initOperationAction(OperationType type, Button button) {
         //todo move to frame with buttons
-        OperationAction action = new OperationAction(storagesTable, WindowManager.OpenType.DIALOG, type,
-                (Operation) operationDs.getDataSupplier().newInstance(operationDs.getMetaClass()), false);
+        OperationCreateAction action = new OperationCreateAction(storagesTable, WindowManager.OpenType.DIALOG, type,
+                (Operation) operationDs.getDataSupplier().newInstance(operationDs.getMetaClass()), false, null);
 
         storagesTable.addAction(action);
         button.setAction(action);

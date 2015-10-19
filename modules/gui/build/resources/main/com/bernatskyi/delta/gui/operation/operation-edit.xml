@@ -9,6 +9,20 @@
         <datasource id="operationDs"
                     class="com.bernatskyi.delta.entity.Operation"
                     view="operation-storage-category"/>
+        <collectionDatasource id="storagesDs"
+                              class="com.bernatskyi.delta.entity.Storage"
+                              view="_local">
+            <query>
+                <![CDATA[select e from delta$Storage e]]>
+            </query>
+        </collectionDatasource>
+        <collectionDatasource id="categoriesDs"
+                              class="com.bernatskyi.delta.entity.materials.Category"
+                              view="categorySubGroup">
+            <query>
+                <![CDATA[select e from delta$Category e]]>
+            </query>
+        </collectionDatasource>
     </dsContext>
     <layout expand="windowActions"
             spacing="true">
@@ -20,9 +34,9 @@
                 <field id="type"/>
                 <field id="dateTime"/>
                 <field id="storage"/>
-                <field id="category"/>
+                <field id="category" optionsDatasource="categoriesDs"/>
                 <field id="description"/>
-                <field id="destination"/>
+                <field id="destination" optionsDatasource="storagesDs"/>
             </column>
         </fieldGroup>
         <iframe id="windowActions"

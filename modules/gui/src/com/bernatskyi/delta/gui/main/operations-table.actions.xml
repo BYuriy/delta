@@ -22,6 +22,8 @@
                     caption="msg://refundBtnCaption"/>
             <button id="removeBtn"
                     caption="msg://removeBtnCaption"/>
+            <button id="editBtn"
+                    caption="msg://editBtnCaption"/>
         </buttonsPanel>
     </layout>
 </window>

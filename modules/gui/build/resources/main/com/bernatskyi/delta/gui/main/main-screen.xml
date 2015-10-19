@@ -10,7 +10,7 @@
                               class="com.bernatskyi.delta.entity.Storage"
                               view="_local">
             <query>
-                <![CDATA[select e from delta$Storage e]]>
+                <![CDATA[select e from delta$Storage e order by e.name]]>
             </query>
         </collectionDatasource>
         <datasource id="operationDs"

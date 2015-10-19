@@ -147,6 +147,7 @@ configure(guiModule) {
 configure(webModule) {
     configurations {
         webcontent
+        themes
         
     }
 
@@ -157,6 +158,8 @@ configure(webModule) {
         compile("com.haulmont.cuba:cuba-web:$cubaVersion")
         webcontent("com.haulmont.cuba:cuba-web:$cubaVersion:web@zip")
         webcontent("com.haulmont.cuba:cuba-web-toolkit:$cubaVersion:web@zip")
+        themes("com.haulmont.cuba:cuba-web-themes:$cubaVersion")
+        provided("com.haulmont.cuba:cuba-web-themes:$cubaVersion")
 
     }
 
@@ -195,6 +198,8 @@ configure(webModule) {
         appJars('cuba-gui', 'cuba-client', 'cuba-web', 'cuba-global', 
                 'app-global', 'app-gui', 'app-web')
     }
+    task buildScssThemes(type: CubaWebScssThemeCreation)
+    assemble.dependsOn buildScssThemes
 }
 
 

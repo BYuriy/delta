@@ -15,7 +15,7 @@
                 <![CDATA[select e from delta$Operation e where e.storage.id = :ds$storageDs or e.destination.id = :ds$storageDs order by e.dateTime]]>
             </query>
         </collectionDatasource>
-        <collectionDatasource id="storageCategorysStatesDs"
+        <collectionDatasource id="storageCategoriesStatesDs"
                               class="com.bernatskyi.delta.entity.StorageCategoryState"
                               view="storageCategoryState-view">
             <query>
@@ -23,7 +23,7 @@
             </query>
         </collectionDatasource>
     </dsContext>
-    <layout expand="operationsTable"
+    <layout expand="mainTab"
             spacing="true">
         <fieldGroup id="fieldGroup"
                     datasource="storageDs">
@@ -31,39 +31,49 @@
                 <field id="name"/>
             </column>
         </fieldGroup>
-        <label id="categorysLabel"
-               value="msg://categorys"/>
-        <table id="categorysTable"
-               height="150px"
-               width="100%">
-            <columns>
-                <column id="category"
-                        caption="msg://category"/>
-                <column id="volume"
-                        caption="msg://volume"/>
-                <column id="summaryPrice"
-                        caption="msg://summaryPrice"/>
-                <column id="averagePrice"
-                        caption="msg://averagePrice"/>
-            </columns>
-            <rows datasource="storageCategorysStatesDs"/>
-        </table>
-        <label id="operationsLabel"
-               value="msg://operations"/>
-        <iframe id="windowActions"
-                screen="operationsTableActions"/>
-        <table id="operationsTable"
-               width="100%">
-            <columns>
-                <column id="type"/>
-                <column id="dateTime"/>
-                <column id="category"/>
-                <column id="volume"/>
-                <column id="summaryPrice"/>
-                <column id="description"/>
-                <column id="destination"/>
-            </columns>
-            <rows datasource="operationsDs"/>
-        </table>
+        <tabSheet id="mainTab">
+            <tab id="categoriesTab"
+                 caption="msg://categoriesTabCaption"
+                 margin="true"
+                 spacing="true">
+                <table id="categoriesTable"
+                       height="100%"
+                       width="100%">
+                    <columns>
+                        <column id="category"
+                                caption="msg://category"/>
+                        <column id="volume"
+                                caption="msg://volume"/>
+                        <column id="summaryPrice"
+                                caption="msg://summaryPrice"/>
+                        <column id="averagePrice"
+                                caption="msg://averagePrice"/>
+                    </columns>
+                    <rows datasource="storageCategoriesStatesDs"/>
+                </table>
+            </tab>
+            <tab id="operationsTab"
+                 caption="msg://operationTabCaption"
+                 expand="operationsTable"
+                 margin="true"
+                 spacing="true">
+                <iframe id="windowActions"
+                        screen="operationsTableActions"/>
+                <table id="operationsTable"
+                       width="100%">
+                    <columns>
+                        <column id="type"/>
+                        <column id="dateTime"/>
+                        <column id="category"/>
+                        <column id="volume"/>
+                        <column id="summaryPrice"/>
+                        <column id="description"/>
+                        <column id="storage"/>
+                        <column id="destination"/>
+                    </columns>
+                    <rows datasource="operationsDs"/>
+                </table>
+            </tab>
+        </tabSheet>
     </layout>
 </window>

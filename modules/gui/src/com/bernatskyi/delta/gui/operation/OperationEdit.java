@@ -10,6 +10,7 @@ import com.haulmont.cuba.core.global.DataManager;
 import com.haulmont.cuba.core.global.LoadContext;
 import com.haulmont.cuba.gui.components.AbstractEditor;
 import com.haulmont.cuba.gui.components.Field;
+import com.haulmont.cuba.gui.data.ValueListener;
 
 import javax.inject.Inject;
 import javax.inject.Named;
@@ -45,9 +46,6 @@ public class OperationEdit extends AbstractEditor<Operation> {
     @Inject
     private DataManager dataManager;
 
-    @Inject
-    private OperationService operationService;
-
     @Override
     public void init(Map<String, Object> params) {
         storage = (Storage) params.get(STORAGE_PARAM_NAME);
@@ -61,12 +59,39 @@ public class OperationEdit extends AbstractEditor<Operation> {
             operationTypeField.setVisible(false);
         }
 
-        if (OperationType.MOVE.equals(type)) {
+        changeFieldsForMoveType(type, true);
+
+        operationTypeField.addListener(new ValueListener() {
+            @Override
+            public void valueChanged(Object source, String property, Object prevValue, Object value) {
+                OperationType type = (OperationType) value;
+
+                changeFieldsForMoveType(type, false);
+            }
+        });
+    }
+
+    private void changeFieldsForMoveType(OperationType operationType, boolean isInit) {
+        if (OperationType.MOVE.equals(operationType)) {
+            storageDestinationField.setVisible(true);
             storageDestinationField.setRequired(true);
-            summaryPriceField.setRequired(false);
+
             summaryPriceField.setVisible(false);
+            summaryPriceField.setRequired(false);
         } else {
             storageDestinationField.setVisible(false);
+            storageDestinationField.setRequired(false);
+
+            summaryPriceField.setVisible(true);
+            summaryPriceField.setRequired(true);
+
+            if(!isInit) {
+                Operation operation = getItem();
+
+                if (operation.getDestination() != null) {
+                    operation.setDestination(null);
+                }
+            }
         }
     }
 
@@ -87,7 +112,6 @@ public class OperationEdit extends AbstractEditor<Operation> {
             operation.setSummaryPrice(state.getAveragePrice().multiply(BigDecimal.valueOf(operation.getVolume())));
         }
 
-        operationService.updateStorageState(operation); //todo do the same as for OperationRemoveAction
 
         return true;
     }

@@ -1,0 +1,561 @@
+окт 19, 2015 1:32:48 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\java8\jdk1.8.25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\opt\gradle\gradle-2.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\OpenVPN\bin;.
+окт 19, 2015 1:32:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 1:32:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 1:32:49 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1651 ms
+окт 19, 2015 1:32:49 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+окт 19, 2015 1:32:49 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+окт 19, 2015 1:32:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app
+окт 19, 2015 1:32:51 PM com.haulmont.cuba.core.sys.logging.CubaLog4jConfigurator doConfigure
+INFO: Configuring log4j from file:/F:\work\delta\build\tomcat/conf/log4j.xml
+окт 19, 2015 1:32:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app has finished in 8,444 ms
+окт 19, 2015 1:32:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app-core
+окт 19, 2015 1:33:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app-core has finished in 9,767 ms
+окт 19, 2015 1:33:07 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 1:33:07 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 1:33:07 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 18503 ms
+окт 19, 2015 1:33:15 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+окт 19, 2015 1:36:18 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+окт 19, 2015 1:36:18 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 1:36:19 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 1:36:19 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+окт 19, 2015 1:36:19 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 1:36:19 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 1:36:19 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [scheduler-8] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 1:36:19 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [scheduler-9] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 1:36:19 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 1:36:19 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/app] created a ThreadLocal with key of type [com.haulmont.cuba.core.sys.ThreadLocalSecurityContextHolder] (value [com.haulmont.cuba.core.sys.ThreadLocalSecurityContextHolder@73ecc34a]) and a value of type [com.haulmont.cuba.core.sys.SecurityContext] (value [SecurityContext{sessionId=8821079a-e889-b05c-94c5-2b0ffb7cafc6}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+окт 19, 2015 1:36:19 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 1:36:19 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 1:36:19 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 1:36:19 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 1:36:19 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 1:36:33 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\java8\jdk1.8.25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\opt\gradle\gradle-2.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\OpenVPN\bin;.
+окт 19, 2015 1:36:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 1:36:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 1:36:33 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1109 ms
+окт 19, 2015 1:36:33 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+окт 19, 2015 1:36:33 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+окт 19, 2015 1:36:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app
+окт 19, 2015 1:36:34 PM com.haulmont.cuba.core.sys.logging.CubaLog4jConfigurator doConfigure
+INFO: Configuring log4j from file:/F:\work\delta\build\tomcat/conf/log4j.xml
+окт 19, 2015 1:36:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app has finished in 8,390 ms
+окт 19, 2015 1:36:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app-core
+окт 19, 2015 1:36:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app-core has finished in 4,907 ms
+окт 19, 2015 1:36:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 1:36:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 1:36:47 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 13485 ms
+окт 19, 2015 1:37:20 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+окт 19, 2015 1:57:13 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+окт 19, 2015 1:57:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 1:57:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 1:57:13 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+окт 19, 2015 1:57:15 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 1:57:15 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 1:57:15 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 1:57:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 1:57:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 1:57:15 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 1:57:15 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 1:57:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\java8\jdk1.8.25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\opt\gradle\gradle-2.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\OpenVPN\bin;.
+окт 19, 2015 1:57:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 1:57:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 1:57:26 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1206 ms
+окт 19, 2015 1:57:26 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+окт 19, 2015 1:57:26 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+окт 19, 2015 1:57:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app
+окт 19, 2015 1:57:27 PM com.haulmont.cuba.core.sys.logging.CubaLog4jConfigurator doConfigure
+INFO: Configuring log4j from file:/F:\work\delta\build\tomcat/conf/log4j.xml
+окт 19, 2015 1:57:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app has finished in 6,188 ms
+окт 19, 2015 1:57:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app-core
+окт 19, 2015 1:57:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app-core has finished in 5,830 ms
+окт 19, 2015 1:57:38 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 1:57:38 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 1:57:38 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 12187 ms
+окт 19, 2015 1:58:56 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+окт 19, 2015 2:06:35 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+окт 19, 2015 2:06:35 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:06:36 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:06:36 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+окт 19, 2015 2:06:36 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:06:36 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:06:36 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [scheduler-9] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:06:36 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:06:36 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/app] created a ThreadLocal with key of type [com.haulmont.cuba.core.sys.ThreadLocalSecurityContextHolder] (value [com.haulmont.cuba.core.sys.ThreadLocalSecurityContextHolder@17f146e5]) and a value of type [com.haulmont.cuba.core.sys.SecurityContext] (value [SecurityContext{sessionId=c92c4476-de21-1810-ddf2-d1de6cd345af}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+окт 19, 2015 2:06:37 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:06:38 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app-core] appears to have started a thread named [scheduler-8] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:06:38 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:06:38 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:06:38 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:06:38 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:06:42 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\java8\jdk1.8.25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\opt\gradle\gradle-2.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\OpenVPN\bin;.
+окт 19, 2015 2:06:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:06:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:06:42 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 740 ms
+окт 19, 2015 2:06:42 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+окт 19, 2015 2:06:42 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+окт 19, 2015 2:06:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app
+окт 19, 2015 2:06:43 PM com.haulmont.cuba.core.sys.logging.CubaLog4jConfigurator doConfigure
+INFO: Configuring log4j from file:/F:\work\delta\build\tomcat/conf/log4j.xml
+окт 19, 2015 2:06:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app has finished in 4,866 ms
+окт 19, 2015 2:06:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app-core
+окт 19, 2015 2:06:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app-core has finished in 4,521 ms
+окт 19, 2015 2:06:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:06:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:06:51 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9471 ms
+окт 19, 2015 2:07:12 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+окт 19, 2015 2:09:21 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+окт 19, 2015 2:09:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:09:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:09:21 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+окт 19, 2015 2:09:21 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:09:21 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:09:21 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:09:22 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:09:22 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:09:22 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:09:22 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:09:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\java8\jdk1.8.25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\opt\gradle\gradle-2.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\OpenVPN\bin;.
+окт 19, 2015 2:09:25 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:09:25 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:09:25 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 824 ms
+окт 19, 2015 2:09:25 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+окт 19, 2015 2:09:25 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+окт 19, 2015 2:09:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app
+окт 19, 2015 2:09:26 PM com.haulmont.cuba.core.sys.logging.CubaLog4jConfigurator doConfigure
+INFO: Configuring log4j from file:/F:\work\delta\build\tomcat/conf/log4j.xml
+окт 19, 2015 2:09:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app has finished in 5,584 ms
+окт 19, 2015 2:09:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app-core
+окт 19, 2015 2:09:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app-core has finished in 4,506 ms
+окт 19, 2015 2:09:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:09:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:09:35 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 10312 ms
+окт 19, 2015 2:13:38 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+окт 19, 2015 2:13:38 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:13:38 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:13:38 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+окт 19, 2015 2:13:38 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:13:38 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:13:38 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [scheduler-4] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:13:38 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:13:38 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:13:38 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:13:38 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:13:38 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:13:42 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\java8\jdk1.8.25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\opt\gradle\gradle-2.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\OpenVPN\bin;.
+окт 19, 2015 2:13:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:13:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:13:42 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 797 ms
+окт 19, 2015 2:13:42 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+окт 19, 2015 2:13:42 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+окт 19, 2015 2:13:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app
+окт 19, 2015 2:13:43 PM com.haulmont.cuba.core.sys.logging.CubaLog4jConfigurator doConfigure
+INFO: Configuring log4j from file:/F:\work\delta\build\tomcat/conf/log4j.xml
+окт 19, 2015 2:13:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app has finished in 5,113 ms
+окт 19, 2015 2:13:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app-core
+окт 19, 2015 2:13:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app-core has finished in 4,711 ms
+окт 19, 2015 2:13:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:13:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:13:52 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 10172 ms
+окт 19, 2015 2:14:37 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+окт 19, 2015 2:22:29 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+окт 19, 2015 2:22:29 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:22:29 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:22:29 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+окт 19, 2015 2:22:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:22:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:22:30 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:22:30 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:22:30 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:22:30 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:22:30 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:22:34 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\java8\jdk1.8.25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\opt\gradle\gradle-2.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\OpenVPN\bin;.
+окт 19, 2015 2:22:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:22:34 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:22:34 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1013 ms
+окт 19, 2015 2:22:35 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+окт 19, 2015 2:22:35 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+окт 19, 2015 2:22:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app
+окт 19, 2015 2:22:35 PM com.haulmont.cuba.core.sys.logging.CubaLog4jConfigurator doConfigure
+INFO: Configuring log4j from file:/F:\work\delta\build\tomcat/conf/log4j.xml
+окт 19, 2015 2:22:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app has finished in 4,552 ms
+окт 19, 2015 2:22:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app-core
+окт 19, 2015 2:22:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app-core has finished in 4,391 ms
+окт 19, 2015 2:22:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:22:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:22:44 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9026 ms
+окт 19, 2015 2:23:00 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+окт 19, 2015 2:26:09 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+окт 19, 2015 2:26:09 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:26:09 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:26:09 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+окт 19, 2015 2:26:09 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:26:09 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:26:09 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 2:26:09 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:26:09 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:26:09 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:26:09 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:26:14 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\java8\jdk1.8.25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\opt\gradle\gradle-2.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\OpenVPN\bin;.
+окт 19, 2015 2:26:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:26:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:26:14 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1258 ms
+окт 19, 2015 2:26:14 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+окт 19, 2015 2:26:14 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+окт 19, 2015 2:26:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app
+окт 19, 2015 2:26:15 PM com.haulmont.cuba.core.sys.logging.CubaLog4jConfigurator doConfigure
+INFO: Configuring log4j from file:/F:\work\delta\build\tomcat/conf/log4j.xml
+окт 19, 2015 2:26:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app has finished in 4,980 ms
+окт 19, 2015 2:26:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app-core
+окт 19, 2015 2:26:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app-core has finished in 4,467 ms
+окт 19, 2015 2:26:24 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 2:26:24 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 2:26:24 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9652 ms
+окт 19, 2015 2:26:35 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+окт 19, 2015 4:30:17 PM com.vaadin.server.communication.UidlRequestHandler synchronizedHandleRequest
+WARNING: Invalid security key received from 0:0:0:0:0:0:0:1
+окт 19, 2015 4:33:47 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+окт 19, 2015 4:33:47 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 4:33:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 4:33:52 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+окт 19, 2015 4:33:54 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 4:33:54 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 4:33:54 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 4:33:54 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 4:33:54 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 4:33:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 4:33:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 5:03:33 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\java8\jdk1.8.25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\opt\gradle\gradle-2.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\OpenVPN\bin;.
+окт 19, 2015 5:03:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 5:03:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 5:03:33 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1978 ms
+окт 19, 2015 5:03:34 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+окт 19, 2015 5:03:34 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+окт 19, 2015 5:03:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app
+окт 19, 2015 5:03:35 PM com.haulmont.cuba.core.sys.logging.CubaLog4jConfigurator doConfigure
+INFO: Configuring log4j from file:/F:\work\delta\build\tomcat/conf/log4j.xml
+окт 19, 2015 5:03:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app has finished in 9,925 ms
+окт 19, 2015 5:03:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app-core
+окт 19, 2015 5:03:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app-core has finished in 6,898 ms
+окт 19, 2015 5:03:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 5:03:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 5:03:50 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 17051 ms
+окт 19, 2015 5:04:07 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+окт 19, 2015 5:22:10 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+окт 19, 2015 5:22:10 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 5:22:10 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 5:22:10 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+окт 19, 2015 5:22:11 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-CoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 5:22:11 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app] appears to have started a thread named [perf4j-async-stats-appender-sink-UICoalescingStatistics] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 5:22:11 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/app-core] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+окт 19, 2015 5:22:11 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 5:22:11 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 5:22:11 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 5:22:11 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 5:23:00 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\java8\jdk1.8.25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\opt\gradle\gradle-2.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\OpenVPN\bin;.
+окт 19, 2015 5:23:00 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 5:23:00 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 5:23:00 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1135 ms
+окт 19, 2015 5:23:01 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+окт 19, 2015 5:23:01 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+окт 19, 2015 5:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app
+окт 19, 2015 5:23:02 PM com.haulmont.cuba.core.sys.logging.CubaLog4jConfigurator doConfigure
+INFO: Configuring log4j from file:/F:\work\delta\build\tomcat/conf/log4j.xml
+окт 19, 2015 5:23:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app has finished in 9,418 ms
+окт 19, 2015 5:23:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory F:\work\delta\build\tomcat\webapps\app-core
+окт 19, 2015 5:23:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory F:\work\delta\build\tomcat\webapps\app-core has finished in 9,174 ms
+окт 19, 2015 5:23:19 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+окт 19, 2015 5:23:19 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+окт 19, 2015 5:23:19 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 18908 ms
+окт 19, 2015 5:23:36 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================

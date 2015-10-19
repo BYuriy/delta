@@ -2,7 +2,8 @@
 <menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
     <menu id="menu"
           insertBefore="administration">
-        <item id="delta$MainScreen"/>
+        <item id="delta$MainScreen"
+              shortcut="ALT-M"/>
         <separator/>
         <item id="delta$Storage.lookup"/>
         <item id="delta$Group.lookup"/>

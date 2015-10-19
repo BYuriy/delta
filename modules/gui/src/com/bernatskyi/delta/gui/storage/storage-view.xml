@@ -68,6 +68,7 @@
                         <column id="volume"/>
                         <column id="summaryPrice"/>
                         <column id="description"/>
+                        <column id="storage"/>
                         <column id="destination"/>
                     </columns>
                     <rows datasource="operationsDs"/>

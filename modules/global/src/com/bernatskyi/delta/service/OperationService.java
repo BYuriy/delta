@@ -14,4 +14,6 @@ public interface OperationService {
     public void updateStorageState(Operation operation);
 
     public void removeOperation(Operation operation);
+
+    public void editOperation(Operation old, Operation updated);
 }
