@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editCaption"
+        class="com.bernatskyi.delta.gui.price.PriceEdit"
+        datasource="priceDs"
+        focusComponent="fieldGroup"
+        messagesPack="com.bernatskyi.delta.gui.price">
+    <dsContext>
+        <datasource id="priceDs"
+                    class="com.bernatskyi.delta.entity.Price"
+                    view="_local"/>
+    </dsContext>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="priceDs">
+            <column width="250px">
+                <field id="price"/>
+                <field id="startDate"/>
+                <field id="endDate"/>
+                <field id="category"/>
+            </column>
+        </fieldGroup>
+        <iframe id="windowActions"
+                screen="editWindowActions"/>
+    </layout>
+</window>

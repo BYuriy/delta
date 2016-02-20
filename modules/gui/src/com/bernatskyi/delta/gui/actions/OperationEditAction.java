@@ -51,7 +51,6 @@ public class OperationEditAction  extends EditAction{
 
     @Override
     protected void afterCommit(Entity entity) {
-
         operationService.editOperation(old, (com.bernatskyi.delta.entity.Operation) entity);
 
         if(refreshingDs != null) {

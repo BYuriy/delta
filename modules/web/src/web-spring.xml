@@ -22,6 +22,8 @@
             <map>
                 <entry key="delta_OperationService"
                        value="com.bernatskyi.delta.service.OperationService"/>
+                <entry key="delta_ReportService"
+                       value="com.bernatskyi.delta.service.ReportService"/>
             </map>
         </property>
     </bean>

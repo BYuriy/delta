@@ -18,7 +18,7 @@
         </collectionDatasource>
         <collectionDatasource id="categoriesDs"
                               class="com.bernatskyi.delta.entity.materials.Category"
-                              view="categorySubGroup">
+                              view="_local">
             <query>
                 <![CDATA[select e from delta$Category e]]>
             </query>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://mainReportScreen"
+        class="com.bernatskyi.delta.gui.reporting.storage.SotrageReport"
+        messagesPack="com.bernatskyi.delta.gui.reporting.storage">
+    <dsContext>
+        <datasource id="reportEntryDatasource"
+                    class="com.bernatskyi.delta.entity.reporting.storagereport.StorageReportEntry">
+        </datasource>
+        <collectionDatasource id="simpleStorageReportCategoryStatesDatasource"
+                              class="com.bernatskyi.delta.entity.reporting.storagereport.StorageReportCategoryStates"
+                              datasourceClass="com.bernatskyi.delta.gui.reporting.storage.StorageReportCategoryStatesDatasource">
+        </collectionDatasource>
+    </dsContext>
+    <layout spacing="true">
+        <vbox spacing="true">
+            <dateField id="dateField" dateFormat="dd/MM/yyyy"/>
+            <tabSheet id="mainTabSheet" />
+        </vbox>
+
+    </layout>
+</window>

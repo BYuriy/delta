@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.bernatskyi.delta.gui.group.GroupLookup"
+        focusComponent="groupsTable"
+        lookupComponent="groupsTable"
+        messagesPack="com.bernatskyi.delta.gui.group">
+    <dsContext>
+        <hierarchicalDatasource id="groupsDs"
+                                class="com.bernatskyi.delta.entity.materials.Group"
+                                hierarchyProperty="parent"
+                                view="group-browse">
+            <query>
+                <![CDATA[select e from delta$Group e order by e.name]]>
+            </query>
+        </hierarchicalDatasource>
+    </dsContext>
+    <layout expand="groupsTable" spacing="true">
+        <filter id="filter" datasource="groupsDs">
+            <properties include=".*"/>
+        </filter>
+        <treeTable id="groupsTable"
+                   width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id="name"/>
+            </columns>
+            <rows datasource="groupsDs"/>
+            <rowsCount/>
+        </treeTable>
+    </layout>
+</window>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://caption"
+        class="com.bernatskyi.delta.gui.reporting.mainreport.MainReport"
+        messagesPack="com.bernatskyi.delta.gui.reporting.mainreport">
+    <dsContext>
+        <datasource id="mainReportDataDS" class="com.bernatskyi.delta.entity.reporting.mainreport.MainReportData">
+
+        </datasource>
+    </dsContext>
+    <layout>
+        <tabSheet id="mainTabSheet"/>
+    </layout>
+</window>

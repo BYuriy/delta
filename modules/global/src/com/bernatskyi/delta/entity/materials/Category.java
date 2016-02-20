@@ -13,6 +13,8 @@ import com.haulmont.cuba.core.global.DeletePolicy;
 import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import com.haulmont.cuba.core.entity.annotation.OnDeleteInverse;
+import java.math.BigDecimal;
 
 /**
  * @author Yuriy
@@ -26,20 +28,30 @@ public class Category extends StandardEntity {
     @Column(name = "NAME", nullable = false, length = 150)
     protected String name;
 
-
-
-
-    @OnDelete(DeletePolicy.CASCADE)
+    @OnDeleteInverse(DeletePolicy.DENY)
+    @OnDelete(DeletePolicy.UNLINK)
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "SUB_GROUP_ID")
-    protected SubGroup subGroup;
+    @JoinColumn(name = "GROUP_ID")
+    protected Group group;
 
-    public void setSubGroup(SubGroup subGroup) {
-        this.subGroup = subGroup;
+    @Column(name = "RELIAZIATION_PRICE")
+    protected BigDecimal reliaziationPrice;
+
+    public void setReliaziationPrice(BigDecimal reliaziationPrice) {
+        this.reliaziationPrice = reliaziationPrice;
     }
 
-    public SubGroup getSubGroup() {
-        return subGroup;
+    public BigDecimal getReliaziationPrice() {
+        return reliaziationPrice;
+    }
+
+
+    public void setGroup(Group group) {
+        this.group = group;
+    }
+
+    public Group getGroup() {
+        return group;
     }
 
 

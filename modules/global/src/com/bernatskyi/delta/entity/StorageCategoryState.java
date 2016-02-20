@@ -34,10 +34,6 @@ public class StorageCategoryState extends StandardEntity {
     private static final long serialVersionUID = 3084168896327047460L;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "STORAGE_ID")
-    protected Storage storage;
-
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "CATEGORY_ID")
     protected Category category;
 
@@ -54,6 +50,19 @@ public class StorageCategoryState extends StandardEntity {
     @Transient
     @MetaProperty
     protected BigDecimal averagePrice;
+
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "STORAGE_ID")
+    protected Storage storage;
+
+    public void setStorage(Storage storage) {
+        this.storage = storage;
+    }
+
+    public Storage getStorage() {
+        return storage;
+    }
+
 
     public Category getCategory() {
         return category;
@@ -81,14 +90,6 @@ public class StorageCategoryState extends StandardEntity {
 
     public Date getDateTime() {
         return dateTime;
-    }
-
-    public void setStorage(Storage storage) {
-        this.storage = storage;
-    }
-
-    public Storage getStorage() {
-        return storage;
     }
 
     public void setVolume(Double volume) {

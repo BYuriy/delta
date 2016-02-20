@@ -6,8 +6,14 @@
               shortcut="ALT-M"/>
         <separator/>
         <item id="delta$Storage.lookup"/>
-        <item id="delta$Group.lookup"/>
-        <item id="delta$SubGroup.lookup"/>
+        <item id="delta$Group.browse"/>
         <item id="delta$Category.lookup"/>
+    </menu>
+    <menu id="reporting"
+          insertBefore="administration">
+        <item id="delta$MainReportParameters"
+              openType="NEW_TAB"/>
+        <item id="delta$StorageReportParameters"
+              openType="NEW_TAB"/>
     </menu>
 </menu-config>

@@ -8,53 +8,43 @@
     <dsContext>
         <datasource id="groupDs"
                     class="com.bernatskyi.delta.entity.materials.Group"
-                    view="_local"/>
-        <collectionDatasource id="subGroupsDs"
-                              class="com.bernatskyi.delta.entity.materials.SubGroup"
-                              view="_local">
-            <query>
-                <![CDATA[select e from delta$SubGroup e where e.group.id = :ds$groupDs]]>
-            </query>
-        </collectionDatasource>
+                    view="group-edit">
+            <!--<collectionDatasource id="categoriesDs" property="categories"/>-->
+        </datasource>
     </dsContext>
-    <layout expand="windowActions"
+    <layout expand="mainBox"
             spacing="true">
-        <fieldGroup id="fieldGroup"
-                    datasource="groupDs">
-            <column width="250px">
-                <field id="name"/>
-            </column>
-        </fieldGroup>
-        <filter id="filter"
-                datasource="subGroupsDs">
-            <properties include=".*"/>
-        </filter>
-
-        <label id="operationsLabel"
-               value="msg://subGroupTable"/>
-        <table id="subGroupsTable"
-               width="100%">
-            <actions>
-                <action id="create"/>
-                <action id="edit"/>
-                <action id="remove"/>
-            </actions>
-            <columns>
-                <column id="name"/>
-            </columns>
-            <rows datasource="subGroupsDs"/>
-            <rowsCount/>
-            <buttonsPanel id="buttonsPanel"
-                          alwaysVisible="true">
-                <button id="createBtn"/>
-                <button id="editBtn"
-                        action="subGroupsTable.edit"/>
-                <button id="removeBtn"
-                        action="subGroupsTable.remove"/>
-            </buttonsPanel>
-        </table>
-
-        <iframe id="windowActions"
-                screen="editWindowActions"/>
+        <vbox width="100%" id="mainBox" expand="windowActions" spacing="true">
+            <fieldGroup id="fieldGroup"
+                        datasource="groupDs">
+                <column width="250px">
+                    <field id="name"/>
+                    <field id="parent"/>
+                </column>
+            </fieldGroup>
+            <!--<groupBox caption="msg://group-edit.categoriesTable">-->
+                <!--<table id="categroiesTable"-->
+                       <!--width="100%">-->
+                    <!--<actions>-->
+                        <!--<action id="create"/>-->
+                        <!--<action id="add"/>-->
+                        <!--<action id="edit"/>-->
+                        <!--<action id="exclude"/>-->
+                    <!--</actions>-->
+                    <!--<buttonsPanel>-->
+                        <!--<button action="categroiesTable.create"/>-->
+                        <!--<button action="categroiesTable.add"/>-->
+                        <!--<button action="categroiesTable.edit"/>-->
+                        <!--<button action="categroiesTable.exclude"/>-->
+                    <!--</buttonsPanel>-->
+                    <!--<columns>-->
+                        <!--<column id="name"/>-->
+                    <!--</columns>-->
+                    <!--<rows datasource="categoriesDs"/>-->
+                <!--</table>-->
+            <!--</groupBox>-->
+            <iframe id="windowActions"
+                    screen="editWindowActions"/>
+        </vbox>
     </layout>
 </window>

@@ -7,7 +7,7 @@
         <class>com.bernatskyi.delta.entity.materials.Category</class>
         <class>com.bernatskyi.delta.entity.StorageCategoryState</class>
         <class>com.bernatskyi.delta.entity.Operation</class>
-        <class>com.bernatskyi.delta.entity.materials.SubGroup</class>
         <class>com.bernatskyi.delta.entity.materials.Group</class>
+        <class>com.bernatskyi.delta.entity.Price</class>
     </persistence-unit>
 </persistence>

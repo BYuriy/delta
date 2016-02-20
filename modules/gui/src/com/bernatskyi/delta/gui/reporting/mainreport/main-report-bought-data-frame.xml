@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://caption"
+        class="com.bernatskyi.delta.gui.reporting.mainreport.MainReportBoughtDataFrame"
+        messagesPack="com.bernatskyi.delta.gui.reporting.mainreport">
+    <dsContext>
+        <collectionDatasource id="dailyBoughtDataListDs" class="com.bernatskyi.delta.entity.reporting.mainreport.BoughtData"/>
+        <collectionDatasource id="accumulatedBoughtDataListDs" class="com.bernatskyi.delta.entity.reporting.mainreport.BoughtData"/>
+    </dsContext>
+    <layout>
+        <vbox>
+            <groupBox caption="msg://dailyBoughtDataTable.caption">
+                <table id="dailyBoughtDataTable">
+                    <columns>
+                        <column id="category.name"/>
+                        <column id="summaryVolume"/>
+                        <column id="summaryRealizationPrice"/>
+                    </columns>
+                    <rows datasource="dailyBoughtDataListDs"/>
+                </table>
+            </groupBox>
+            <groupBox caption="msg://accumulatedBoughtDataTable.caption">
+                <table id="accumulatedSellDataTable">
+                    <columns>
+                        <column id="category.name"/>
+                        <column id="summaryVolume"/>
+                        <column id="summaryRealizationPrice"/>
+                    </columns>
+                    <rows datasource="accumulatedBoughtDataListDs"/>
+                </table>
+            </groupBox>
+        </vbox>
+    </layout>
+</window>

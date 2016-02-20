@@ -20,6 +20,8 @@
                     caption="msg://shortfallBtnCaption"/>
             <button id="refundBtn"
                     caption="msg://refundBtnCaption"/>
+            <button id="sortBtn"
+                    caption="msg://sortBtnCaption"/>
             <button id="removeBtn"
                     caption="msg://removeBtnCaption"/>
             <button id="editBtn"

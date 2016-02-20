@@ -13,10 +13,10 @@
       com.bernatskyi.delta.entity.Operation
     </class>
     <class>
-      com.bernatskyi.delta.entity.materials.SubGroup
+      com.bernatskyi.delta.entity.materials.Group
     </class>
     <class>
-      com.bernatskyi.delta.entity.materials.Group
+      com.bernatskyi.delta.entity.Price
     </class>
     <properties>
       <property name="openjpa.DetachState" value="loaded(DetachedStateField=true, DetachedStateManager=true)"/>

@@ -50,6 +50,9 @@ public class StorageView extends AbstractEditor<Storage> {
     @Named("windowActions.refundBtn")
     private Button refundBtn;
 
+    @Named("windowActions.sortBtn")
+    private Button sortBtn;
+
     @Named("windowActions.removeBtn")
     private Button removeBtn;
 
@@ -91,23 +94,15 @@ public class StorageView extends AbstractEditor<Storage> {
                 } else {
                     return "decreasing-operation";
                 }
-
-//                return null;
             }
         });
-
-//        operationsDs.addListener(new CollectionDsListenerAdapter<Operation>(){
-//            @Override
-//            public void collectionChanged(CollectionDatasource ds, Operation operation, List<com.bernatskyi.delta.entity.Operation> items) {
-//                storageCategoriesStatesDs.refresh();
-//            }
-//        });
     }
 
     private void initActions(Storage storage) {
         initOperationAction(OperationType.BUY, buyBtn, storage);
         initOperationAction(OperationType.SELL, sellBtn, storage);
         initOperationAction(OperationType.MOVE, moveBtn, storage);
+        initOperationAction(OperationType.SORT, sortBtn, storage);
         initOperationAction(OperationType.SURPLUS, surplusBtn, storage);
         initOperationAction(OperationType.SHORTFALL, shortfallBtn, storage);
         initOperationAction(OperationType.REFUND, refundBtn, storage);

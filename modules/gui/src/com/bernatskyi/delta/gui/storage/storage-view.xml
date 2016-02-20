@@ -48,6 +48,7 @@
                                 caption="msg://summaryPrice"/>
                         <column id="averagePrice"
                                 caption="msg://averagePrice"/>
+                        <column id="storage"/>
                     </columns>
                     <rows datasource="storageCategoriesStatesDs"/>
                 </table>

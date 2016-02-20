@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.bernatskyi.delta.gui.price.PriceBrowse"
+        focusComponent="pricesTable"
+        lookupComponent="pricesTable"
+        messagesPack="com.bernatskyi.delta.gui.price">
+    <dsContext>
+        <collectionDatasource id="pricesDs"
+                              class="com.bernatskyi.delta.entity.Price"
+                              view="_local">
+            <query>
+                <![CDATA[select e from delta$Price e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <layout expand="pricesTable"
+            spacing="true">
+        <filter id="filter"
+                datasource="pricesDs">
+            <properties include=".*"/>
+        </filter>
+        <table id="pricesTable"
+               width="100%">
+            <actions>
+                <action id="create"
+                        openType="DIALOG"/>
+                <action id="edit"
+                        openType="DIALOG"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id="startDate"/>
+                <column id="price"/>
+                <column id="endDate"/>
+                <column id="category"/>
+            </columns>
+            <rows datasource="pricesDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="pricesTable.create"/>
+                <button id="editBtn"
+                        action="pricesTable.edit"/>
+                <button id="removeBtn"
+                        action="pricesTable.remove"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

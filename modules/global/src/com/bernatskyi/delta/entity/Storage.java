@@ -25,7 +25,7 @@ public class Storage extends StandardEntity {
     @Column(name = "NAME", nullable = false, length = 100)
     protected String name;
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "storage")
+    @OneToMany(mappedBy = "storage")
     @OnDelete(DeletePolicy.CASCADE)
     @Composition
     protected List<StorageCategoryState> states;

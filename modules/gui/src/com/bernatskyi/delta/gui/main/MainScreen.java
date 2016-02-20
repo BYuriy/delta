@@ -39,6 +39,9 @@ public class MainScreen extends AbstractWindow {
     @Named("windowActions.refundBtn")
     private Button refundBtn;
 
+    @Named("windowActions.sortBtn")
+    private Button sortBtn;
+
     @Named("windowActions.removeBtn")
     private Button removeBtn;
 
@@ -56,6 +59,7 @@ public class MainScreen extends AbstractWindow {
         initOperationAction(OperationType.BUY, buyBtn);
         initOperationAction(OperationType.SELL, sellBtn);
         initOperationAction(OperationType.MOVE, moveBtn);
+        initOperationAction(OperationType.SORT, sortBtn);
         initOperationAction(OperationType.SURPLUS, surplusBtn);
         initOperationAction(OperationType.SHORTFALL, shortfallBtn);
         initOperationAction(OperationType.REFUND, refundBtn);
@@ -63,7 +67,6 @@ public class MainScreen extends AbstractWindow {
         removeBtn.setVisible(false);
         editBtn.setVisible(false);
 
-        //todo bernatskyi check docs to find standart solution
         ItemTrackingAction viewAction = new ItemTrackingAction(storagesTable, "delta$Storage.view") {
             @Override
             public void actionPerform(Component component) {
@@ -80,8 +83,7 @@ public class MainScreen extends AbstractWindow {
 
     private void initOperationAction(OperationType type, Button button) {
         //todo move to frame with buttons
-        OperationCreateAction action = new OperationCreateAction(storagesTable, WindowManager.OpenType.DIALOG, type,
-                (Operation) operationDs.getDataSupplier().newInstance(operationDs.getMetaClass()), false, null);
+        OperationCreateAction action = new OperationCreateAction(storagesTable, WindowManager.OpenType.DIALOG, type, false, null);
 
         storagesTable.addAction(action);
         button.setAction(action);

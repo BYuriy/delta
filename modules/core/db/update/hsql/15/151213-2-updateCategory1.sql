@@ -1,0 +1,2 @@
+alter table DELTA_CATEGORY add constraint FK_DELTA_CATEGORY_GROUP_ID foreign key (GROUP_ID) references DELTA_GROUP(ID);
+create index IDX_DELTA_CATEGORY_GROUP on DELTA_CATEGORY (GROUP_ID);

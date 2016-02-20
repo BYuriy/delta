@@ -6,41 +6,77 @@
         lookupComponent="groupsTable"
         messagesPack="com.bernatskyi.delta.gui.group">
     <dsContext>
-        <collectionDatasource id="groupsDs"
-                              class="com.bernatskyi.delta.entity.materials.Group"
-                              view="_local">
+        <hierarchicalDatasource id="groupsDs"
+                                class="com.bernatskyi.delta.entity.materials.Group"
+                                hierarchyProperty="parent"
+                                view="group-browse">
             <query>
-                <![CDATA[select e from delta$Group e]]>
+                <![CDATA[select e from delta$Group e order by e.name]]>
+            </query>
+            <!--<collectionDatasource id="categoriesDs"-->
+                                  <!--property="categories"/>-->
+        </hierarchicalDatasource>
+        <collectionDatasource id="categoriesDs"
+                              class="com.bernatskyi.delta.entity.materials.Category"
+                              view="group-browse">
+            <query>
+                <![CDATA[select c from delta$Category c where c.group.id = :ds$groupsDs.id order by c.name]]>
             </query>
         </collectionDatasource>
     </dsContext>
-    <layout expand="groupsTable"
+    <layout expand="mainSplit"
             spacing="true">
         <filter id="filter"
                 datasource="groupsDs">
             <properties include=".*"/>
         </filter>
-        <table id="groupsTable"
+        <split id="mainSplit"
+               orientation="horizontal"
                width="100%">
-            <actions>
-                <action id="create"/>
-                <action id="edit"/>
-                <action id="remove"/>
-            </actions>
-            <columns>
-                <column id="name"/>
-            </columns>
-            <rows datasource="groupsDs"/>
-            <rowsCount/>
-            <buttonsPanel id="buttonsPanel"
-                          alwaysVisible="true">
-                <button id="createBtn"
-                        action="groupsTable.create"/>
-                <button id="editBtn"
-                        action="groupsTable.edit"/>
-                <button id="removeBtn"
-                        action="groupsTable.remove"/>
-            </buttonsPanel>
-        </table>
+            <vbox id="leftBox" height="100%" margin="false,true,false,false" spacing="true">
+                <treeTable id="groupsTable"
+                           height="100%"
+                           width="100%">
+                    <actions>
+                        <action id="create"/>
+                        <action id="edit"/>
+                        <action id="remove"/>
+                    </actions>
+                    <columns>
+                        <column id="name"/>
+                    </columns>
+                    <rows datasource="groupsDs"/>
+                    <rowsCount/>
+                    <buttonsPanel id="groupsButtonPannel"
+                                  alwaysVisible="true">
+                        <button id="createBtn"
+                                action="groupsTable.create"/>
+                        <button id="editBtn"
+                                action="groupsTable.edit"/>
+                        <button id="removeBtn"
+                                action="groupsTable.remove"/>
+                    </buttonsPanel>
+                </treeTable>
+            </vbox>
+            <vbox id="rightBox" height="100%" margin="false,false,false,true">
+                <table id="categoriesTable"
+                       height="100%"
+                       width="200%">
+                    <actions>
+                        <action id="add"/>
+                        <action id="exclude"/>
+                    </actions>
+                    <columns>
+                        <column id="name"/>
+                    </columns>
+                    <rows datasource="categoriesDs"/>
+                    <buttonsPanel id="categoriesButtonPannel"
+                                  alwaysVisible="true">
+                        <button id="addCategoryBtn"/>
+                        <button id="excludeCategoryBtn"/>
+                    </buttonsPanel>
+                </table>
+            </vbox>
+        </split>
     </layout>
 </window>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://storageReportEntryFrame.caption"
+        class="com.bernatskyi.delta.gui.reporting.storage.StorageReportEntryFrame"
+        messagesPack="com.bernatskyi.delta.gui.reporting.storage">
+    <dsContext>
+        <collectionDatasource id="simpleStorageReportCategoryStatesDatasource"
+                              class="com.bernatskyi.delta.entity.reporting.storagereport.StorageReportCategoryStates"
+                              datasourceClass="com.bernatskyi.delta.gui.reporting.storage.StorageReportCategoryStatesDatasource">
+        </collectionDatasource>
+    </dsContext>
+    <layout spacing="true" expand="simpleReportEntries">
+        <table id="simpleReportEntries"
+               height="100%"
+               width="100%">
+            <columns>
+                <column id="category"/>
+                <column id="stateOnStart.volume" caption="msg://stateOnStart.volume.caption"/>
+                <column id="stateOnStart.price" caption="msg://stateOnStart.price.caption"/>
+                <column id="boughtState.volume" caption="msg://boughtState.volume.caption"/>
+                <column id="boughtState.price" caption="msg://boughtState.price.caption"/>
+                <column id="saledState.volume" caption="msg://saledState.volume.caption"/>
+                <column id="saledState.price" caption="msg://saledState.price.caption"/>
+                <column id="movedFromState.volume" caption="msg://movedFromState.volume.caption"/>
+                <column id="movedFromState.price" caption="msg://movedFromState.price.caption"/>
+                <column id="movedToState.volume" caption="msg://movedToState.volume.caption"/>
+                <column id="movedToState.price" caption="msg://movedToState.price.caption"/>
+                <column id="stateOnEnd.volume" caption="msg://stateOnEnd.volume.caption"/>
+                <column id="stateOnEnd.price" caption="msg://stateOnEnd.price.caption"/>
+            </columns>
+            <rows datasource="simpleStorageReportCategoryStatesDatasource"/>
+        </table>
+    </layout>
+</window>

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <metadata xmlns="http://schemas.haulmont.com/cuba/metadata.xsd">
     <metadata-model namespace="delta"
-                    root-package="com.bernatskyi.delta">        
+                    root-package="com.bernatskyi.delta">
+        <class>com.bernatskyi.delta.entity.reporting.storagereport.StorageReportEntry</class>
+        <class>com.bernatskyi.delta.entity.reporting.storagereport.StorageReportCategoryStates</class>
+        <class>com.bernatskyi.delta.entity.reporting.storagereport.StorageReportCategoryState</class>
+        <class>com.bernatskyi.delta.entity.reporting.mainreport.MainReportData</class>
+        <class>com.bernatskyi.delta.entity.reporting.mainreport.MainReportEntry</class>
+        <class>com.bernatskyi.delta.entity.reporting.mainreport.CategoryRealizationPrice</class>
+        <class>com.bernatskyi.delta.entity.reporting.mainreport.MainReportOperationData</class>
+        <class>com.bernatskyi.delta.entity.reporting.mainreport.StorageStateData</class>
+        <class>com.bernatskyi.delta.entity.reporting.mainreport.BoughtData</class>
+        <class>com.bernatskyi.delta.entity.reporting.mainreport.SellData</class>
+        <class>com.bernatskyi.delta.entity.reporting.mainreport.BalanceData</class>
     </metadata-model>
 </metadata>

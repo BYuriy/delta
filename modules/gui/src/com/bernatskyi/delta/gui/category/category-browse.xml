@@ -8,7 +8,7 @@
     <dsContext>
         <collectionDatasource id="categoriesDs"
                               class="com.bernatskyi.delta.entity.materials.Category"
-                              view="categorySubGroup">
+                              view="category-browse">
             <query>
                 <![CDATA[select e from delta$Category e]]>
             </query>
@@ -29,6 +29,7 @@
             </actions>
             <columns>
                 <column id="name"/>
+                <column id="group"/>
             </columns>
             <rows datasource="categoriesDs"/>
             <rowsCount/>
