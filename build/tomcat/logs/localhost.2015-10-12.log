@@ -1,6 +1,0 @@
-окт 12, 2015 11:36:21 PM org.apache.catalina.core.ApplicationContext log
-INFO: No Spring WebApplicationInitializer types detected on classpath
-окт 12, 2015 11:36:27 PM org.apache.catalina.core.ApplicationContext log
-INFO: Initializing Spring FrameworkServlet 'dispatcher'
-окт 12, 2015 11:36:28 PM org.apache.catalina.core.ApplicationContext log
-INFO: No Spring WebApplicationInitializer types detected on classpath
