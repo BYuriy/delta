@@ -4,21 +4,19 @@
         class="com.bernatskyi.delta.gui.reporting.mainreport.MainReportEntryFrame"
         messagesPack="com.bernatskyi.delta.gui.reporting.mainreport">
     <dsContext>
-        <datasource id="mainReportEntryDS" class="com.bernatskyi.delta.entity.reporting.mainreport.MainReportEntry">
-
-        </datasource>
+        <datasource id="mainReportEntryDS" class="com.bernatskyi.delta.entity.reporting.mainreport.MainReportEntry" />
     </dsContext>
-    <layout>
+    <layout spacing="true" expand="mainTabSheet">
         <tabSheet id="mainTabSheet">
-            <!--<tab id="sellDataTab" caption="msg://sellDataTab.caption">-->
-                <!--<iframe screen="delta$MainReportSellDataFrame"/>-->
-            <!--</tab>-->
             <tab id="boughtDataTab" caption="msg://boughtDataTab.caption">
                <iframe screen="delta$MainReportBoughtDataFrame"/>
             </tab>
-            <!--<tab id="balanceDataTab" caption="msg://balanceDataTab.caption">-->
-                <!--<iframe screen="delta$MainReportBalanceDataFrame"/>-->
-            <!--</tab>-->
+            <tab id="sellDataTab" caption="msg://sellDataTab.caption">
+                <iframe screen="delta$MainReportSellDataFrame"/>
+            </tab>
+            <tab id="balanceDataTab" caption="msg://balanceDataTab.caption">
+                <iframe screen="delta$MainReportBalanceDataFrame"/>
+            </tab>
             <!--<tab id="priceDataTab" caption="msg://priceDataTab.caption">-->
                 <!--<iframe screen="delta$MainReportPricesFrame"/>-->
             <!--</tab>-->

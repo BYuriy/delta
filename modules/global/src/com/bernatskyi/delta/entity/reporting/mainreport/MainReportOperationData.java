@@ -10,6 +10,7 @@ import com.haulmont.chile.core.annotations.MetaProperty;
 import com.haulmont.cuba.core.entity.AbstractNotPersistentEntity;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,13 +25,20 @@ public class MainReportOperationData extends AbstractNotPersistentEntity {
     protected Category category;
 
     @MetaProperty
-    protected List<StorageStateData> storageStateDataList = new ArrayList<>();
+    protected List<StorageStateData> storageStateDataList;
 
     @MetaProperty
     protected Double summaryVolume;
 
     @MetaProperty
     protected BigDecimal summaryRealizationPrice;
+
+    public MainReportOperationData() {
+        storageStateDataList = new ArrayList<>();
+        summaryVolume = 0.0;
+
+        setSummaryRealizationPrice(BigDecimal.ZERO);
+    }
 
     public void setCategory(Category category) {
         this.category = category;
@@ -85,6 +93,6 @@ public class MainReportOperationData extends AbstractNotPersistentEntity {
     }
 
     public void setSummaryRealizationPrice(BigDecimal summaryRealizationPrice) {
-        this.summaryRealizationPrice = summaryRealizationPrice;
+        this.summaryRealizationPrice = summaryRealizationPrice.setScale(2, RoundingMode.HALF_UP);
     }
 }

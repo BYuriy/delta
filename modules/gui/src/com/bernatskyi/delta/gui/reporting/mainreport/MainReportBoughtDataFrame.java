@@ -5,25 +5,25 @@ package com.bernatskyi.delta.gui.reporting.mainreport;
 
 import com.bernatskyi.delta.entity.Storage;
 import com.bernatskyi.delta.entity.reporting.mainreport.BoughtData;
+import com.bernatskyi.delta.entity.reporting.mainreport.MainReportEntry;
 import com.bernatskyi.delta.entity.reporting.mainreport.StorageStateData;
 import com.haulmont.cuba.gui.components.AbstractWindow;
 import com.haulmont.cuba.gui.components.Table;
 import com.haulmont.cuba.gui.data.CollectionDatasource;
+import com.haulmont.cuba.gui.data.Datasource;
 
 import javax.inject.Inject;
-import java.util.List;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 
 /**
  * @author Yuriy
  */
-public class MainReportBoughtDataFrame extends AbstractWindow {
+public class MainReportBoughtDataFrame extends OperationDataAbstractFrame<BoughtData> {
     @Inject
     Table dailyBoughtDataTable;
 
     @Inject
-    Table accumulatedSellDataTable;
+    Table accumulatedBoughDataTable;
 
     @Inject
     CollectionDatasource<BoughtData, UUID> dailyBoughtDataListDs;
@@ -33,38 +33,18 @@ public class MainReportBoughtDataFrame extends AbstractWindow {
 
     @Override
     public void init(Map<String, Object> params) {
-        List<Storage> storages  = (List<Storage>) params.get("storages");
-        List<BoughtData> dailyBoughDataList = (List<BoughtData>) params.get("dailyBoughtData");
-        List<BoughtData> accumulatedBoughtData = (List<BoughtData>) params.get("accumulatedBoughtData");
+        super.init(params);
 
-        dailyBoughtDataListDs.getItems().addAll(dailyBoughDataList);
-        accumulatedBoughtDataListDs.getItems().addAll(accumulatedBoughtData);
-
-        initTableGeneratedColumns(storages, dailyBoughtDataTable);
-        initTableGeneratedColumns(storages, accumulatedSellDataTable);
-
-        dailyBoughtDataListDs.refresh();
-        accumulatedBoughtDataListDs.refresh();
+        initDatasource(dailyBoughtDataListDs, mainReportEntryDS.getItem().getDailyBoughtDataList());
+        initDatasource(accumulatedBoughtDataListDs, mainReportEntryDS.getItem().getAccumulateBoughtDataList());
     }
 
-    private void initTableGeneratedColumns(List<Storage> storages, Table table) {
-        for(Storage storage : storages) {
-            ((com.vaadin.ui.Table)table).addGeneratedColumn(storage.getName() + ".volume", new com.vaadin.ui.Table.ColumnGenerator() {
-                @Override
-                public Object generateCell(com.vaadin.ui.Table source, Object itemId, Object columnId) {
-                    BoughtData boughtData = (BoughtData) ((Table)source).getDatasource().getItem(itemId);
+    @Override
+    protected List<Table> getTablesForInit() {
+        List<Table> tablesForInit = new ArrayList<>();
+        tablesForInit.add(dailyBoughtDataTable);
+        tablesForInit.add(accumulatedBoughDataTable);
 
-                    String storageName = columnId.toString().split("\\.")[0];
-
-                    for(StorageStateData storageStateData : boughtData.getStorageStateDataList())  {
-                        if(storageStateData.getStorage().getName().equals(storageName)) {
-                            return storageStateData.getVolume();
-                        }
-                    }
-
-                    return 0.0;
-                }
-            });
-        }
+        return tablesForInit;
     }
 }

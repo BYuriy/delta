@@ -1,0 +1,2 @@
+alter table DELTA_PRICE add constraint FK_DELTA_PRICE_CATEGORY_ID foreign key (CATEGORY_ID) references DELTA_CATEGORY(ID);
+create index IDX_DELTA_PRICE_CATEGORY on DELTA_PRICE (CATEGORY_ID);

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
-        caption="msg://caption"
+        caption="msg://mainReportParameters.caption"
         class="com.bernatskyi.delta.gui.reporting.mainreport.MainReportParameters"
         messagesPack="com.bernatskyi.delta.gui.reporting.mainreport">
     <dsContext>
@@ -25,7 +25,7 @@
                            caption="msg://calculateFromParameter.caption"
                            dateFormat="dd/MM/yyyy"/>
                 <dateField id="startDateField"
-                           caption="msg://cstartDateParameter.caption"
+                           caption="msg://startDateParameter.caption"
                            dateFormat="dd/MM/yyyy"/>
                 <dateField id="endDateField"
                            caption="msg://endDateParameter.caption"

@@ -8,6 +8,8 @@ import com.bernatskyi.delta.entity.Storage;
 import com.haulmont.chile.core.annotations.MetaProperty;
 import com.haulmont.cuba.core.entity.AbstractNotPersistentEntity;
 
+import java.math.BigDecimal;
+
 /**
  * @author Yuriy
  */
@@ -20,6 +22,14 @@ public class StorageStateData extends AbstractNotPersistentEntity {
 
     @MetaProperty
     protected Double volume;
+
+    @MetaProperty
+    protected BigDecimal summaryPrice;
+
+    public StorageStateData() {
+        volume = 0.0;
+        summaryPrice = BigDecimal.ZERO;
+    }
 
     public void setStorage(Storage storage) {
         this.storage = storage;
@@ -37,5 +47,11 @@ public class StorageStateData extends AbstractNotPersistentEntity {
         return volume;
     }
 
+    public BigDecimal getSummaryPrice() {
+        return summaryPrice;
+    }
 
+    public void setSummaryPrice(BigDecimal summaryPrice) {
+        this.summaryPrice = summaryPrice;
+    }
 }

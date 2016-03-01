@@ -50,7 +50,8 @@ create table DELTA_CATEGORY (
     DELETED_BY varchar(50),
     --
     NAME varchar(150) not null,
-    SUB_GROUP_ID varchar(36),
+    GROUP_ID varchar(36),
+    RELIAZIATION_PRICE decimal(19, 2),
     --
     primary key (ID)
 )^-- end DELTA_CATEGORY
@@ -67,6 +68,7 @@ create table DELTA_GROUP (
     DELETED_BY varchar(50),
     --
     NAME varchar(100) not null,
+    PARENT_ID varchar(36),
     --
     primary key (ID)
 )^
@@ -82,17 +84,17 @@ create table DELTA_STORAGE_CATEGORY_STATE (
     DELETE_TS timestamp,
     DELETED_BY varchar(50),
     --
-    STORAGE_ID varchar(36) not null,
     CATEGORY_ID varchar(36) not null,
     VOLUME double precision,
     SUMMARY_PRICE decimal(19, 2),
     DATE_TIME timestamp,
+    STORAGE_ID varchar(36) not null,
     --
     primary key (ID)
 )^
 -- end DELTA_STORAGE_CATEGORY_STATE
--- begin DELTA_SUB_GROUP
-create table DELTA_SUB_GROUP (
+-- begin DELTA_PRICE
+create table DELTA_PRICE (
     ID varchar(36) not null,
     CREATE_TS timestamp,
     CREATED_BY varchar(50),
@@ -102,9 +104,11 @@ create table DELTA_SUB_GROUP (
     DELETE_TS timestamp,
     DELETED_BY varchar(50),
     --
-    NAME varchar(100) not null,
-    GROUP_ID varchar(36),
+    CATEGORY_ID varchar(36),
+    PRICE decimal(19, 2),
+    START_DATE date,
+    END_DATE date,
     --
     primary key (ID)
 )^
--- end DELTA_SUB_GROUP
+-- end DELTA_PRICE

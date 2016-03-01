@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
-        caption="msg://caption"
         class="com.bernatskyi.delta.gui.reporting.mainreport.MainReportSellDataFrame"
         messagesPack="com.bernatskyi.delta.gui.reporting.mainreport">
+    <companions>
+        <web class="com.bernatskyi.delta.web.reporting.mainreport.WebMainReportoperationDataCompanion"/>
+    </companions>
     <dsContext>
-        <collectionDatasource id="dailySellDataListDs" class="com.bernatskyi.delta.entity.reporting.mainreport.SellData"/>
-        <collectionDatasource id="accumulatedSellDataListDs" class="com.bernatskyi.delta.entity.reporting.mainreport.SellData"/>
+        <collectionDatasource id="dailySellDataListDs" class="com.bernatskyi.delta.entity.reporting.mainreport.SellData" refreshMode="NEVER"/>
+        <collectionDatasource id="accumulatedSellDataListDs" class="com.bernatskyi.delta.entity.reporting.mainreport.SellData" refreshMode="NEVER"/>
     </dsContext>
-    <layout>
-        <vbox>
-            <groupBox caption="msg://dailySellDataTable.caption">
-                <table id="dailySellDataTable">
+    <layout spacing="true" expand="mainContainer">
+        <vbox id="mainContainer" spacing="true">
+            <groupBox id="dailyDataGroup"  caption="msg://dailySellDataTable.caption">
+                <table id="dailySellDataTable" width="100%">
                     <columns>
                         <column id="category.name"/>
                         <column id="summaryVolume"/>
@@ -20,8 +22,8 @@
                     <rows datasource="dailySellDataListDs"/>
                 </table>
             </groupBox>
-            <groupBox caption="msg://accumulatedSellDataTable.caption">
-                <table id="accumulatedSellDataTable">
+            <groupBox id="accumulatedDataGroup" caption="msg://accumulatedSellDataTable.caption">
+                <table id="accumulatedSellDataTable" width="100%">
                     <columns>
                         <column id="category.name"/>
                         <column id="summaryVolume"/>

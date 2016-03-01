@@ -55,7 +55,7 @@ public class MainReportParameters extends AbstractWindow {
             public void actionPerform(Component component) {
                 Map<String, Object> parameters = new HashMap<>();
                 parameters.put("calculateFrom", calculateFromField.getValue());
-                parameters.put("startDate", calculateFromField.getValue());
+                parameters.put("startDate", startDateField.getValue());
                 parameters.put("endDate", endDateField.getValue());
                 parameters.put(
                         "storages", CollectionUtils.isNotEmpty(storagesTokenList.getDatasource().getItems())
@@ -68,8 +68,8 @@ public class MainReportParameters extends AbstractWindow {
         });
 //        generateButton.setEnabled(false);
 
-        calculateFromField.setValue(DateUtils.round(new Date(), Calendar.MONTH));
-        startDateField.setValue(DateUtils.round(new Date(), Calendar.MONTH));
+        calculateFromField.setValue(DateUtils.truncate(new Date(), Calendar.MONTH));
+        startDateField.setValue(DateUtils.truncate(new Date(), Calendar.MONTH));
         endDateField.setValue(new Date());
 
     }

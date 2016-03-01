@@ -4,29 +4,39 @@
         class="com.bernatskyi.delta.gui.reporting.storage.StorageReportParametes"
         messagesPack="com.bernatskyi.delta.gui.reporting.storage">
     <dsContext>
-        <collectionDatasource id="allStoragesDs" class="com.bernatskyi.delta.entity.Storage" view="_local">
+        <collectionDatasource id="allStoragesDs"
+                              class="com.bernatskyi.delta.entity.Storage"
+                              view="_local">
             <query>
                 <![CDATA[select s from delta$Storage s order by s.name]]>
             </query>
         </collectionDatasource>
-        <collectionDatasource id="requiredStoragesDs" allowCommit="false" class="com.bernatskyi.delta.entity.Storage"
+        <collectionDatasource id="requiredStoragesDs"
+                              allowCommit="false"
+                              class="com.bernatskyi.delta.entity.Storage"
                               refreshMode="NEVER"/>
     </dsContext>
     <layout spacing="true">
-        <vbox id="mainVbox" spacing="true" expand="buttonsPannel">
+        <vbox id="mainVbox"
+              expand="buttonsPannel"
+              spacing="true">
             <hbox spacing="true">
-                <dateField id ="dateParameterField"
+                <dateField id="dateParameterField"
                            caption="msg://dateParameter.caption"
                            dateFormat="dd/MM/yyyy"/>
                 <tokenList id="storagesTokenList"
                            caption="msg://storageParameter.caption"
-                           datasource="requiredStoragesDs" inline="true">
-                    <lookup optionsDatasource="allStoragesDs" multiselect="true"/>
+                           datasource="requiredStoragesDs"
+                           inline="true">
+                    <lookup multiselect="true"
+                            optionsDatasource="allStoragesDs"/>
                 </tokenList>
             </hbox>
             <buttonsPanel id="buttonsPannel">
-                <button id="generateReportButton" caption="msg://generateReportButton.caption"/>
-                <button id="cancellButton" caption="msg://cancellButton.caption"/>
+                <button id="generateReportButton"
+                        caption="msg://generateReportButton.caption"/>
+                <button id="cancellButton"
+                        caption="msg://cancellButton.caption"/>
             </buttonsPanel>
         </vbox>
     </layout>

@@ -8,6 +8,7 @@ import com.haulmont.chile.core.annotations.MetaProperty;
 import com.haulmont.cuba.core.entity.AbstractNotPersistentEntity;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 /**
  * @author Yuriy
@@ -19,11 +20,15 @@ public class SellData extends MainReportOperationData {
     @MetaProperty
     protected BigDecimal realizationPrice;
 
+    public SellData() {
+        realizationPrice = BigDecimal.ZERO;
+    }
+
     public BigDecimal getRealizationPrice() {
         return realizationPrice;
     }
 
     public void setRealizationPrice(BigDecimal realizationPrice) {
-        this.realizationPrice = realizationPrice;
+        this.realizationPrice = realizationPrice.setScale(2, RoundingMode.HALF_UP);
     }
 }

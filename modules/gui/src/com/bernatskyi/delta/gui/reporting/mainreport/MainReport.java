@@ -9,16 +9,14 @@ import com.bernatskyi.delta.entity.reporting.mainreport.MainReportEntry;
 import com.bernatskyi.delta.service.ReportService;
 import com.haulmont.cuba.gui.components.AbstractWindow;
 import com.haulmont.cuba.gui.components.TabSheet;
+import com.haulmont.cuba.gui.data.CollectionDatasource;
 import com.haulmont.cuba.gui.data.Datasource;
 import org.apache.commons.lang.time.DateUtils;
 
 import javax.inject.Inject;
 import javax.inject.Named;
 import java.text.SimpleDateFormat;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Date;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author Yuriy
@@ -27,8 +25,13 @@ public class MainReport extends AbstractWindow {
     private MainReportData mainReportData;
     private SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM");
 
+    private Collection<Storage> storages;
+
     @Named("mainTabSheet")
     TabSheet mainTabSheet;
+
+    @Inject
+    CollectionDatasource<Storage, UUID> storagesDs;
 
     @Inject
     ReportService reportService;
@@ -41,20 +44,27 @@ public class MainReport extends AbstractWindow {
         Date calculateFrom = (Date) params.get("calculateFrom");
         Date startDate = (Date) params.get("startDate");
         Date endDate = (Date) params.get("endDate");
-        Collection<Storage> storages = (Collection<Storage>) params.get("storages");
+        storages = new ArrayList<>();
+        storages.addAll((Collection<? extends Storage>) params.get("storages"));
+
+        for(Storage storage : storages) {
+            storagesDs.includeItem(storage);
+        }
 
         MainReportData mainReportData = reportService.calculateMainReport(storages, calculateFrom, startDate, endDate);
         mainReportDataDS.setItem(mainReportData);
 
         Date current = startDate;
         while(current.before(endDate)) {
+            HashMap<String, Object> parameters = new HashMap<>();
+            MainReportEntry entry = mainReportData.getMainReportEntryByDate(current);
+            parameters.put("data", entry);
+
             TabSheet.Tab tab = mainTabSheet.addTab(dateFormat.format(current),
-                    openFrame(null, "delta$MainReportEntryFrame", Collections.singletonMap("data", (Object) mainReportData.getMainReportEntryByDate(current))));
+                    openFrame(null, "delta$MainReportEntryFrame", parameters));
             tab.setCaption(dateFormat.format(current));
 
             current = DateUtils.addDays(current, 1);
         }
-
-
     }
 }

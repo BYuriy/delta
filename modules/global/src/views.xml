@@ -18,7 +18,7 @@
                   view="_minimal">
         </property>
         <property name="category"
-                  view="_minimal">
+                  view="_local">
         </property>
     </view>
     <view class="com.bernatskyi.delta.entity.Operation"
@@ -27,7 +27,7 @@
         <property name="storage"
                   view="_minimal"/>
         <property name="category"
-                  view="_minimal"/>
+                  view="_local"/>
         <property name="destination"
                   view="_minimal"/>
     </view>

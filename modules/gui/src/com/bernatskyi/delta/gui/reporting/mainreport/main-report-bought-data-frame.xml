@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
-        caption="msg://caption"
         class="com.bernatskyi.delta.gui.reporting.mainreport.MainReportBoughtDataFrame"
         messagesPack="com.bernatskyi.delta.gui.reporting.mainreport">
+    <companions>
+        <web class="com.bernatskyi.delta.web.reporting.mainreport.WebMainReportoperationDataCompanion"/>
+    </companions>
     <dsContext>
-        <collectionDatasource id="dailyBoughtDataListDs" class="com.bernatskyi.delta.entity.reporting.mainreport.BoughtData"/>
-        <collectionDatasource id="accumulatedBoughtDataListDs" class="com.bernatskyi.delta.entity.reporting.mainreport.BoughtData"/>
+        <collectionDatasource id="dailyBoughtDataListDs" class="com.bernatskyi.delta.entity.reporting.mainreport.BoughtData" refreshMode="NEVER"/>
+        <collectionDatasource id="accumulatedBoughtDataListDs" class="com.bernatskyi.delta.entity.reporting.mainreport.BoughtData" refreshMode="NEVER"/>
     </dsContext>
-    <layout>
-        <vbox>
-            <groupBox caption="msg://dailyBoughtDataTable.caption">
-                <table id="dailyBoughtDataTable">
+    <layout spacing="true">
+        <vbox spacing="true" expand="accumulatedDataGroup">
+            <groupBox id="dailyDataGroup" caption="msg://dailyBoughtDataTable.caption">
+                <table id="dailyBoughtDataTable" width="100%">
                     <columns>
                         <column id="category.name"/>
                         <column id="summaryVolume"/>
                         <column id="summaryRealizationPrice"/>
+                        <column id="summaryPrice"/>
                     </columns>
                     <rows datasource="dailyBoughtDataListDs"/>
                 </table>
             </groupBox>
-            <groupBox caption="msg://accumulatedBoughtDataTable.caption">
-                <table id="accumulatedSellDataTable">
+            <groupBox id="accumulatedDataGroup" caption="msg://accumulatedBoughtDataTable.caption">
+                <table id="accumulatedBoughDataTable"  width="100%">
                     <columns>
                         <column id="category.name"/>
                         <column id="summaryVolume"/>
                         <column id="summaryRealizationPrice"/>
+                        <column id="summaryPrice"/>
                     </columns>
                     <rows datasource="accumulatedBoughtDataListDs"/>
                 </table>

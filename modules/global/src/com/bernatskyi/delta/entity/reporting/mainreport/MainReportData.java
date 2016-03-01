@@ -12,6 +12,7 @@ import com.haulmont.cuba.core.entity.AbstractNotPersistentEntity;
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 
+import java.io.Serializable;
 import java.util.*;
 
 /**
@@ -41,15 +42,14 @@ public class MainReportData extends AbstractNotPersistentEntity {
         this.mainReportEntryList = mainReportEntryList;
     }
 
-    public void addMainReportEntry(MainReportEntry entry) {
-        if(!entryMap.containsKey(entry.getDate())) {
-            entryMap.putIfAbsent(entry.date, entry);
-            mainReportEntryList.add(entry);
-        }
-    }
-
     public MainReportEntry getMainReportEntryByDate(Date date) {
-        return entryMap.containsKey(date) ? entryMap.get(date) : entryMap.put(date, new MainReportEntry());
+        MainReportEntry result = entryMap.get(date);
+
+        if(result == null) {
+            result = new MainReportEntry(); //todo initial fields
+            entryMap.put(date, result);
+        }
+        return result;
     }
 
     public StorageCategoryState getStorageCategoryState(Storage storage, Category category) {
@@ -60,7 +60,7 @@ public class MainReportData extends AbstractNotPersistentEntity {
         map.put(new Key(state.getStorage().getId(), state.getCategory().getId()), state);
     }
 
-    protected class Key {
+    protected class Key implements Serializable{
         private UUID storageId;
         private UUID categoryId;
 
@@ -87,7 +87,7 @@ public class MainReportData extends AbstractNotPersistentEntity {
 
         @Override
         public int hashCode() {
-           return new HashCodeBuilder(45, 10)
+           return new HashCodeBuilder(17, 37)
                    .append(storageId)
                    .append(categoryId)
                    .toHashCode();

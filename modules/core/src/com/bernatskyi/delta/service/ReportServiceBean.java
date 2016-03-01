@@ -21,6 +21,8 @@ import org.springframework.stereotype.Service;
 
 import javax.inject.Inject;
 import java.math.BigDecimal;
+import java.math.MathContext;
+import java.math.RoundingMode;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
@@ -48,6 +50,8 @@ public class ReportServiceBean implements ReportService {
 
     public MainReportData calculateMainReport(Collection<Storage> storages, Date calculateFrom, Date startDate, Date endDate) {
         //rounding dates to midnights
+        Date currentDate = new Date();
+
         calculateFrom = DateUtils.round(calculateFrom, Calendar.DAY_OF_MONTH);
         startDate = DateUtils.round(startDate, Calendar.DAY_OF_MONTH);
         endDate = DateUtils.addDays(DateUtils.round(endDate, Calendar.DAY_OF_MONTH), 1);//add one day to end date and round it to midnight todo check maybe better to round to DAY_OF_YEAR
@@ -56,12 +60,13 @@ public class ReportServiceBean implements ReportService {
 
         List<StorageCategoryState> states = loadStates(storages, endDate, "stateWithStorageAndCategory");
 
-        Date maxDate = endDate;
+        Date maxDate = states.get(0).getDateTime();
+
         for (StorageCategoryState state : states) {
-            if(state.getDateTime() != null && state.getDateTime().after(maxDate)) {
+            if (state.getDateTime() == null) {
+                maxDate = endDate.after(currentDate) ? endDate : currentDate;
+            } else if (state.getDateTime().after(maxDate)) {
                 maxDate = state.getDateTime();
-            } else if(state.getDateTime() == null) {
-                maxDate = DateUtils.addDays(new Date(), 1);
             }
 
             mainReportData.addStorageCategoryState(state);
@@ -75,88 +80,120 @@ public class ReportServiceBean implements ReportService {
     }
 
     private void initMainReportData(MainReportData mainReportData, List<Operation> operations, Date calculateFrom, Date startDate, Date endDate, List<StorageCategoryState> states) {
-
         Date current = null;
         Date prevCurrent = null;
         MainReportEntry currentEntry = null;
+        List<MainReportEntry> previousEntries = new ArrayList<>();
 
-        for(Operation operation : operations) {
+        if(!operations.isEmpty() && !DateUtils.isSameDay(operations.get(0).getDateTime(), endDate)) {
+            initDummyMainReportEntries(endDate, operations.get(0).getDateTime(), previousEntries, mainReportData, states);
+        }
+
+        for (Operation operation : operations) {
             Category category = operation.getCategory();
             Storage storage = operation.getStorage();
             Storage destination = operation.getDestination();
             Date operationDate = operation.getDateTime();
 
             StorageCategoryState state = mainReportData.getStorageCategoryState(storage, category);
-            StorageCategoryState destinationState = mainReportData.getStorageCategoryState(destination, category);
+            StorageCategoryState destinationState = null;
+            if (destination != null) {
+                destinationState = mainReportData.getStorageCategoryState(destination, category);
+            }
 
-            if(operationDate.before(endDate)) {
-                if(operationDate.after(startDate) || DateUtils.isSameDay(startDate, operationDate)) {
-                    calculateDailyOperationData(operation, currentEntry);
+            if (operationDate.before(endDate)) {
+                if (operationDate.after(startDate) || DateUtils.isSameDay(startDate, operationDate)) {
+                    if (current == null || !DateUtils.isSameDay(current, operationDate)) {
+                        current = DateUtils.round(operationDate, Calendar.DAY_OF_MONTH);
 
-                    if(current == null || !DateUtils.isSameDay(current, operationDate)) {
                         currentEntry = mainReportData.getMainReportEntryByDate(current);
                         calculateBalanceData(states, currentEntry);
-
-                        current = DateUtils.round(operationDate, Calendar.DAY_OF_MONTH);
+                        previousEntries.add(currentEntry);
                     }
+
+                    calculateOperationData(operation, currentEntry.getDailyBoughtData(category), currentEntry.getDailySellData(category));
                 }
 
-                calculateAccumulatedOperationData(operation, currentEntry);
+                for (MainReportEntry entry : previousEntries) {
+                    calculateOperationData(operation, entry.getAccumulatedBoughtData(category), entry.getAccumulatedSellData(category));
+                }
             }
 
             recalculateState(state, operation, false);
-            if(OperationType.MOVE.equals(operation.getType())) {
+            if (OperationType.MOVE.equals(operation.getType())) {
                 recalculateState(destinationState, operation, true);
             }
         }
     }
 
-    private void calculateDailyOperationData(Operation operation, MainReportEntry entry) {
-        if(OperationType.BUY.equals(operation.getType())) {
-            calculateBoughData(operation, entry.getDailyBoughtData(operation.getCategory()));
-        }
+    private void initDummyMainReportEntries(Date from, Date till, List<MainReportEntry> previousEntries, MainReportData mainReportData, List<StorageCategoryState> states) {
+        Date current = from;
+        while(current.after(till)) {
+            MainReportEntry currentEntry = mainReportData.getMainReportEntryByDate(current);
 
-        if(OperationType.SELL.equals(operation.getType())) {
-            calculateSellData(operation, entry.getDailySellData(operation.getCategory()));
+            calculateBalanceData(states, currentEntry);
+
+            previousEntries.add(currentEntry);
+            current = DateUtils.addDays(current, -1);
         }
     }
 
-    private void calculateBoughData(Operation operation,  BoughtData boughData) {
-        StorageStateData storageStateData = boughData.getStorageStateData(operation.getStorage());
-        storageStateData.setVolume(storageStateData.getVolume() + operation.getVolume());
-        boughData.setSummaryPrice(boughData.getSummaryPrice().add(operation.getSummaryPrice()));
+    private void calculateOperationData(Operation operation, BoughtData boughtData, SellData sellData) {
+        if (OperationType.BUY.equals(operation.getType())) {
+            calculateBoughData(operation, boughtData);
+        }
+
+        if (OperationType.SELL.equals(operation.getType())) {
+            calculateSellData(operation, sellData);
+        }
+    }
+
+    private void calculateBoughData(Operation operation, BoughtData boughData) {
+        calculateStorageStateData(boughData, operation);
+
+        boughData.setSummaryPrice(boughData.getSummaryPrice().add(operation.getSummaryPrice()).setScale(2, BigDecimal.ROUND_HALF_UP));
+        boughData.setSummaryVolume(boughData.getSummaryVolume() + operation.getVolume());
+
+        BigDecimal realizationPrice = boughData.getCategory().getReliaziationPrice() != null ? boughData.getCategory().getReliaziationPrice() : BigDecimal.ZERO;
+
+        boughData.setSummaryRealizationPrice(
+                boughData.getSummaryRealizationPrice().
+                        add(realizationPrice.multiply(new BigDecimal(operation.getVolume())))
+        );
     }
 
     private void calculateSellData(Operation operation, SellData sellData) {
-        StorageStateData storageStateData = sellData.getStorageStateData(operation.getStorage());
-        storageStateData.setVolume(storageStateData.getVolume() + operation.getVolume());
+        calculateStorageStateData(sellData, operation);
+
+        sellData.setSummaryVolume(sellData.getSummaryVolume() + operation.getVolume());
+        sellData.setSummaryRealizationPrice(sellData.getSummaryRealizationPrice().add(operation.getSummaryPrice()));
+        sellData.setRealizationPrice(sellData.getSummaryRealizationPrice().divide(new BigDecimal(sellData.getSummaryVolume()), BigDecimal.ROUND_HALF_UP));
     }
 
-    private void calculateAccumulatedOperationData(Operation operation, MainReportEntry entry) {
-        if(OperationType.BUY.equals(operation.getType())) {
-            calculateBoughData(operation, entry.getAccumulatedBoughtData(operation.getCategory()));
-        }
+    private void calculateStorageStateData(MainReportOperationData operationData, Operation operation) {
+        StorageStateData storageStateData = operationData.getStorageStateData(operation.getStorage());
 
-        if(OperationType.SELL.equals(operation.getType())) {
-            calculateSellData(operation, entry.getAccumulatedSellData(operation.getCategory()));
-        }
+        storageStateData.setVolume(storageStateData.getVolume() + operation.getVolume());
+//        storageStateData.setSummaryPrice(storageStateData.getSummaryPrice().add(operation.getSummaryPrice()).setScale(2, BigDecimal.ROUND_HALF_UP));
     }
 
     private void calculateBalanceData(List<StorageCategoryState> states, MainReportEntry mainReportEntry) {
-        for(StorageCategoryState state : states) {
+        for (StorageCategoryState state : states) {
             BalanceData balanceData = mainReportEntry.getBalanceData(state.getCategory());
 
             StorageStateData storageStateData = balanceData.getStorageStateData(state.getStorage());
 
             storageStateData.setVolume(state.getVolume());
+            storageStateData.setSummaryPrice(state.getSummaryPrice());
 
             balanceData.setSummaryVolume(balanceData.getSummaryVolume() + state.getVolume());
             balanceData.setSummaryPrice(balanceData.getSummaryPrice().add(state.getSummaryPrice()));
-            //todo realization price
+            balanceData.setRealizationPrice(state.getCategory().getReliaziationPrice() != null ? state.getCategory().getReliaziationPrice() : BigDecimal.ZERO);
+            balanceData.setSummaryRealizationPrice(balanceData.getRealizationPrice().multiply(new BigDecimal(balanceData.getSummaryVolume())));
         }
     }
 
-    private void recalculateState(StorageCategoryState state, Operation operation, boolean isDestination){
+    private void recalculateState(StorageCategoryState state, Operation operation, boolean isDestination) {
         int multiplier = isDestination ? operation.getType().getMultiplier() : (-1) * operation.getType().getMultiplier();
         double operationVolume = operation.getVolume() * multiplier;
         BigDecimal operationPrice = operation.getSummaryPrice().multiply(new BigDecimal(multiplier));
@@ -166,10 +203,6 @@ public class ReportServiceBean implements ReportService {
 
         state.setVolume(newVolume);
         state.setSummaryPrice(newPrice);
-    }
-
-    private void recalculateMainReportEntry(MainReportEntry mainReportEntry, Operation operation) {
-
     }
 
     private StorageReportEntry calculateReportEntry(Storage storage, Date date) {
@@ -252,16 +285,14 @@ public class ReportServiceBean implements ReportService {
     }
 
     private List<Operation> loadAllOperations(Collection<Storage> storages, Date from, Date till, String view) {
-        Storage[] storagesArray = storages.toArray(new Storage[storages.size()]);
-
         LoadContext context = new LoadContext(Operation.class);
         context.setView(view);
         context.setQueryString(
                 "select o from delta$Operation o " +
-                        "where (o.storage in :storages or o.destination.id = :storageId) " +
-                        "and o.category.id = :categoryId and o.dateTime >= :from and o.dateTime < :till " +
+                        "where (o.storage.id in :storages or o.destination.id in :storages) " +
+                        "and o.dateTime >= :from and o.dateTime < :till " +
                         "order by o.dateTime desc")
-                .setParameter("storages", storagesArray)
+                .setParameter("storages", convertStoragesListToIdList(storages))
                 .setParameter("from", from)
                 .setParameter("till", till);
 
@@ -297,16 +328,22 @@ public class ReportServiceBean implements ReportService {
     }
 
     private List<StorageCategoryState> loadStates(Collection<Storage> storages, Date date, String view) {
-        Storage[] storagesArray = storages.toArray(new Storage[storages.size()]);
-
         LoadContext context = new LoadContext(StorageCategoryState.class);
         context.setView(view);
-        context.setQueryString("select scs from delta$StorageCategoryState scs where scs.storage in :storages and (scs.dateTime > :date or scs.dateTime is null)")
-                .setParameter("storages", storagesArray)
+        context.setQueryString("select scs from delta$StorageCategoryState scs where scs.storage.id in :storages and (scs.dateTime > :date or scs.dateTime is null)")
+                .setParameter("storages", convertStoragesListToIdList(storages))
                 .setParameter("date", date);
 
         return dataManager.loadList(context);
     }
 
+    private List<String> convertStoragesListToIdList(Collection<Storage> storages) {
+        List<String> storageIds = new ArrayList<>();
 
+        for (Storage storage : storages) {
+            storageIds.add(storage.getId().toString());
+        }
+
+        return storageIds;
+    }
 }

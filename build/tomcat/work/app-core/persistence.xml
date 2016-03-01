@@ -52,14 +52,14 @@
     <class>com.bernatskyi.delta.entity.materials.Category</class>
     <class>com.bernatskyi.delta.entity.StorageCategoryState</class>
     <class>com.bernatskyi.delta.entity.Operation</class>
-    <class>com.bernatskyi.delta.entity.materials.SubGroup</class>
     <class>com.bernatskyi.delta.entity.materials.Group</class>
+    <class>com.bernatskyi.delta.entity.Price</class>
     <properties>
       <property name="openjpa.jdbc.QuerySQLCache" value="false"/>
       <property name="openjpa.jdbc.SubclassFetchMode" value="none"/>
-      <property name="openjpa.jdbc.DBDictionary" value="com.haulmont.cuba.core.sys.persistence.CubaHSQLDictionary(RequiresCastForComparisons=true,SupportsSelectForUpdate=true)"/>
+      <property name="openjpa.jdbc.DBDictionary" value="com.haulmont.cuba.core.sys.persistence.CubaPostgresDictionary(RequiresCastForComparisons=true)"/>
       <property name="openjpa.IgnoreChanges" value="true"/>
-      <property name="openjpa.jdbc.MappingDefaults" value="FieldStrategies='java.util.UUID=com.haulmont.cuba.core.sys.persistence.UuidStringValueHandler'"/>
+      <property name="openjpa.jdbc.MappingDefaults" value="FieldStrategies='java.util.UUID=com.haulmont.cuba.core.sys.persistence.UuidPostgresValueHandler'"/>
       <property name="openjpa.jdbc.SchemaFactory" value="native(ForeignKeys=true)"/>
       <property name="openjpa.ConnectionFactoryProperties" value="PrettyPrint=true, PrettyPrintLineLength=72, PrintParameters=true"/>
       <property name="openjpa.Compatibility" value="SuperclassDiscriminatorStrategyByDefault=false, IgnoreDetachedStateFieldForProxySerialization=true"/>

@@ -16,8 +16,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="app-global" exported="" />
     <orderEntry type="module" module-name="app-gui" exported="" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.haulmont.cuba:cuba-web-themes:5.6.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.tomcat:tomcat-servlet-api:7.0.53" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.haulmont.cuba:cuba-web-themes:5.6.4" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.haulmont.cuba:cuba-web:5.6.4" level="project" />
     <orderEntry type="library" exported="" name="Gradle: antlr:antlr:2.7.7" level="project" />
     <orderEntry type="library" exported="" name="Gradle: commons-collections:commons-collections:3.2.1" level="project" />
@@ -80,6 +80,9 @@
     <orderEntry type="library" exported="" name="Gradle: org.springframework.data:spring-data-commons:1.6.1.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.springframework.ldap:spring-ldap-core:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.haulmont.cuba:cuba-web-auth:5.6.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.haulmont.cuba:cuba-client:5.6.4:tests" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jmockit:jmockit:1.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>

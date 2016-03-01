@@ -1,18 +1,23 @@
 <Context>
-
     <!-- Database connection -->
-    <Resource
-      name="jdbc/CubaDS"
-      type="javax.sql.DataSource"
-      maxActive="20"
-      maxIdle="2"
-      maxWait="5000"
-      driverClassName="org.hsqldb.jdbc.JDBCDriver"
-      url="jdbc:hsqldb:hsql://localhost/delta"
-      username="sa"
-      password=""/>
-
+    <Resource driverClassName="org.postgresql.Driver"
+              maxActive="20"
+              maxIdle="2"
+              maxWait="5000"
+              name="jdbc/CubaDS"
+              password="123321"
+              type="javax.sql.DataSource"
+              url="jdbc:postgresql://localhost/delta"
+              username="delta"/>
     <!-- Switch off session serialization -->
     <Manager pathname=""/>
-
+    <!--<Resource driverClassName="org.hsqldb.jdbc.JDBCDriver"
+          maxActive="20"
+          maxIdle="2"
+          maxWait="5000"
+          name="jdbc/CubaDS"
+          password=""
+          type="javax.sql.DataSource"
+          url="jdbc:hsqldb:hsql://localhost/delta"
+          username="sa"/>-->
 </Context>
